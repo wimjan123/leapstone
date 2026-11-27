@@ -1245,7 +1245,7 @@ dependencies = [
  "approx",
  "bevy_reflect",
  "derive_more",
- "glam",
+ "glam 0.33.12",
  "libm",
  "rand",
  "serde",
@@ -1274,7 +1274,7 @@ dependencies = [
  "bytemuck",
  "derive_more",
  "encase",
- "glam",
+ "glam 0.33.12",
  "half",
  "hexasphere",
  "thiserror 2.0.21",
@@ -1427,7 +1427,7 @@ dependencies = [
  "downcast-rs",
  "erased-serde",
  "foldhash 0.2.0",
- "glam",
+ "glam 0.33.12",
  "indexmap 2.14.2",
  "inventory",
  "petgraph",
@@ -1492,7 +1492,7 @@ dependencies = [
  "derive_more",
  "downcast-rs",
  "encase",
- "glam",
+ "glam 0.33.12",
  "image",
  "indexmap 2.14.2",
  "itertools 0.14.0",
@@ -3640,6 +3640,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "glam"
+version = "0.34.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "627003914c6057c9c8f0832ee4f870b5a4f599d0cfa83f4072675114860cd0ff"
+
+[[package]]
 name = "glib"
 version = "0.18.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3845,7 +3851,7 @@ name = "halma-bord3d"
 version = "0.1.0"
 dependencies = [
  "bevy",
- "glam",
+ "glam 0.34.3",
  "halma-core",
  "js-sys",
  "log",
@@ -4003,7 +4009,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "163385eff5a0cf606ebe2c10b3a44ab02f4306e83fbd068a64f5e1d72a3049ac"
 dependencies = [
  "constgebra",
- "glam",
+ "glam 0.33.12",
  "tinyvec",
 ]
 
