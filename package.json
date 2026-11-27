@@ -22,7 +22,7 @@
     "worker:deploy": "scripts/uitrol-controle.sh && cd crates/leapstone-worker && wrangler deploy"
   },
   "devDependencies": {
-    "@tauri-apps/cli": "^2.11.0",
-    "wrangler": "^4.158.0"
+    "@tauri-apps/cli": "^2.12.6",
+    "wrangler": "^4.165.0"
   }
 }
