@@ -1,0 +1,5 @@
+# Localization files: keep additions from both sides on merge.
+web/src/talen/*.ts merge=union
+
+# Derived subsetted button fonts are binary and should not be text-merged.
+web/src/assets/fonts/knop/*.woff2 binary

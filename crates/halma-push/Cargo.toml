@@ -1,0 +1,19 @@
+[package]
+name = "halma-push"
+version = "0.1.0"
+edition = "2024"
+description = "Meldingen via web push zonder netwerk: VAPID, versleuteling (aes128gcm) en wie een Melding krijgt. Werkt ook in WebAssembly (Cloudflare Worker)."
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+
+[dependencies]
+aes-gcm = "0.11.1"
+base64 = "0.23.1"
+getrandom = "0.4.3"
+halma-opslag = { path = "../halma-opslag" }
+hkdf = "0.13.0"
+p256 = { version = "0.14.0", features = ["ecdh", "ecdsa"] }
+serde_json = "1.0.154"
+sha2 = "0.11.1"
+url = "2.5.8"

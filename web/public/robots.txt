@@ -1,0 +1,155 @@
+# AI-zoekmachines en -assistenten zijn welkom (William, 2026-11-09). Een eigen blok vervangt de regels van * voor die bot,
+# dus elk blok herhaalt de Disallow-regels. Houd de blokken gelijk aan het blok van * (de test in web/src/robots.test.ts controleert dat).
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /beheer
+Disallow: /uitnodiging/
+Disallow: /potje/
+Disallow: /uitnodiging-kaart/
+
+User-agent: GPTBot
+Allow: /
+Disallow: /api/
+Disallow: /beheer
+Disallow: /uitnodiging/
+Disallow: /potje/
+Disallow: /uitnodiging-kaart/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /api/
+Disallow: /beheer
+Disallow: /uitnodiging/
+Disallow: /potje/
+Disallow: /uitnodiging-kaart/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /api/
+Disallow: /beheer
+Disallow: /uitnodiging/
+Disallow: /potje/
+Disallow: /uitnodiging-kaart/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /api/
+Disallow: /beheer
+Disallow: /uitnodiging/
+Disallow: /potje/
+Disallow: /uitnodiging-kaart/
+
+User-agent: Claude-User
+Allow: /
+Disallow: /api/
+Disallow: /beheer
+Disallow: /uitnodiging/
+Disallow: /potje/
+Disallow: /uitnodiging-kaart/
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /api/
+Disallow: /beheer
+Disallow: /uitnodiging/
+Disallow: /potje/
+Disallow: /uitnodiging-kaart/
+
+User-agent: anthropic-ai
+Allow: /
+Disallow: /api/
+Disallow: /beheer
+Disallow: /uitnodiging/
+Disallow: /potje/
+Disallow: /uitnodiging-kaart/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /api/
+Disallow: /beheer
+Disallow: /uitnodiging/
+Disallow: /potje/
+Disallow: /uitnodiging-kaart/
+
+User-agent: Perplexity-User
+Allow: /
+Disallow: /api/
+Disallow: /beheer
+Disallow: /uitnodiging/
+Disallow: /potje/
+Disallow: /uitnodiging-kaart/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /api/
+Disallow: /beheer
+Disallow: /uitnodiging/
+Disallow: /potje/
+Disallow: /uitnodiging-kaart/
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /api/
+Disallow: /beheer
+Disallow: /uitnodiging/
+Disallow: /potje/
+Disallow: /uitnodiging-kaart/
+
+User-agent: Bytespider
+Allow: /
+Disallow: /api/
+Disallow: /beheer
+Disallow: /uitnodiging/
+Disallow: /potje/
+Disallow: /uitnodiging-kaart/
+
+User-agent: CCBot
+Allow: /
+Disallow: /api/
+Disallow: /beheer
+Disallow: /uitnodiging/
+Disallow: /potje/
+Disallow: /uitnodiging-kaart/
+
+User-agent: Meta-ExternalAgent
+Allow: /
+Disallow: /api/
+Disallow: /beheer
+Disallow: /uitnodiging/
+Disallow: /potje/
+Disallow: /uitnodiging-kaart/
+
+User-agent: Amazonbot
+Allow: /
+Disallow: /api/
+Disallow: /beheer
+Disallow: /uitnodiging/
+Disallow: /potje/
+Disallow: /uitnodiging-kaart/
+
+User-agent: cohere-ai
+Allow: /
+Disallow: /api/
+Disallow: /beheer
+Disallow: /uitnodiging/
+Disallow: /potje/
+Disallow: /uitnodiging-kaart/
+
+User-agent: DuckAssistBot
+Allow: /
+Disallow: /api/
+Disallow: /beheer
+Disallow: /uitnodiging/
+Disallow: /potje/
+Disallow: /uitnodiging-kaart/
+
+User-agent: MistralAI-User
+Allow: /
+Disallow: /api/
+Disallow: /beheer
+Disallow: /uitnodiging/
+Disallow: /potje/
+Disallow: /uitnodiging-kaart/
+
+Sitemap: https://playleapstone.com/sitemap.xml

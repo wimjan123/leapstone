@@ -1,0 +1,52 @@
+[package]
+name = "halma-bord3d"
+version = "0.1.0"
+edition = "2024"
+description = "3D Chinese checkers and Halma board rendered with Bevy in WebAssembly."
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+
+[lib]
+# Alleen cdylib: met ook rlib slaat cargo LTO over, en dan wordt de wasm veel groter.
+crate-type = ["cdylib"]
+
+[dependencies]
+halma-core = { path = "../halma-core" }
+# Rekenwerk voor camera en tikken; zelfde versie als in Bevy, zodat de wasm hem één keer bevat.
+glam = "0.33"
+
+# Bevy alleen met de feature `app` (voor WebAssembly): de tests in Rust rekenen zonder Bevy
+# en bouwen dus snel. Bevy moet onder [dependencies] staan, anders vinden zijn derive-macro's hem niet.
+# Zonder `bevy_log`: de logmachine (tracing-subscriber met regex, tracing-wasm) kostte 0,3 MB over de lijn.
+# Panics komen nog wel in de console (PanicHandlerPlugin); waarschuwingen van Bevy en wgpu niet meer.
+bevy = { version = "0.20.1", optional = true, default-features = false, features = [
+  "std",
+  "bevy_asset",
+  "bevy_winit",
+  "bevy_window",
+  "bevy_render",
+  "bevy_core_pipeline",
+  "bevy_pbr",
+  "bevy_light",
+  "bevy_camera",
+  "bevy_mesh",
+  "bevy_color",
+  "bevy_image",
+  "webgl2",
+  "web",
+  "touch",
+  "mouse",
+] }
+wasm-bindgen = { version = "0.2", optional = true }
+js-sys = { version = "0.3", optional = true }
+# Zonder logmachine doen de logregels in Bevy en wgpu niets; zo vallen ze ook uit de wasm.
+log = { version = "0.4", optional = true, features = ["max_level_off"] }
+tracing = { version = "0.1", optional = true, default-features = false, features = ["max_level_off"] }
+
+[features]
+app = ["dep:bevy", "dep:wasm-bindgen", "dep:js-sys", "dep:log", "dep:tracing"]
+
+# wasm-opt met -Oz voor `--profile wasm-release`: ongeveer 2 MB kleiner dan de standaard -O.
+[package.metadata.wasm-pack.profile.custom]
+wasm-opt = ["-Oz", "--enable-bulk-memory", "--enable-nontrapping-float-to-int", "--enable-sign-ext", "--enable-mutable-globals", "--enable-reference-types", "--enable-multivalue"]

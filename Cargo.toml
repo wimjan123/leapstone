@@ -1,0 +1,27 @@
+[workspace]
+members = ["crates/halma-core", "crates/halma-opslag", "crates/halma-push", "crates/halma-app", "crates/halma-bord3d", "crates/leapstone-worker"]
+resolver = "3"
+
+[workspace.package]
+license = "AGPL-3.0-only"
+repository = "https://github.com/wimjan123/leapstone"
+homepage = "https://playleapstone.com"
+
+# Kleine, snelle WebAssembly voor het 3D-bord (halma-bord3d). Zie docs/bord3d.md.
+[profile.wasm-release]
+inherits = "release"
+opt-level = "s"
+lto = "fat"
+codegen-units = 1
+
+# Sneller bouwen tijdens het werken aan het 3D-bord (groter en trager dan wasm-release).
+[profile.wasm-snel]
+inherits = "wasm-release"
+lto = false
+codegen-units = 16
+incremental = true
+
+# De rekenende Rust-code (Computer, Puzzels) draait in een gewone debug-build 10 keer trager: de tests van halma-core duurden 16 s in plaats van 2 s.
+# Alleen deze crate krijgt opt-level 2; overflow-controles en debug-assertions blijven aan, en de wasm- en release-builds veranderen niet.
+[profile.dev.package.halma-core]
+opt-level = 2

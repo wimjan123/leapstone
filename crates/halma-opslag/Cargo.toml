@@ -1,0 +1,21 @@
+[package]
+name = "halma-opslag"
+version = "0.1.0"
+edition = "2024"
+description = "Opslag van Spelers en Potjes, los van de databank: SQLite (voor de tests) of de SQL van een Durable Object (leapstone-worker)."
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+
+[features]
+# De databank van de tests.
+rusqlite = ["dep:rusqlite"]
+
+[dependencies]
+base64 = "0.23.1"
+getrandom = "0.4.3"
+halma-core = { path = "../halma-core" }
+rusqlite = { version = "0.41.1", features = ["bundled"], optional = true }
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
+sha2 = "0.11.1"

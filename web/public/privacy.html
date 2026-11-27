@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="theme-color" content="#0b0d10" />
+  <meta name="description" content="What Leapstone stores, where, why, for how long, and how to delete it." />
+  <title>Privacy policy · Leapstone</title>
+  <link rel="icon" href="/icon-192.png" />
+  <link rel="canonical" href="https://playleapstone.com/privacy" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Leapstone" />
+  <meta property="og:url" content="https://playleapstone.com/privacy" />
+  <meta property="og:title" content="Privacy policy · Leapstone" />
+  <meta property="og:description" content="What Leapstone stores, where, why, for how long, and how to delete it." />
+  <meta property="og:image" content="https://playleapstone.com/uitnodiging.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="A Chinese checkers board with red and blue marbles" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Privacy policy · Leapstone" />
+  <meta name="twitter:description" content="What Leapstone stores, where, why, for how long, and how to delete it." />
+  <meta name="twitter:image" content="https://playleapstone.com/uitnodiging.png" />
+  <!-- Zelfstandige pagina: geen app-code, alleen de lettertypen die al bij Leapstone horen (public/fonts, SIL Open Font License). -->
+  <style>
+    @font-face {
+      font-family: "Archivo";
+      src: url("/fonts/archivo.woff2") format("woff2");
+      font-weight: 200 600;
+      font-stretch: 100% 125%;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: "Martian Mono";
+      src: url("/fonts/martian-mono.woff2") format("woff2");
+      font-weight: 300 500;
+      font-stretch: 87.5% 100%;
+      font-display: swap;
+    }
+    :root {
+      --grond: #0b0d10;
+      --vlak: #12151a;
+      --lijn: rgb(214 222 235 / 0.1);
+      --lijn-sterk: rgb(214 222 235 / 0.2);
+      --tekst: #e9ecf0;
+      --zacht: #a0a7b2;
+      --stil: #737b87;
+      --licht: #eceef1;
+      --licht-inkt: #0b0d10;
+      --letter: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+      --mono: "Martian Mono", ui-monospace, "SF Mono", Menlo, monospace;
+      color-scheme: dark;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      min-height: 100dvh;
+      background: var(--grond);
+      color: var(--tekst);
+      font: 400 1rem/1.55 var(--letter);
+      -webkit-font-smoothing: antialiased;
+      padding: max(32px, env(safe-area-inset-top)) max(20px, env(safe-area-inset-right)) max(56px, env(safe-area-inset-bottom)) max(20px, env(safe-area-inset-left));
+    }
+    main { max-width: 40rem; margin: 0 auto; }
+    a { color: var(--tekst); text-decoration-color: var(--stil); text-underline-offset: 3px; }
+    a:hover { text-decoration-color: var(--tekst); }
+    a:focus-visible { outline: 2px solid var(--licht); outline-offset: 3px; border-radius: 3px; }
+
+    header { display: flex; flex-direction: column; align-items: center; text-align: center; padding: 8px 0 40px; }
+    .bord { width: 96px; height: 96px; color: var(--zacht); }
+    .bord circle { fill: none; stroke: currentColor; stroke-width: 1; vector-effect: non-scaling-stroke; }
+    .merk {
+      margin: 28px 0 0;
+      font-size: clamp(1.7rem, 8vw, 2.4rem);
+      font-weight: 200;
+      font-stretch: 125%;
+      letter-spacing: 0.42em;
+      padding-left: 0.42em;
+      text-transform: uppercase;
+      line-height: 1;
+    }
+    .onder {
+      margin: 14px 0 0;
+      padding-left: 0.5em;
+      font: 300 0.66rem/1.4 var(--mono);
+      letter-spacing: 0.5em;
+      text-transform: uppercase;
+      color: var(--zacht);
+    }
+
+    h1 { margin: 0 0 12px; font-size: 1.45rem; font-weight: 300; line-height: 1.2; letter-spacing: -0.005em; }
+    h2 {
+      margin: 44px 0 4px;
+      font-size: 0.78rem;
+      font-weight: 400;
+      font-stretch: 125%;
+      letter-spacing: 0.32em;
+      text-transform: uppercase;
+      color: var(--zacht);
+    }
+    p { margin: 12px 0 0; max-width: 62ch; text-wrap: pretty; }
+    .kort { color: var(--zacht); }
+    .gedaan { color: var(--stil); font: 300 0.72rem/1.4 var(--mono); margin-top: 20px; }
+
+    /* Rijen met een haarlijn: wat, en dan de uitleg. */
+    dl { margin: 12px 0 0; border-top: 1px solid var(--lijn-sterk); }
+    .rij { display: grid; grid-template-columns: 1fr; gap: 2px; padding: 14px 0; border-bottom: 1px solid var(--lijn); }
+    dt { font-weight: 450; }
+    dd { margin: 0; color: var(--zacht); }
+    @media (min-width: 34rem) {
+      .rij { grid-template-columns: 11rem 1fr; gap: 20px; }
+    }
+    ul { margin: 12px 0 0; padding: 0 0 0 1.1em; color: var(--zacht); }
+    li { margin: 4px 0; }
+    li::marker { color: var(--stil); }
+
+    /* De weg in de app, als stappen op één regel. */
+    .pad { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin: 16px 0 0; padding: 0; list-style: none; font-weight: 450; }
+    .pad li { margin: 0; color: var(--tekst); padding: 6px 12px; border-radius: 3px; box-shadow: inset 0 0 0 1px var(--lijn-sterk); }
+    .pad li + li::before { content: none; }
+    .pad .pijl { color: var(--stil); box-shadow: none; padding: 0; }
+
+    .contact { margin-top: 16px; padding: 16px 18px; border-radius: 3px; background: var(--vlak); box-shadow: inset 0 0 0 1px var(--lijn-sterk); font-family: var(--mono); font-size: 0.85rem; word-break: break-all; }
+    .terug {
+      display: inline-flex; align-items: center; justify-content: center; margin-top: 48px;
+      min-height: 52px; padding: 0 22px; border-radius: 3px;
+      background: var(--licht); color: var(--licht-inkt); font-weight: 450; text-decoration: none;
+    }
+    .terug:hover { background: #fff; }
+    .nl { margin-top: 64px; padding-top: 8px; border-top: 1px solid var(--lijn-sterk); }
+    .nl h2#nl-kop { margin: 0 0 12px; font-size: 1.45rem; font-weight: 300; font-stretch: normal; line-height: 1.2; letter-spacing: -0.005em; text-transform: none; color: inherit; }
+    footer { margin-top: 48px; color: var(--stil); font: 300 0.72rem/1.5 var(--mono); }
+    footer nav { display: flex; flex-wrap: wrap; gap: 6px 20px; margin-bottom: 8px; }
+    footer a { color: var(--zacht); }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <svg class="bord" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+        <circle cx="50" cy="50" r="46" />
+        <circle cx="50" cy="22" r="3" /><circle cx="41" cy="34" r="3" /><circle cx="59" cy="34" r="3" />
+        <circle cx="32" cy="46" r="3" /><circle cx="50" cy="46" r="3" /><circle cx="68" cy="46" r="3" />
+        <circle cx="41" cy="58" r="3" /><circle cx="59" cy="58" r="3" /><circle cx="50" cy="70" r="3" />
+      </svg>
+      <p class="merk">Leapstone</p>
+      <p class="onder">Privacy</p>
+    </header>
+
+    <h1>What Leapstone keeps about you</h1>
+    <p class="kort">Leapstone is a free app to play Chinese checkers and Halma, for everyone, also with friends. It has no ads, no payments and no tracking.</p>
+
+    <h2>What we store</h2>
+    <dl>
+      <div class="rij"><dt>Player name</dt><dd>The name you choose. The other players in your games see it.</dd></div>
+      <div class="rij"><dt>Games</dt><dd>The board, the moves, who took part and who won.</dd></div>
+      <div class="rij"><dt>Puzzle days</dt><dd>Only if you have a player name: the dates on which you solved the puzzle of the day, to give you the achievement for seven days in a row. No moves and no times.</dd></div>
+      <div class="rij"><dt>Messages</dt><dd>What you write in the chat of a game. Only the players of that game can read it.</dd></div>
+      <div class="rij"><dt>Reports and blocks</dt><dd>If you report a message, we keep a copy of it with who sent it and who reported it, so we can look at it. We also keep which players you blocked, to hide their messages from you.</dd></div>
+      <div class="rij"><dt>Sign-in codes</dt><dd>A key that keeps you signed in on your phone and a recovery code to get your name back on a new phone. We store both only in scrambled form, so nobody can read them.</dd></div>
+      <div class="rij"><dt>Push subscription</dt><dd>Only if you turn on notifications: the address of your device at the push service. We use it to tell you when it is your turn.</dd></div>
+    </dl>
+    <p>Leapstone does not ask for your email address, phone number, location or contacts. It has no ads and no tracking software.</p>
+
+    <h2>Where it is stored</h2>
+    <p>On Cloudflare, the company that runs the Leapstone server. Nobody else gets your data.</p>
+    <p>If you turn on notifications, the notification goes through the push service of your device: Apple, Google or Mozilla. They see the address of your device and that a message was sent. The text of the message is encrypted.</p>
+
+    <h2>Why</h2>
+    <p>Only to let you play online: to show your name to your opponents, to keep your games and chat, and to tell you when it is your turn.</p>
+
+    <h2>How long</h2>
+    <p>Until you delete your account. Finished games stay for the other players, with your name replaced by “Deleted player”.</p>
+
+    <h2>How to delete your account</h2>
+    <ol class="pad" aria-label="Steps in the app">
+      <li>Online</li><li class="pijl" aria-hidden="true">→</li><li>Account</li><li class="pijl" aria-hidden="true">→</li><li>Delete account</li>
+    </ol>
+    <p>Leapstone then erases your player name, recovery code, key, push subscriptions, messages, reports and blocks. In games that are still running, you resign and your place shows “Deleted player”. The other players keep playing. This cannot be undone.</p>
+    <p>You cannot open the app any more? Write to the address below and we delete your data for you.</p>
+
+    <h2>Contact</h2>
+    <p>Questions, or a request to see, correct or delete your data:</p>
+    <p class="contact"><a href="mailto:info@thewillonline.nl">info@thewillonline.nl</a></p>
+
+    <a class="terug" href="/">Back to Leapstone</a>
+
+    <section class="nl" lang="nl" aria-labelledby="nl-kop">
+      <h2 id="nl-kop">Nederlands</h2>
+      <p class="kort">Leapstone is een gratis app om Chinees dammen en Halma te spelen met familie en vrienden. Zonder reclame, betalingen of volgsoftware.</p>
+      <ul>
+        <li><strong>Wat we bewaren:</strong> je spelersnaam, je potjes, je berichten in de chat, rapporten over berichten en wie je blokkeert, een sleutel en een herstelcode (beide alleen versleuteld) en, als je meldingen aanzet, het adres van je toestel bij de pushdienst.</li>
+        <li><strong>Waar:</strong> bij Cloudflare. Meldingen lopen via de pushdienst van Apple, Google of Mozilla.</li>
+        <li><strong>Waarom:</strong> alleen om online te kunnen spelen en je te laten weten dat je aan de beurt bent.</li>
+        <li><strong>Hoe lang:</strong> tot je je account verwijdert. Afgelopen potjes blijven voor de anderen, met “Deleted player” in plaats van jouw naam.</li>
+        <li><strong>Verwijderen:</strong> kies in de app Online, Account, Delete account. Je spelersnaam, herstelcode, sleutel, push-abonnementen, berichten, rapporten en blokkades worden gewist. Loopt er nog een potje, dan geef je daar op en gaan de anderen door.</li>
+        <li><strong>Contact:</strong> <a href="mailto:info@thewillonline.nl">info@thewillonline.nl</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      <nav aria-label="Site"><a href="/">Leapstone</a><a href="/play/">Play in your browser</a><a href="/privacy">Privacy policy</a><a href="/terms">Terms of use</a></nav>
+      Last updated 5 November 2026
+    </footer>
+  </main>
+</body>
+</html>

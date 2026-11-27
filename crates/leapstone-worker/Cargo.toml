@@ -1,0 +1,30 @@
+[package]
+name = "leapstone-worker"
+version = "0.1.0"
+edition = "2024"
+description = "De server van Leapstone als Cloudflare Worker, met de opslag in een Durable Object (SQLite)."
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+halma-opslag = { path = "../halma-opslag" }
+halma-push = { path = "../halma-push" }
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
+
+# Alleen in de Worker zelf (WebAssembly). De API hierboven is gewone Rust en draait ook in de tests.
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+getrandom = { version = "0.4.3", features = ["wasm_js"] }
+# Een body stukje voor stukje lezen met een grens (taak 282); zit al in de Worker via `worker`.
+futures-util = { version = "0.3.34", default-features = false }
+js-sys = "0.3"
+wasm-bindgen = "0.2"
+worker = "0.8.7"
+
+[dev-dependencies]
+halma-opslag = { path = "../halma-opslag", features = ["rusqlite"] }
+halma-core = { path = "../halma-core" }

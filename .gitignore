@@ -1,0 +1,37 @@
+# Secrets and signing keys
+.env
+.env.*
+*.key
+*.pem
+*.p8
+*.p12
+*.jks
+*.keystore
+
+# Rust
+target/
+target-web/
+
+# Node / web
+node_modules/
+dist/
+.svelte-kit/
+pkg/
+
+# Data
+*.sqlite
+*.sqlite-*
+*.db
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Cloudflare (local state and wrangler dev secrets)
+.wrangler/
+.dev.vars*
+crates/leapstone-worker/build/
+
+# Python
+__pycache__/

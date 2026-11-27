@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="zh-hans">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="theme-color" content="#0b0d10" />
+  <title>Halma 规则和技巧 | Leapstone</title>
+  <meta name="description" content="如何在 16 乘 16 的方形棋盘上玩 Halma：2 人或 4 人时棋子的起始摆法，八个方向的走和跳，连跳，怎样获胜，以及小技巧。可在浏览器中免费玩。" />
+  <link rel="icon" href="/icon-192.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="canonical" href="https://playleapstone.com/zh-hans/rules/halma" />
+  <link rel="alternate" hreflang="en" href="https://playleapstone.com/rules/halma" />
+  <link rel="alternate" hreflang="nl" href="https://playleapstone.com/nl/halma-spelregels" />
+  <link rel="alternate" hreflang="de" href="https://playleapstone.com/de/regeln/halma" />
+  <link rel="alternate" hreflang="pl" href="https://playleapstone.com/pl/zasady/halma" />
+  <link rel="alternate" hreflang="pt" href="https://playleapstone.com/pt/regras/halma" />
+  <link rel="alternate" hreflang="ro" href="https://playleapstone.com/ro/reguli/halma" />
+  <link rel="alternate" hreflang="ru" href="https://playleapstone.com/ru/pravila/halma" />
+  <link rel="alternate" hreflang="sk" href="https://playleapstone.com/sk/pravidla/halma" />
+  <link rel="alternate" hreflang="sl" href="https://playleapstone.com/sl/pravila/halma" />
+  <link rel="alternate" hreflang="sv" href="https://playleapstone.com/sv/regler/halma" />
+  <link rel="alternate" hreflang="tr" href="https://playleapstone.com/tr/kurallar/halma" />
+  <link rel="alternate" hreflang="uk" href="https://playleapstone.com/uk/pravyla/halma" />
+  <link rel="alternate" hreflang="ur" href="https://playleapstone.com/ur/qawaid/halma" />
+  <link rel="alternate" hreflang="id" href="https://playleapstone.com/id/aturan/halma" />
+  <link rel="alternate" hreflang="ms" href="https://playleapstone.com/ms/peraturan/halma" />
+  <link rel="alternate" hreflang="vi" href="https://playleapstone.com/vi/luat-choi/halma" />
+  <link rel="alternate" hreflang="bn" href="https://playleapstone.com/bn/rules/halma" />
+  <link rel="alternate" hreflang="gu" href="https://playleapstone.com/gu/rules/halma" />
+  <link rel="alternate" hreflang="hi" href="https://playleapstone.com/hi/rules/halma" />
+  <link rel="alternate" hreflang="ja" href="https://playleapstone.com/ja/rules/halma" />
+  <link rel="alternate" hreflang="kn" href="https://playleapstone.com/kn/rules/halma" />
+  <link rel="alternate" hreflang="ko" href="https://playleapstone.com/ko/rules/halma" />
+  <link rel="alternate" hreflang="ml" href="https://playleapstone.com/ml/rules/halma" />
+  <link rel="alternate" hreflang="mr" href="https://playleapstone.com/mr/rules/halma" />
+  <link rel="alternate" hreflang="or" href="https://playleapstone.com/or/rules/halma" />
+  <link rel="alternate" hreflang="pa" href="https://playleapstone.com/pa/rules/halma" />
+  <link rel="alternate" hreflang="ta" href="https://playleapstone.com/ta/rules/halma" />
+  <link rel="alternate" hreflang="te" href="https://playleapstone.com/te/rules/halma" />
+  <link rel="alternate" hreflang="th" href="https://playleapstone.com/th/rules/halma" />
+  <link rel="alternate" hreflang="zh-hans" href="https://playleapstone.com/zh-hans/rules/halma" />
+  <link rel="alternate" hreflang="ar" href="https://playleapstone.com/ar/qawaid/halma" />
+  <link rel="alternate" hreflang="ca" href="https://playleapstone.com/ca/regles/halma" />
+  <link rel="alternate" hreflang="es" href="https://playleapstone.com/es/reglas/halma" />
+  <link rel="alternate" hreflang="cs" href="https://playleapstone.com/cs/pravidla/halma" />
+  <link rel="alternate" hreflang="hu" href="https://playleapstone.com/hu/szabalyok/halma" />
+  <link rel="alternate" hreflang="da" href="https://playleapstone.com/da/regler/halma" />
+  <link rel="alternate" hreflang="no" href="https://playleapstone.com/no/regler/halma" />
+  <link rel="alternate" hreflang="el" href="https://playleapstone.com/el/kanones/halma" />
+  <link rel="alternate" hreflang="it" href="https://playleapstone.com/it/regole/halma" />
+  <link rel="alternate" hreflang="fi" href="https://playleapstone.com/fi/saannot/halma" />
+  <link rel="alternate" hreflang="hr" href="https://playleapstone.com/hr/pravila/halma" />
+  <link rel="alternate" hreflang="fr" href="https://playleapstone.com/fr/regles/halma" />
+  <link rel="alternate" hreflang="he" href="https://playleapstone.com/he/hokim/halma" />
+  <link rel="alternate" hreflang="x-default" href="https://playleapstone.com/rules/halma" />
+  <meta name="apple-itunes-app" content="app-id=6831230722" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Leapstone" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:locale:alternate" content="nl_NL" />
+  <meta property="og:locale:alternate" content="de_DE" />
+  <meta property="og:locale:alternate" content="pl_PL" />
+  <meta property="og:locale:alternate" content="pt_BR" />
+  <meta property="og:locale:alternate" content="ro_RO" />
+  <meta property="og:locale:alternate" content="ru_RU" />
+  <meta property="og:locale:alternate" content="sk_SK" />
+  <meta property="og:locale:alternate" content="sl_SI" />
+  <meta property="og:locale:alternate" content="sv_SE" />
+  <meta property="og:locale:alternate" content="tr_TR" />
+  <meta property="og:locale:alternate" content="uk_UA" />
+  <meta property="og:locale:alternate" content="ur_PK" />
+  <meta property="og:locale:alternate" content="id_ID" />
+  <meta property="og:locale:alternate" content="ms_MY" />
+  <meta property="og:locale:alternate" content="vi_VN" />
+  <meta property="og:locale:alternate" content="bn_IN" />
+  <meta property="og:locale:alternate" content="gu_IN" />
+  <meta property="og:locale:alternate" content="hi_IN" />
+  <meta property="og:locale:alternate" content="ja_JP" />
+  <meta property="og:locale:alternate" content="kn_IN" />
+  <meta property="og:locale:alternate" content="ko_KR" />
+  <meta property="og:locale:alternate" content="ml_IN" />
+  <meta property="og:locale:alternate" content="mr_IN" />
+  <meta property="og:locale:alternate" content="or_IN" />
+  <meta property="og:locale:alternate" content="pa_IN" />
+  <meta property="og:locale:alternate" content="ta_IN" />
+  <meta property="og:locale:alternate" content="te_IN" />
+  <meta property="og:locale:alternate" content="th_TH" />
+  <meta property="og:locale:alternate" content="ar_AR" />
+  <meta property="og:locale:alternate" content="ca_ES" />
+  <meta property="og:locale:alternate" content="es_ES" />
+  <meta property="og:locale:alternate" content="cs_CZ" />
+  <meta property="og:locale:alternate" content="hu_HU" />
+  <meta property="og:locale:alternate" content="da_DK" />
+  <meta property="og:locale:alternate" content="nb_NO" />
+  <meta property="og:locale:alternate" content="el_GR" />
+  <meta property="og:locale:alternate" content="it_IT" />
+  <meta property="og:locale:alternate" content="fi_FI" />
+  <meta property="og:locale:alternate" content="hr_HR" />
+  <meta property="og:locale:alternate" content="fr_FR" />
+  <meta property="og:locale:alternate" content="he_IL" />
+  <meta property="og:url" content="https://playleapstone.com/zh-hans/rules/halma" />
+  <meta property="og:title" content="Halma 规则和技巧 | Leapstone" />
+  <meta property="og:description" content="如何在 16 乘 16 的方形棋盘上玩 Halma：2 人或 4 人时棋子的起始摆法，八个方向的走和跳，连跳，怎样获胜，以及小技巧。可在浏览器中免费玩。" />
+  <meta property="og:image" content="https://playleapstone.com/uitnodiging.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="摆着红色和蓝色棋子的跳棋星形棋盘" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Halma 规则和技巧 | Leapstone" />
+  <meta name="twitter:description" content="如何在 16 乘 16 的方形棋盘上玩 Halma：2 人或 4 人时棋子的起始摆法，八个方向的走和跳，连跳，怎样获胜，以及小技巧。可在浏览器中免费玩。" />
+  <meta name="twitter:image" content="https://playleapstone.com/uitnodiging.png" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Halma 规则",
+    "description": "如何在 16 乘 16 的方形棋盘上玩 Halma：2 人或 4 人时棋子的起始摆法，八个方向的走和跳，连跳，怎样获胜，以及小技巧。可在浏览器中免费玩。",
+    "url": "https://playleapstone.com/zh-hans/rules/halma",
+    "mainEntityOfPage": "https://playleapstone.com/zh-hans/rules/halma",
+    "inLanguage": "zh-hans",
+    "dateModified": "2026-11-09",
+    "image": "https://playleapstone.com/uitnodiging.png",
+    "author": {
+      "@type": "Person",
+      "name": "William Visser"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Leapstone",
+      "url": "https://playleapstone.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://playleapstone.com/icon-512.png"
+      }
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Leapstone",
+        "item": "https://playleapstone.com/zh-hans/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Halma 规则",
+        "item": "https://playleapstone.com/zh-hans/rules/halma"
+      }
+    ]
+  }
+  </script>
+  <!-- Gemaakt door web/scripts/make-regels.mjs uit web/regels/talen/zh-hans/halma.mjs. Niet met de hand wijzigen. -->
+  <style>
+    @font-face {
+      font-family: "Archivo";
+      src: url("/fonts/archivo.woff2") format("woff2");
+      font-weight: 200 600;
+      font-stretch: 100% 125%;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: "Martian Mono";
+      src: url("/fonts/martian-mono.woff2") format("woff2");
+      font-weight: 300 500;
+      font-stretch: 87.5% 100%;
+      font-display: swap;
+    }
+    :root {
+      --grond: #0b0d10;
+      --vlak: #12151a;
+      --lijn: rgb(214 222 235 / 0.1);
+      --lijn-sterk: rgb(214 222 235 / 0.2);
+      --tekst: #e9ecf0;
+      --zacht: #a0a7b2;
+      --stil: #737b87;
+      --licht: #eceef1;
+      --licht-inkt: #0b0d10;
+      --letter: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+      --mono: "Martian Mono", ui-monospace, "SF Mono", Menlo, monospace;
+      color-scheme: dark;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    :lang(ja) { word-break: auto-phrase; }
+    /* Indische schriften en Thais: geen spatiëring of hoofdletters in koppen (spatiëring breekt de lettervormen). */
+    :is(:lang(bn), :lang(gu), :lang(hi), :lang(kn), :lang(ml), :lang(mr), :lang(or), :lang(pa), :lang(ta), :lang(te), :lang(th)) h2 { letter-spacing: 0; text-transform: none; font-size: 0.95rem; }
+    body {
+      margin: 0;
+      min-height: 100dvh;
+      background:
+        radial-gradient(120% 60% at 50% 0%, rgb(150 170 200 / 0.11), transparent 70%),
+        var(--grond);
+      color: var(--tekst);
+      font: 400 1rem/1.55 var(--letter);
+      -webkit-font-smoothing: antialiased;
+      padding: max(32px, env(safe-area-inset-top)) max(20px, env(safe-area-inset-right)) max(56px, env(safe-area-inset-bottom)) max(20px, env(safe-area-inset-left));
+    }
+    main { max-width: 40rem; margin: 0 auto; }
+    a { color: var(--tekst); text-decoration-color: var(--stil); text-underline-offset: 3px; }
+    a:hover { text-decoration-color: var(--tekst); }
+    a:focus-visible { outline: 2px solid var(--licht); outline-offset: 3px; border-radius: 3px; }
+
+    header { display: flex; flex-direction: column; align-items: center; text-align: center; padding: 8px 0 12px; }
+    .merk {
+      margin: 0;
+      font-size: 0.95rem;
+      font-weight: 300;
+      font-stretch: 125%;
+      letter-spacing: 0.42em;
+      padding-left: 0.42em;
+      text-transform: uppercase;
+      line-height: 1;
+    }
+    .merk a { text-decoration: none; }
+    h1 { margin: 36px 0 0; max-width: 22ch; font-size: clamp(1.6rem, 6.4vw, 2.5rem); font-weight: 300; line-height: 1.15; letter-spacing: -0.005em; text-wrap: balance; }
+    .taal { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px; margin: 0 0 18px; font: 400 0.72rem/1 var(--mono); letter-spacing: 0.08em; }
+    .taal a { display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; color: var(--zacht); text-decoration: none; border-radius: 3px; }
+    .taal a[aria-current] { color: var(--tekst); box-shadow: inset 0 0 0 1px var(--lijn-sterk); }
+    .intro { margin: 16px 0 0; max-width: 44ch; color: var(--zacht); font-size: 1.08rem; text-wrap: pretty; }
+    .knoppen { display: flex; flex-direction: column; align-items: center; gap: 14px; margin-top: 28px; width: 100%; }
+    .speel {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 100%; max-width: 20rem; min-height: 56px; padding: 0 22px; border-radius: 3px;
+      background: var(--licht);
+      color: var(--licht-inkt); font-weight: 500; text-decoration: none;
+      box-shadow: inset 0 -1px 0 rgb(0 0 0 / 0.14), 0 1px 0 rgb(0 0 0 / 0.5), 0 8px 24px -10px rgb(0 0 0 / 0.7);
+    }
+    .speel:hover { background: #fff; }
+    .winkel { display: block; line-height: 0; border-radius: 7px; }
+    .winkel img { display: block; height: 52px; width: auto; }
+    .winkel.play img { height: 78px; }
+    @media (min-width: 34rem) { .knoppen { flex-direction: row; justify-content: center; } .knoppen .speel { width: auto; } }
+
+    h2 {
+      margin: 56px 0 4px;
+      font-size: 0.78rem;
+      font-weight: 400;
+      font-stretch: 125%;
+      letter-spacing: 0.32em;
+      text-transform: uppercase;
+      color: var(--zacht);
+    }
+    /* Vragen met een kort antwoord (taak GEO): de vraag als kleine kop, het antwoord eronder. */
+    h3 { margin: 28px 0 0; font-size: 1rem; font-weight: 500; line-height: 1.35; text-wrap: balance; }
+    h3 + p { margin-top: 6px; }
+    p { margin: 12px 0 0; max-width: 62ch; text-wrap: pretty; }
+    ul, ol { margin: 12px 0 0; padding: 0 0 0 1.2em; color: var(--zacht); }
+    li { margin: 6px 0; }
+    li::marker { color: var(--stil); }
+    strong { font-weight: 450; }
+
+    /* Plaatjes van het bord: SVG uit halma-core (npm run regels), met een bijschrift. */
+    figure { margin: 20px 0 0; }
+    figure img { display: block; width: 100%; height: auto; margin: 0 auto; }
+    figcaption { margin-top: 8px; color: var(--stil); font-size: 0.88rem; text-align: center; text-wrap: balance; }
+    .enkel img { max-width: var(--max, 20rem); }
+    .raster { display: grid; grid-template-columns: 1fr 1fr; gap: 20px 14px; margin-top: 20px; }
+    .raster figure { margin: 0; }
+    @media (min-width: 34rem) { .raster { grid-template-columns: repeat(4, 1fr); } .raster-twee { grid-template-columns: repeat(2, 1fr); } }
+
+    .tips { margin: 12px 0 0; padding: 0; border-top: 1px solid var(--lijn-sterk); list-style: none; }
+    .tips li { margin: 0; padding: 14px 0; border-bottom: 1px solid var(--lijn); color: var(--zacht); }
+    .tips strong { display: block; color: var(--tekst); }
+
+    .onderaan { display: flex; justify-content: center; margin-top: 48px; }
+
+    footer { margin-top: 72px; padding-top: 20px; border-top: 1px solid var(--lijn-sterk); color: var(--stil); font: 300 0.72rem/1.6 var(--mono); }
+    footer nav { display: flex; flex-wrap: wrap; gap: 6px 20px; margin-bottom: 8px; }
+    footer a { color: var(--zacht); }
+    footer p { margin: 0; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <nav class="taal" aria-label="语言"><a href="/rules/halma" hreflang="en" lang="en" title="English">EN</a><a href="/nl/halma-spelregels" hreflang="nl" lang="nl" title="Nederlands">NL</a><a href="/de/regeln/halma" hreflang="de" lang="de" title="Deutsch">DE</a><a href="/pl/zasady/halma" hreflang="pl" lang="pl" title="Polski">PL</a><a href="/pt/regras/halma" hreflang="pt" lang="pt" title="Português">PT</a><a href="/ro/reguli/halma" hreflang="ro" lang="ro" title="Română">RO</a><a href="/ru/pravila/halma" hreflang="ru" lang="ru" title="Русский">RU</a><a href="/sk/pravidla/halma" hreflang="sk" lang="sk" title="Slovenčina">SK</a><a href="/sl/pravila/halma" hreflang="sl" lang="sl" title="Slovenščina">SL</a><a href="/sv/regler/halma" hreflang="sv" lang="sv" title="Svenska">SV</a><a href="/tr/kurallar/halma" hreflang="tr" lang="tr" title="Türkçe">TR</a><a href="/uk/pravyla/halma" hreflang="uk" lang="uk" title="Українська">UK</a><a href="/ur/qawaid/halma" hreflang="ur" lang="ur" title="اردو">UR</a><a href="/id/aturan/halma" hreflang="id" lang="id" title="Bahasa Indonesia">ID</a><a href="/ms/peraturan/halma" hreflang="ms" lang="ms" title="Bahasa Melayu">MS</a><a href="/vi/luat-choi/halma" hreflang="vi" lang="vi" title="Tiếng Việt">VI</a><a href="/bn/rules/halma" hreflang="bn" lang="bn" title="বাংলা">BN</a><a href="/gu/rules/halma" hreflang="gu" lang="gu" title="ગુજરાતી">GU</a><a href="/hi/rules/halma" hreflang="hi" lang="hi" title="हिन्दी">HI</a><a href="/ja/rules/halma" hreflang="ja" lang="ja" title="日本語">JA</a><a href="/kn/rules/halma" hreflang="kn" lang="kn" title="ಕನ್ನಡ">KN</a><a href="/ko/rules/halma" hreflang="ko" lang="ko" title="한국어">KO</a><a href="/ml/rules/halma" hreflang="ml" lang="ml" title="മലയാളം">ML</a><a href="/mr/rules/halma" hreflang="mr" lang="mr" title="मराठी">MR</a><a href="/or/rules/halma" hreflang="or" lang="or" title="ଓଡ଼ିଆ">OR</a><a href="/pa/rules/halma" hreflang="pa" lang="pa" title="ਪੰਜਾਬੀ">PA</a><a href="/ta/rules/halma" hreflang="ta" lang="ta" title="தமிழ்">TA</a><a href="/te/rules/halma" hreflang="te" lang="te" title="తెలుగు">TE</a><a href="/th/rules/halma" hreflang="th" lang="th" title="ไทย">TH</a><a href="/zh-hans/rules/halma" hreflang="zh-hans" lang="zh-hans" title="简体中文" aria-current="page">ZH-HANS</a><a href="/ar/qawaid/halma" hreflang="ar" lang="ar" title="العربية">AR</a><a href="/ca/regles/halma" hreflang="ca" lang="ca" title="Català">CA</a><a href="/es/reglas/halma" hreflang="es" lang="es" title="Español">ES</a><a href="/cs/pravidla/halma" hreflang="cs" lang="cs" title="Čeština">CS</a><a href="/hu/szabalyok/halma" hreflang="hu" lang="hu" title="Magyar">HU</a><a href="/da/regler/halma" hreflang="da" lang="da" title="Dansk">DA</a><a href="/no/regler/halma" hreflang="no" lang="no" title="Norsk">NO</a><a href="/el/kanones/halma" hreflang="el" lang="el" title="Ελληνικά">EL</a><a href="/it/regole/halma" hreflang="it" lang="it" title="Italiano">IT</a><a href="/fi/saannot/halma" hreflang="fi" lang="fi" title="Suomi">FI</a><a href="/hr/pravila/halma" hreflang="hr" lang="hr" title="Hrvatski">HR</a><a href="/fr/regles/halma" hreflang="fr" lang="fr" title="Français">FR</a><a href="/he/hokim/halma" hreflang="he" lang="he" title="עברית">HE</a></nav>
+      <p class="merk" dir="ltr"><a href="/zh-hans/">Leapstone</a></p>
+      <h1>Halma 规则</h1>
+      <p class="intro">抢在别人之前，把你的所有棋子移过方形棋盘，到达对面的角。规则简要说明，配有图片，还有一些小技巧。</p>
+      <div class="knoppen"><a class="winkel" href="https://apps.apple.com/cn/app/id6831230722"><img src="/badges/app-store-badge-zh-hans.svg" width="142" height="52" alt="在 App Store 下载" /></a>
+        <a class="winkel play" href="https://play.google.com/store/apps/details?id=nl.leapstone.app"><img src="/badges/google-play-badge-zh-hans.png" width="202" height="78" alt="去商店下载 Google Play" /></a><a class="speel" href="/play/">立即开玩</a></div>
+    </header>
+
+    <section aria-labelledby="bord">
+      <h2 id="bord">棋盘</h2>
+      <p>Halma 在 16 乘 16 个位置的方形棋盘上进行，一共 256 个位置。每个位置最多有八个相邻位置：四个正向的和四个斜向的。边上的位置相邻的更少，角上的位置有三个。</p>
+      <p>这就是 Leapstone 中的方形棋盘。如果你玩过星形棋盘的玩法，请阅读 <a href="/zh-hans/rules/sternhalma">Sternhalma</a> 和<a href="/zh-hans/rules/chinese-checkers">跳棋规则</a>。</p>
+    </section>
+
+    <section aria-labelledby="begin">
+      <h2 id="begin">棋子的起始摆法</h2>
+      <p>Halma 适合 2 人或 4 人。每位玩家开局时把棋子摆在棋盘一个角上的营地里。对角的营地就是你的目标。</p>
+      <ul>
+        <li><strong>2 人：</strong>每人 19 颗棋子，在互相正对的两个角上。营地是五排，各有 5、5、4、3、2 个位置。</li>
+        <li><strong>4 人：</strong>每人 13 颗棋子，每个角上一个营地。营地是四排，各有 4、4、3、2 个位置。你的目标是棋盘对面斜对角的那个角。</li>
+      </ul>
+      <div class="raster raster-twee">
+        <figure><img src="/rules/img/halma-setup-2.svg" width="374" height="374" alt="方形棋盘，左上角有 19 颗红色棋子，右下角有 19 颗蓝色棋子" loading="lazy" decoding="async" /><figcaption>2 人：每人 19 颗棋子</figcaption></figure>
+        <figure><img src="/rules/img/halma-setup-4.svg" width="374" height="374" alt="方形棋盘，四个角上各有 13 颗棋子：左上红色，右上蓝色，右下绿色，左下黄色" loading="lazy" decoding="async" /><figcaption>4 人：每人 13 颗棋子</figcaption></figure>
+      </div>
+    </section>
+
+    <section aria-labelledby="beurt">
+      <h2 id="beurt">轮流走棋</h2>
+      <p>玩家 1 先走。之后按顺序轮流，最后一位玩家之后又回到玩家 1。在 Leapstone 中，颜色对应编号：红、蓝、绿和黄。</p>
+      <p>轮到你时，走一颗棋子，只走一次。没有吃子：棋子留在棋盘上，直到它的玩家认输。</p>
+    </section>
+
+    <section aria-labelledby="stap">
+      <h2 id="stap">走一步</h2>
+      <p>把一颗棋子移到它旁边的空位上，八个方向都可以：正向或斜向。</p>
+<figure class="enkel" style="--max: 17rem"><img src="/rules/img/halma-step.svg" width="119" height="119" alt="一颗红色棋子，周围有一圈白色的环。它的八个相邻位置中，五个是空的并有标记，另外三个有棋子。" loading="lazy" decoding="async" /><figcaption>红色棋子可以走到五个有标记的位置。另外三个相邻位置已被占用。</figcaption></figure>
+    </section>
+
+    <section aria-labelledby="sprong">
+      <h2 id="sprong">跳</h2>
+      <p>跳过紧挨着你的一颗棋子（任何颜色都可以），落在它正后方的空位上，沿直线跳。八个方向都可以跳，斜着跳、向后跳也可以。</p>
+      <ul>
+        <li>落点必须是空位。</li>
+        <li>不能连续跳过两颗棋子，也不能跳过空位。</li>
+        <li>被跳过的棋子留在原处。</li>
+        <li>不能跳出棋盘边缘。</li>
+      </ul>
+<figure class="enkel" style="--max: 17rem"><img src="/rules/img/halma-jump.svg" width="119" height="119" alt="一颗红色棋子斜着跳过一颗蓝色棋子，落在它后面的空位上，用箭头表示。" loading="lazy" decoding="async" /><figcaption>红色棋子斜着跳过蓝色棋子。</figcaption></figure>
+    </section>
+
+    <section aria-labelledby="keten">
+      <h2 id="keten">连跳</h2>
+      <p>跳过之后，同一颗棋子可以再跳，能跳多少次就跳多少次，方向不限，正向或斜向都可以。在哪里停下由你决定。所有的跳合在一起算一步棋。</p>
+      <ul>
+        <li>在一步棋中，不能两次落在同一个位置。</li>
+        <li>一步棋是走一步，或者跳一次或多次。跳了之后不能再走一步。</li>
+      </ul>
+<figure class="enkel" style="--max: 17rem"><img src="/rules/img/halma-chain.svg" width="163" height="163" alt="一颗红色棋子在一步棋中跳了三次：斜着跳过一颗蓝色棋子，直着跳过另一颗蓝色棋子，再斜着跳过一颗红色棋子。三个落点依次标有 1、2、3。" loading="lazy" decoding="async" /><figcaption>一步棋连跳三次，按编号的顺序。</figcaption></figure>
+    </section>
+
+    <section aria-labelledby="doel">
+      <h2 id="doel">目标</h2>
+      <p>把你的所有棋子移入与你的起点正对面的营地，就赢了。那个营地的每个位置都必须放着你自己的棋子：2 人对局时是 19 颗，4 人对局时是 13 颗。只要有其他玩家的棋子留在那里，你就无法完成。</p>
+      <p>你可以落在任何空位上，包括其他玩家的营地。已经在你目标里的棋子可以再离开；没有什么会把它锁住。</p>
+<figure class="enkel" style="--max: 20rem"><img src="/rules/img/halma-goal.svg" width="374" height="374" alt="两人玩的方形棋盘。红色从左上角出发；右下角的营地用虚线圆圈标出，里面放着蓝色棋子，是红色的目标。" loading="lazy" decoding="async" /><figcaption>2 人对局时，红色的目标是蓝色出发的营地。</figcaption></figure>
+    </section>
+
+    <section aria-labelledby="spelers">
+      <h2 id="spelers">2 人或 4 人对局</h2>
+      <ul>
+        <li><strong>2 人：</strong>先填满目标的玩家获胜，对局结束。</li>
+        <li><strong>4 人：</strong>先填满目标的玩家获胜。其他玩家继续争夺后面的名次，已经完成的玩家会被跳过。只剩一位玩家还在玩时，对局结束。</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="opgeven">
+      <h2 id="opgeven">认输</h2>
+      <p>认输时，你的棋子会离开棋盘，所以不会挡住任何人。2 人对局时，另一位玩家获胜。4 人对局时，对局在没有你的情况下继续，如果除一位玩家外所有人都认输，最后那位玩家获胜。</p>
+      <p>在线对局中，每一步都有时间限制。限时由发起对局的玩家设定。时间用完时，你的回合会被跳过。连续错过 3 个回合，你就认输了。与电脑对战和在同一部手机上对局没有时间限制。</p>
+    </section>
+
+    <section aria-labelledby="tips">
+      <h2 id="tips">小技巧</h2>
+      <ul class="tips">
+        <li><strong>搭梯子。</strong>把棋子排成一条线，棋子之间各留一个空位，正向或斜向都可以，朝向你的目标。这样一颗棋子一步棋就能沿着整条线跳过去。</li>
+        <li><strong>任何棋子都是梯子。</strong>每种颜色的棋子你都可以跳过，所以其他玩家的棋子也在帮你。而你自己的梯子也在帮他们：看看你留下了什么。</li>
+        <li><strong>利用斜线。</strong>目标在对角的角上，所以斜着排的一列棋子是最快的过河路线。</li>
+        <li><strong>别忘了掉队的棋子。</strong>你需要所有棋子都回家。远远落在后面、没有东西可跳的棋子，每回合只能走一个位置。趁其他棋子还在它周围时，把它带上。</li>
+        <li><strong>你的起点是他们的目标。</strong>2 人对局时，你的营地是另一位玩家的目标，只要你还有一颗棋子在那里，他们就无法完成。Leapstone 允许你把一颗棋子留在家里，所以你可以这样挡住对方。你也一样。</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="vragen">
+      <h2 id="vragen">常见问题</h2>
+      <h3>Halma 可以几个人玩？</h3>
+      <p>两人或四人。Halma 在 16 乘 16 个位置的方形棋盘上进行，每位玩家从一个角开始。</p>
+      <h3>Halma 每位玩家有多少颗棋子？</h3>
+      <p>2 人时每人 19 颗，4 人时每人 13 颗。</p>
+      <h3>Halma 是谁发明的？</h3>
+      <p>乔治·霍华德·蒙克斯（George Howard Monks），一位美国外科医生，在 1883 年或 1884 年发明。Halma 这个名字在希腊语中是“跳跃”的意思。了解更多：<a href="/zh-hans/rules/sternhalma">Sternhalma</a>。</p>
+      <h3>Halma 和跳棋有什么区别？</h3>
+      <p>Halma 使用方形棋盘，朝八个方向走和跳，每人 19 或 13 颗棋子。跳棋使用星形棋盘，有六个方向，每人 10 颗棋子，适合 2、3、4 或 6 人。</p>
+      <h3>可以在线免费玩 Halma 吗？</h3>
+      <p>可以，在 Leapstone 中，可以在浏览器里玩，也可以用 App Store 里的应用。选择一种玩法，例如与电脑对战或与好友在线对战，然后选方形棋盘。Leapstone 免费，没有广告。</p>
+    </section>
+
+    <section aria-labelledby="meer">
+      <h2 id="meer">来玩一局</h2>
+      <p>点击“立即开玩”按钮，会在<a href="/zh-hans/rules/chinese-checkers">星形棋盘</a>上打开一局与电脑的对战。要玩 Halma，请点击顶部的返回箭头，然后选择“在这部手机上玩”“与电脑对战”或“与好友在线对战”，再点击方形棋盘。</p>
+    </section>
+
+    <div class="onderaan"><a class="speel" href="/play/">立即开玩</a></div>
+
+    <footer>
+      <nav aria-label="网站"><a href="/zh-hans/">Leapstone</a><a href="/play/">在浏览器中玩</a><a href="/zh-hans/rules/chinese-checkers">跳棋规则</a><a href="/zh-hans/rules/halma">Halma 规则</a><a href="/zh-hans/rules/sternhalma">Sternhalma</a><a href="/zh-hans/guides/chinese-checkers-strategy">跳棋策略</a><a href="/zh-hans/guides/chinese-checkers-2-players">2 人跳棋</a><a href="/zh-hans/guides/halma-vs-chinese-checkers">Halma 和跳棋的区别</a><a href="/zh-hans/guides/chinese-checkers-3-players">3 人跳棋</a><a href="/zh-hans/guides/chinese-checkers-4-players">4 人跳棋</a><a href="/zh-hans/guides/chinese-checkers-6-players">6 人跳棋</a><a href="/zh-hans/guides/chinese-checkers-opening-moves">跳棋开局走法</a><a href="/zh-hans/guides/play-chinese-checkers-online-with-friends">与好友在线玩跳棋</a><a href="/zh-hans/guides/chinese-checkers-by-the-numbers">数字里的跳棋</a><a href="/privacy">隐私政策（英文）</a><a href="/terms">使用条款（英文）</a></nav>
+      <p dir="ltr">Leapstone &copy; 2026 William Visser</p>
+    </footer>
+  </main>
+</body>
+</html>

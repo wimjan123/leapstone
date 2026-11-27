@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0b0e18" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Leapstone" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <title>Play Chinese checkers online | Leapstone</title>
+    <meta name="description" content="Play Chinese checkers online, free in your browser. Start against the computer at once: no sign-up, no ads. Prefer your phone? Get the app." />
+    <link rel="canonical" href="https://playleapstone.com/play/" />
+    <!-- Smart App Banner van Apple (taak 121). De build haalt hem weg in de app (vite.config.ts) en op de Uitnodigingskaart (web/uitnodigingskaart.ts). -->
+    <meta name="apple-itunes-app" content="app-id=6831230722" />
+    <!-- Open Graph voor /play/ (taak 115). De Uitnodiging (/uitnodiging/<code>) krijgt bij het bouwen een kopie van deze pagina met de vaste kaart "Join my game of Chinese checkers" (web/uitnodigingskaart.ts), nooit Spelersgegevens. Plaatje maken: npm --prefix web run voorbeeldkaart -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Leapstone" />
+    <meta property="og:title" content="Play Chinese checkers online" />
+    <meta property="og:description" content="Play Chinese checkers against the computer, free in your browser. No sign-up, no ads." />
+    <meta property="og:image" content="https://playleapstone.com/uitnodiging.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="https://playleapstone.com/play/" />
+    <meta property="og:image:alt" content="A Chinese checkers board in red lacquer and gold, with red, blue and green pieces" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Play Chinese checkers online" />
+    <meta name="twitter:description" content="Play Chinese checkers against the computer, free in your browser. No sign-up, no ads." />
+    <meta name="twitter:image" content="https://playleapstone.com/uitnodiging.png" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <noscript>
+      <h1>Play Chinese checkers online</h1>
+      <p>Leapstone is a free Chinese checkers game for your browser. You play against the computer on a calm 3D board in red lacquer and gold, with no sign-up and no ads.</p>
+      <p>Leapstone needs JavaScript to run in your browser.</p>
+      <nav><a href="/">About Leapstone</a> <a href="/privacy">Privacy policy</a> <a href="/terms">Terms of use</a></nav>
+    </noscript>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

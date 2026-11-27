@@ -1,0 +1,78 @@
+# De Worker van Leapstone. Zie docs/cloudflare.md.
+name = "leapstone"
+main = "build/index.js"
+compatibility_date = "2026-11-01"
+workers_dev = true
+preview_urls = false
+
+# Eigen domein (gekocht bij Cloudflare Registrar, 2026-11-08). workers.dev blijft ook werken.
+routes = [
+  { pattern = "playleapstone.com", custom_domain = true },
+  { pattern = "www.playleapstone.com", custom_domain = true },
+]
+
+# worker-build staat in target/gereedschap, niet globaal. Het haalt zelf wasm-bindgen en esbuild op.
+[build]
+command = "test -x ../../target/gereedschap/bin/worker-build || cargo install -q --root ../../target/gereedschap worker-build --version 0.8.7 --locked; ../../target/gereedschap/bin/worker-build --release"
+
+# De site (npm --prefix web run build): het spel op /play/, de Landingspagina op /, /privacy en /terms.
+# Alleen de HTML-pagina's en de routes van de Worker gaan eerst naar de Worker (taak 104, 291): /api, /beheer, assetlinks.json,
+# apple-app-site-association, /uitnodiging/*, /potje/* en de pagina's, want alleen daar kan www een 301 krijgen en workers.dev
+# `X-Robots-Tag: noindex`. De Worker geeft ze daarna aan de assets. Niet de bestanden (js, wasm, beelden, lettertypen):
+# elk verzoek aan de Worker telt mee in de 100.000 per dag van het gratis plan. Nooit `run_worker_first = true`.
+# Een nieuwe map met HTML-pagina's (een taal) hoort hier met "/<map>/*"; een bestand dat bestaat, geeft Cloudflare zelf.
+# De Rust-test html_paden_gaan_eerst_naar_de_worker controleert dat elke HTML-pagina in web/public erin staat en elk ander bestand niet.
+# Taak 291: `not_found_handling = "none"`. Een adres zonder bestand gaat dan ook naar de Worker. Daardoor kan de Worker een
+# fout op /assets/* geen jaar bewaartijd laten krijgen (zie `spel::bewaartijd_van_fout`) en geeft hij zelf de pagina 404.html met status 404.
+# Een bestaand bestand in /assets/ komt rechtstreeks uit de assets (Cache-Control uit web/public/_headers) en kost geen Workerverzoek.
+[assets]
+directory = "../../web/dist"
+binding = "ASSETS"
+not_found_handling = "none"
+run_worker_first = ["/", "/play/*", "/uitnodiging-kaart/*", "/privacy", "/terms", "/rules/*", "!/rules/img/*", "/guides/*", "/ar/*", "/bn/*", "/ca/*", "/cs/*", "/da/*", "/de/*", "/el/*", "/es/*", "/fi/*", "/fr/*", "/gu/*", "/he/*", "/hi/*", "/hr/*", "/hu/*", "/id/*", "/it/*", "/ja/*", "/kn/*", "/ko/*", "/ml/*", "/mr/*", "/ms/*", "/nl/*", "/no/*", "/or/*", "/pa/*", "/pl/*", "/pt/*", "/ro/*", "/ru/*", "/sk/*", "/sl/*", "/sv/*", "/ta/*", "/te/*", "/th/*", "/tr/*", "/uk/*", "/ur/*", "/vi/*", "/zh-hans/*", "/robots.txt", "/sitemap.xml", "/api/*", "/beheer", "/beheer/*", "/.well-known/*", "/uitnodiging/*", "/potje/*"]
+
+# Eén Durable Object met SQLite (gratis plan) voor alle Spelers en Potjes.
+[[durable_objects.bindings]]
+name = "OPSLAG"
+class_name = "Opslagplaats"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Opslagplaats"]
+
+# Grenzen aan verzoeken (rate limiting, gratis). Welke teller en welke sleutel: src/grens.rs. Uitleg: docs/cloudflare.md.
+# Nieuwe Spelers en herstel, per internetadres.
+[[ratelimits]]
+name = "LIMIET_NIEUW"
+namespace_id = "1001"
+simple = { limit = 5, period = 60 }
+
+# Berichten, per Speler.
+[[ratelimits]]
+name = "LIMIET_BERICHT"
+namespace_id = "1002"
+simple = { limit = 10, period = 10 }
+
+# Vriend toevoegen (Vriendcode opzoeken, Vriendverzoek sturen) en een vriend uitdagen, per Speler. Strak, tegen het raden van Vriendcodes.
+[[ratelimits]]
+name = "LIMIET_VRIEND"
+namespace_id = "1005"
+simple = { limit = 10, period = 60 }
+
+# Alle andere verzoeken aan /api, per Speler of anders per internetadres.
+[[ratelimits]]
+name = "LIMIET_OVERIG"
+namespace_id = "1003"
+simple = { limit = 120, period = 60 }
+
+# Reserve voor elk verzoek aan /api, per internetadres. Vangt op wie bij elk verzoek een verzonnen sleutel stuurt.
+[[ratelimits]]
+name = "LIMIET_IP"
+namespace_id = "1004"
+simple = { limit = 300, period = 60 }
+
+# Vingerafdrukken (SHA-256) van de sleutels die de Android-app tekenen, komma-gescheiden. Openbaar, geen geheim.
+# Debug-sleutel (ook voor npm run app:android:telefoon) en uploadsleutel (npm run app:android:winkel).
+# Na de eerste upload naar Google Play: voeg ook de vingerafdruk van de app-ondertekeningssleutel van Google Play toe.
+[vars]
+HALMA_ASSETLINKS_SHA256 = "75:0A:10:8A:FF:76:78:12:3F:9B:16:1F:4D:05:17:A4:06:27:64:4A:0B:CB:15:11:37:00:8F:10:B4:E9:4B:D8,07:B6:50:59:13:0D:07:9C:F2:F0:7A:09:4F:5D:DC:06:1C:AA:D5:69:49:BD:B1:3C:6B:9A:DA:AA:36:E8:E3:09,75:48:53:2C:2B:FD:3C:03:4C:D8:86:A4:22:79:95:26:26:00:CD:D4:91:6C:F8:B4:C8:57:96:51:23:46:93:81"

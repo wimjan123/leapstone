@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="theme-color" content="#0b0d10" />
+  <meta name="robots" content="noindex" />
+  <title>Page not found · Leapstone</title>
+  <link rel="icon" href="/icon-192.png" />
+  <!-- Zelfstandige pagina (404 voor onbekende adressen): alleen de lettertypen die al bij Leapstone horen. -->
+  <style>
+    @font-face {
+      font-family: "Archivo";
+      src: url("/fonts/archivo.woff2") format("woff2");
+      font-weight: 200 600;
+      font-stretch: 100% 125%;
+      font-display: swap;
+    }
+    :root {
+      --grond: #0b0d10;
+      --lijn: rgb(214 222 235 / 0.1);
+      --tekst: #e9ecf0;
+      --zacht: #a0a7b2;
+      --licht: #eceef1;
+      --licht-inkt: #0b0d10;
+      --letter: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+      color-scheme: dark;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100dvh;
+      display: grid;
+      place-items: center;
+      background: radial-gradient(120% 60% at 50% 0%, rgb(150 170 200 / 0.11), transparent 70%), var(--grond);
+      color: var(--tekst);
+      font: 400 1rem/1.55 var(--letter);
+      -webkit-font-smoothing: antialiased;
+      padding: max(32px, env(safe-area-inset-top)) max(20px, env(safe-area-inset-right)) max(32px, env(safe-area-inset-bottom)) max(20px, env(safe-area-inset-left));
+    }
+    main { display: flex; flex-direction: column; align-items: center; text-align: center; max-width: 28rem; }
+    .bord { width: 96px; height: 96px; color: var(--zacht); }
+    .bord circle { fill: none; stroke: currentColor; stroke-width: 1; vector-effect: non-scaling-stroke; }
+    .bord .leeg { stroke-dasharray: 2 5; }
+    h1 { margin: 28px 0 0; font-size: 1.45rem; font-weight: 300; line-height: 1.2; }
+    p { margin: 10px 0 0; color: var(--zacht); }
+    a {
+      display: inline-flex; align-items: center; justify-content: center; margin-top: 32px;
+      min-height: 52px; padding: 0 22px; border-radius: 3px;
+      background: var(--licht); color: var(--licht-inkt); font-weight: 450; text-decoration: none;
+    }
+    a:hover { background: #fff; }
+    a:focus-visible { outline: 2px solid var(--licht); outline-offset: 3px; }
+  </style>
+</head>
+<body>
+  <main>
+    <svg class="bord" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+      <circle cx="50" cy="50" r="46" />
+      <circle cx="50" cy="22" r="3" /><circle cx="41" cy="34" r="3" /><circle cx="59" cy="34" r="3" />
+      <circle class="leeg" cx="50" cy="46" r="3" />
+      <circle cx="32" cy="46" r="3" /><circle cx="68" cy="46" r="3" />
+      <circle cx="41" cy="58" r="3" /><circle cx="59" cy="58" r="3" /><circle cx="50" cy="70" r="3" />
+    </svg>
+    <h1>This page does not exist</h1>
+    <p>The address may be mistyped, or the page has moved.</p>
+    <a href="/">Go to Leapstone</a>
+  </main>
+</body>
+</html>

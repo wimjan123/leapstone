@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- App-icoon van Leapstone, richting C: leisteen met fijne korrel, een haarlijn-ring en één pion van mat metaal (rood).
+       Twee lagen voor het adaptieve icoon van Android: alles tussen de grond-markers is de achtergrond, tussen de pion-markers de voorgrond.
+       PNG's maken: in web/ npm run icons -->
+  <defs>
+    <radialGradient id="licht" cx="512" cy="-80" r="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#96aac8" stop-opacity="0.2" />
+      <stop offset="0.7" stop-color="#96aac8" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="rand" cx="512" cy="512" r="760" gradientUnits="userSpaceOnUse">
+      <stop offset="0.5" stop-color="#000" stop-opacity="0" />
+      <stop offset="1" stop-color="#000" stop-opacity="0.55" />
+    </radialGradient>
+    <filter id="korrel" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="3" seed="7" stitchTiles="stitch" />
+      <feColorMatrix values="0 0 0 0 0.86  0 0 0 0 0.9  0 0 0 0 0.96  0.13 0 0 0 0" />
+    </filter>
+    <!-- Mat metaal: licht van linksvoor, donker aan de randen (zoals Steentje.svelte). -->
+    <linearGradient id="lijf" gradientUnits="userSpaceOnUse" x1="2.5" y1="0" x2="17.5" y2="0">
+      <stop offset="0" stop-color="#4c1810" />
+      <stop offset="0.24" stop-color="#e09084" />
+      <stop offset="0.46" stop-color="#c93f2b" />
+      <stop offset="0.82" stop-color="#752519" />
+      <stop offset="1" stop-color="#4c1810" />
+    </linearGradient>
+    <radialGradient id="kop" cx="8.4" cy="5.5" r="5.6" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e9b2aa" />
+      <stop offset="0.45" stop-color="#c93f2b" />
+      <stop offset="1" stop-color="#752519" />
+    </radialGradient>
+    <radialGradient id="schaduw" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#000" stop-opacity="0.7" />
+      <stop offset="1" stop-color="#000" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- grond -->
+  <rect width="1024" height="1024" fill="#0b0d10" />
+  <rect width="1024" height="1024" fill="url(#licht)" />
+  <rect width="1024" height="1024" fill="url(#rand)" />
+  <rect width="1024" height="1024" filter="url(#korrel)" />
+  <!-- /grond -->
+
+  <!-- pion -->
+  <circle cx="512" cy="512" r="330" fill="none" stroke="#d6deeb" stroke-opacity="0.34" stroke-width="5" />
+  <ellipse cx="512" cy="744" rx="210" ry="28" fill="url(#schaduw)" />
+  <g transform="translate(282 216.5) scale(23)">
+    <path d="M2.6 21.9c0-1.4 1.3-2.3 3.5-2.7h7.8c2.2.4 3.5 1.3 3.5 2.7 0 .55-.45.95-1 .95H3.6c-.55 0-1-.4-1-.95Z" fill="url(#lijf)" />
+    <path d="M6.5 19.4c1-2.2 1.5-4.6 1.6-7.1h3.8c.1 2.5.6 4.9 1.6 7.1Z" fill="url(#lijf)" />
+    <rect x="6.2" y="11" width="7.6" height="1.9" rx="0.95" fill="url(#lijf)" />
+    <circle cx="10" cy="7" r="4.15" fill="url(#kop)" />
+    <path d="M3.3 21.1c.5-.8 1.4-1.3 2.8-1.6h7.8" fill="none" stroke="#fff" stroke-opacity="0.28" stroke-width="0.25" stroke-linecap="round" />
+  </g>
+  <!-- /pion -->
+</svg>

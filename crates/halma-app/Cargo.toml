@@ -1,0 +1,36 @@
+[package]
+name = "halma-app"
+version = "0.1.0"
+edition = "2024"
+description = "Leapstone als app (Tauri 2) rond de web-app in web/."
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+
+[lib]
+name = "halma_app_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+# Alleen op de Mac (iOS-builds): zet `aps-environment` in de entitlements van het Xcode-project.
+[target.'cfg(target_os = "macos")'.build-dependencies]
+tauri-plugin = { version = "2.7.2", features = ["build"] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-deep-link = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+# Meldingen via Apple (APNs), alleen op iOS. Android krijgt zo geen Firebase mee (komt later, zie docs/plan.md).
+[target.'cfg(target_os = "ios")'.dependencies]
+tauri-plugin-notifications = { version = "0.4.6", default-features = false, features = ["push-notifications"] }
+# Tijdstip van de lokale Melding voor de Dagelijkse puzzel (taak 153), zonder Swift-plugin erbij.
+time = "0.3"
+# De beoordelingsvraag van Apple (taak 108), rechtstreeks via Objective-C; geen Swift-plugin.
+objc2-store-kit = { version = "0.3", default-features = false, features = ["SKStoreReviewController"] }
+# Trillen met de haptiek van het systeem (taak 159), rechtstreeks via Objective-C; geen Swift-plugin.
+objc2 = "0.6"
+objc2-ui-kit = { version = "0.3", default-features = false, features = ["UIFeedbackGenerator", "UIImpactFeedbackGenerator"] }

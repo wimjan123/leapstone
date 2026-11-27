@@ -1,0 +1,907 @@
+/*
+ * Uiterlijk 1b (taak 177 en 191, feature 147): porselein en crème, kobaltblauw, rood lak en dun goud op een tafel van donkere
+ * zijde. Kleuren, lettertype en maten van alle schermen staan hier; het bord zelf
+ * (taak 167) voegt eigen waarden toe met het voorvoegsel `--bord-`. Lettertypen zitten in de app
+ * (assets/fonts, SIL Open Font License). Zie DESIGN.md.
+ */
+@font-face {
+  font-family: "Bricolage Grotesque";
+  src: url("./assets/fonts/bricolage-grotesque-latin-wght-normal.woff2") format("woff2");
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Bricolage Grotesque";
+  src: url("./assets/fonts/bricolage-grotesque-latin-ext-wght-normal.woff2") format("woff2");
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+  unicode-range:
+    U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Bricolage Grotesque";
+  src: url("./assets/fonts/bricolage-grotesque-vietnamese-wght-normal.woff2") format("woff2");
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Noto Sans Arabic";
+  src: url("./assets/fonts/noto-sans-arabic-arabic-wght-normal.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC;
+}
+
+:root {
+  --letter: "Bricolage Grotesque", "Noto Sans Arabic", system-ui, -apple-system, "Segoe UI", sans-serif;
+  /* Cijfers en codes: dezelfde letter, met cijfers van gelijke breedte. */
+  --mono: var(--letter);
+
+  /* Uiterlijk 1b (taak 191): porselein en crème, kobaltblauw, rood lak en dun goud, op een tafel van donkere zijde. De Stenen
+     houden hun eigen zes kleuren. Kobalt #1f3a82 op crème #f7f1e0 is 9:1, rood #9d2318 op crème 7:1, crème op rood lak 8:1. */
+  --creme: #efe6cc;
+  --inkt: #1f3a82;
+  --zacht: #f7f1e0;
+  --goudvlak: #ecd28f;
+  --wit: #fffcf3;
+  --goud: #c9a95a;
+  --lak: #8f1d12;
+  --lak-inkt: #fff3dc;
+  /* Wat erbij hoort: de rand en het greepje op het blad, en de vlakken van de pictogrammen. */
+  --blad-rand: #d9c28a;
+  --ring: rgb(247 241 224 / 0.33);
+  --pilvlak: rgb(247 241 224 / 0.92);
+  --tegel-geel: #f3e2b0;
+  --tegel-geel-inkt: #6b4a10;
+  --tegel-roze: #f3d9d0;
+  --tegel-roze-inkt: #8f1d12;
+  --tegel-lila: #e3e6f3;
+  --tegel-lila-inkt: #1f3a82;
+
+  /* De namen die de schermen al gebruiken. */
+  --grond: #0b0e18;
+  --vlak-1: var(--zacht);
+  --vlak-2: var(--wit);
+  --vlak-3: var(--blad-rand);
+  --lijn: rgb(31 58 130 / 0.14);
+  --lijn-sterk: rgb(31 58 130 / 0.26);
+  --lijn-fel: rgb(31 58 130 / 0.6);
+  --tekst: var(--inkt);
+  --tekst-zacht: #3a4c88;
+  --tekst-stil: #46578f;
+  /* De hoofdknop: kobaltblauw met crème letters. */
+  --licht: var(--inkt);
+  --licht-inkt: var(--wit);
+  /* Iets ging mis */
+  --fout: #9d2318;
+  --fout-vlak: #f6e0d8;
+  --focus: var(--inkt);
+
+  --rond: 18px;
+  --vel: 22px;
+  --pil: 999px;
+  --uit: cubic-bezier(0.16, 1, 0.3, 1);
+  --snel: 140ms;
+
+  /* De veilige randen van de telefoon (notch, thuisbalk). */
+  --veilig-boven: env(safe-area-inset-top, 0px);
+  --veilig-onder: env(safe-area-inset-bottom, 0px);
+  --veilig-links: env(safe-area-inset-left, 0px);
+  --veilig-rechts: env(safe-area-inset-right, 0px);
+
+  font-family: var(--letter);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--tekst);
+  background: var(--grond);
+  color-scheme: light;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-synthesis: none;
+  accent-color: var(--inkt);
+  caret-color: var(--inkt);
+}
+::selection {
+  background: var(--goudvlak);
+  color: var(--inkt);
+}
+/* De app vult precies het scherm en schuift zelf nooit; alleen lange lijsten schuiven binnen hun eigen vak. */
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+body {
+  /* De zijden tafel van uiterlijk 1b (taak 182): blauwzwarte zijde met wolken en een zachte plek warm licht van de lantaarn; vast,
+     zonder beweging. Elk scherm ligt erop, ook het foutscherm als 3D niet lukt. */
+  background:
+    radial-gradient(circle at 50% 38%, rgb(255 214 150 / 0.11) 0, transparent 62%),
+    #0b0e18 url("./assets/zijde.webp") 0 0 / 256px 256px;
+}
+body .blad {
+  background: #fbf5e6;
+  border-top: 3px solid #d6a93e;
+}
+#app {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+}
+/* Boven het toetsenbord van iOS (toetsenbord.ts, op iOS en in de Android-app): de HTML en het 3D-bord schuiven samen omhoog, in het tempo van
+   het toetsenbord. */
+.boven-toetsenbord #app,
+.boven-toetsenbord .bord3d-laag {
+  transform: translate3d(0, calc(-1 * var(--toetsenbord-schuif, 0px)), 0);
+}
+.boven-toetsenbord #app {
+  transition: transform 320ms cubic-bezier(0.32, 0.72, 0, 1);
+}
+* {
+  box-sizing: border-box;
+}
+main {
+  height: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: var(--veilig-boven) var(--veilig-rechts) 0 var(--veilig-links);
+}
+h1,
+h2 {
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.15;
+  text-wrap: balance;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---------- Knoppen ---------- */
+button {
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  min-height: 48px;
+  border: 0;
+  border-radius: var(--pil);
+  padding: 0 20px;
+  background: none;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  -webkit-user-select: none;
+  transition:
+    transform var(--snel) var(--uit),
+    background-color var(--snel) ease-out,
+    box-shadow var(--snel) ease-out,
+    color var(--snel) ease-out,
+    opacity var(--snel) ease-out;
+}
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+button:disabled {
+  cursor: default;
+  opacity: 0.4;
+}
+
+/* De donkere hoofdknop: de ene knop die vooruit gaat (Play, Start, Done, Continue). Een icoon erin zit in een gouden schijf. */
+.knop-licht {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 60px;
+  color: var(--wit);
+  background: var(--inkt);
+  font-weight: 700;
+  font-size: 1.1rem;
+  line-height: 1.15;
+  letter-spacing: -0.005em;
+}
+.knop-licht > .icoon {
+  box-sizing: content-box;
+  padding: 7px;
+  border-radius: 50%;
+  background: var(--goudvlak);
+  color: var(--inkt);
+}
+.knop-licht:active:not(:disabled) {
+  transform: scale(0.98);
+  background-color: #17306d;
+}
+/* De tweede knop: een zacht vlak. */
+.knop-lijn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 54px;
+  color: var(--inkt);
+  background: var(--zacht);
+  font-weight: 700;
+  font-size: 1.02rem;
+  line-height: 1.15;
+}
+.knop-lijn:active:not(:disabled) {
+  transform: scale(0.98);
+  background-color: var(--blad-rand);
+}
+@media (hover: hover) {
+  .knop-lijn:hover:not(:disabled) {
+    background-color: #efe2bd;
+  }
+  .knop-licht:hover:not(:disabled) {
+    background-color: #2a4a9a;
+  }
+}
+/* Een icoonknop: 44 bij 44, rond; bij drukken een zacht vlak. */
+.knop-ikoon {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 44px;
+  height: 44px;
+  min-height: 0;
+  padding: 0;
+  color: var(--inkt);
+  border-radius: 50%;
+}
+.knop-ikoon:active:not(:disabled) {
+  transform: scale(0.94);
+  background: var(--zacht);
+}
+/* Een porseleinen schijf met een gouden randje (1b), voor de ronde knoppen van de Balk en het Startmenu. */
+.knop-ikoon.kader {
+  color: #1f3a82;
+  background: #f7f1e0;
+  box-shadow: inset 0 0 0 1.5px #c9a95a;
+}
+.knop-ikoon.kader:active:not(:disabled) {
+  background: #efe2bd;
+}
+@media (hover: hover) {
+  .knop-ikoon:hover:not(:disabled) {
+    background: var(--zacht);
+  }
+  .knop-ikoon.kader:hover:not(:disabled) {
+    background: #efe2bd;
+  }
+}
+/* De brede knop onderaan een scherm. */
+.breed {
+  width: 100%;
+  flex: none;
+}
+
+/* ---------- Schermen ---------- */
+/* Een scherm vult de hele tafel en schuift niet: de zijden tafel, en onderaan een crème blad. */
+.scherm {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 8px 20px 0;
+  overflow: hidden;
+}
+/* Het crème blad: de rand tot de rand van het scherm, met afgeronde bovenhoeken en een greepje. */
+.blad {
+  position: relative;
+  flex: 0 1 auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-inline: -20px;
+  margin-top: auto;
+  padding: 26px 20px calc(18px + var(--veilig-onder));
+  border-radius: 34px 34px 0 0;
+  background: var(--wit);
+  box-shadow: 0 -10px 30px rgb(11 14 24 / 0.09);
+}
+.blad::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  inset-inline: 0;
+  margin-inline: auto;
+  width: 40px;
+  height: 5px;
+  border-radius: 3px;
+  background: var(--blad-rand);
+}
+.blad.rek {
+  flex: 1;
+}
+/* Een lijst die zelf schuift, zonder balk; boven en onder vervaagt hij zacht. */
+.schuif {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  mask-image: linear-gradient(180deg, transparent 0, #000 10px, #000 calc(100% - 16px), transparent 100%);
+  -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 10px, #000 calc(100% - 16px), transparent 100%);
+  padding: 8px 0 14px;
+  margin: -8px 0 0;
+}
+.schuif::-webkit-scrollbar {
+  display: none;
+}
+/* Een klein label boven een groep: dun in hoofdletters waar het alfabet dat kent. */
+.kop {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--tekst-zacht);
+}
+.tekstknop {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: var(--tekst-zacht);
+  font-weight: 600;
+  font-size: 0.95rem;
+  flex: none;
+  text-decoration: none;
+}
+.tekstknop:active {
+  color: var(--tekst);
+}
+.fout {
+  margin: 0;
+  padding: 10px 14px;
+  border-radius: var(--rond);
+  background: var(--fout-vlak);
+  color: var(--fout);
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-align: center;
+  text-wrap: pretty;
+}
+.hint {
+  margin: 0;
+  text-align: center;
+  color: var(--tekst-zacht);
+  font-size: 0.9rem;
+  text-wrap: pretty;
+}
+.cijfers {
+  font-family: var(--mono);
+  font-variant-numeric: tabular-nums;
+}
+/* Een schijf met een icoon of pion erin, zoals boven een scherm: wit met een lage schaduw. */
+.schijf {
+  display: grid;
+  place-items: center;
+  flex: none;
+  border-radius: 50%;
+  background: var(--wit);
+  box-shadow: 0 5px 0 rgb(11 14 24 / 0.15);
+}
+/* Een groep rijen op een zacht vlak, met een lichte lijn ertussen (Account, Vrienden, Mijn potjes). */
+.lijstblok {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-radius: var(--vel);
+  background: var(--zacht);
+  overflow: hidden;
+}
+/* Taak 284: een rij krimpt niet als de lijst schuift (anders schoven rijen met twee regels over elkaar). */
+.lijstblok > * {
+  flex-shrink: 0;
+}
+.lijstblok > * + * {
+  border-top: 1.5px solid var(--wit);
+}
+
+/* Een invulvak: een zacht vlak; actief krijgt het een donkere rand. */
+input[type="text"],
+input:not([type]) {
+  font: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  min-height: 56px;
+  padding: 0 18px;
+  color: var(--tekst);
+  background: var(--zacht);
+  border: 0;
+  border-radius: var(--rond);
+  box-shadow: inset 0 0 0 2px transparent;
+  transition: box-shadow var(--snel) ease-out;
+}
+input::placeholder {
+  color: var(--tekst-stil);
+  font-weight: 500;
+}
+input:focus {
+  outline: none;
+  box-shadow: inset 0 0 0 2px var(--inkt);
+}
+
+/* ---------- Pionnen buiten het bord ---------- */
+/* Een stip in de kleur van een Speler. */
+.stip {
+  display: inline-block;
+  flex: none;
+  width: var(--maat, 10px);
+  height: var(--maat, 10px);
+  border-radius: 50%;
+  /* Een kraal van lak (1b): de kleur van de Steen met een dun gouden randje en een lichte glans links boven. */
+  background: radial-gradient(circle at 35% 30%, rgb(255 255 255 / 0.5), transparent 45%), var(--k);
+  box-shadow: 0 0 0 1px var(--rand, #d6a93e);
+}
+
+/* ---------- Spelscherm ---------- */
+/* Een plaat voor HTML op de tafel (het winstscherm, `.blad.plaat`); waar hij ligt en hoe groot hij is, zet het scherm zelf. */
+.plaat {
+  position: relative;
+  isolation: isolate;
+  width: 100%;
+  max-height: 100%;
+  aspect-ratio: 0.85;
+}
+
+/* De pil van het online Potje met de Chat en de Meldingen (`.voet.hoek`): porselein met een gouden rand. */
+.voet {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 4px;
+  margin: 0 28px calc(14px + var(--veilig-onder));
+  padding: 6px 12px;
+  min-height: 66px;
+  border-radius: var(--pil);
+  background: var(--zacht);
+  color: var(--inkt);
+  box-shadow: inset 0 0 0 1.5px var(--goud);
+}
+.voet > .knop-ikoon {
+  width: auto;
+  min-width: 56px;
+  height: 52px;
+  flex-direction: column;
+  gap: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8px;
+  border-radius: 22px;
+  color: var(--inkt);
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.1;
+  text-align: center;
+}
+.voet > .knop-ikoon:active:not(:disabled),
+.voet > .knop-ikoon:hover:not(:disabled) {
+  background: #efe2bd;
+}
+.voet > .knop-ikoon > span {
+  max-width: 78px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ---------- Vragen en einde ---------- */
+.doek {
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  background: rgb(11 14 24 / 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: max(24px, env(safe-area-inset-top)) 20px max(24px, env(safe-area-inset-bottom));
+  animation: oplichten 220ms ease-out;
+}
+.kaart {
+  position: relative;
+  width: min(100%, 360px);
+  max-height: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 28px 22px 22px;
+  border-radius: 30px;
+  text-align: center;
+  background: var(--wit);
+  box-shadow: 0 5px 0 rgb(11 14 24 / 0.15), 0 30px 60px -20px rgb(11 14 24 / 0.5);
+  animation: opkomen 320ms var(--uit);
+}
+.kaart h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: -0.015em;
+  overflow-wrap: anywhere;
+}
+.kaart p {
+  margin: 0;
+  color: var(--tekst-zacht);
+  font-size: 0.95rem;
+  text-wrap: pretty;
+}
+.kaart .teken {
+  align-self: center;
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  color: var(--tekst);
+  background: var(--zacht);
+}
+.knoppen {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 4px;
+}
+.knoppen button {
+  min-height: 52px;
+  padding: 0 10px;
+  font-size: 0.95rem;
+}
+.knoppen .knop-licht > .icoon {
+  display: none;
+}
+
+/* Eindscherm: een feest op heel het scherm, met de pion van de winnaar op een porseleinen schijf. */
+.feest {
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  max-width: 520px;
+  margin: 0 auto;
+  padding-top: max(16px, env(safe-area-inset-top));
+  background:
+    radial-gradient(circle at 50% 38%, rgb(255 214 150 / 0.11) 0, transparent 62%),
+    #0b0e18 url("./assets/zijde.webp") 0 0 / 256px 256px;
+  animation: oplichten 260ms ease-out;
+}
+.feest .titel-groot {
+  margin: 0;
+  margin-block-end: 0;
+  padding: 0 20px;
+  text-align: center;
+  font-size: clamp(2.2rem, 9.5vw, 3.4rem);
+  font-weight: 800;
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  overflow-wrap: anywhere;
+  /* Licht op de donkere zijde, zoals de titels van de andere schermen (body .titel); inkt was onleesbaar (taak 168). */
+  color: #fff3dc;
+  animation: opkomen 520ms 360ms var(--uit) both;
+}
+.feest .onderschrift {
+  margin: 6px 0 0;
+  padding: 0 20px;
+  text-align: center;
+  font-weight: 600;
+  color: #f6e3b4;
+}
+.feest .blad {
+  gap: 12px;
+  margin-top: auto;
+  margin-inline: 0;
+}
+.podium-leeg {
+  flex: 1;
+}
+.rang .mini {
+  width: 28px;
+  height: 28px;
+  align-items: end;
+  padding-bottom: 3px;
+  box-shadow: none;
+}
+.rang {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  text-align: start;
+  counter-reset: plek;
+}
+.rang li {
+  counter-increment: plek;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 14px 5px 8px;
+  border-radius: var(--pil);
+  background: var(--zacht);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.rang li::before {
+  content: counter(plek) " ·";
+  color: var(--tekst-zacht);
+}
+@keyframes oplichten {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes opkomen {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.98);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .doek,
+  .kaart,
+  .feest,
+  .feest .titel-groot {
+    animation: none;
+  }
+  button,
+  .knop-licht:active:not(:disabled),
+  .knop-lijn:active:not(:disabled) {
+    transition: none;
+    transform: none;
+  }
+}
+
+/* Het 3D-bord: één canvas over het hele scherm, achter de knoppen (bord3d.ts). Zonder spelscherm
+   is hij weg en zie je het leisteen hierboven. */
+#app {
+  z-index: 1;
+}
+/* De laag met het 3D-bord vervaagt zacht tussen de tafel en een scherm zonder die laag (UI-overgangen: weg 260 ms, terug 320 ms,
+   net zo lang als een scherm binnenkomt). Tussen twee tafels op hetzelfde bord blijft hij gewoon staan (`houdLaag` in bord3d.ts). */
+.bord3d-laag {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    opacity 260ms cubic-bezier(0.4, 0, 1, 1),
+    visibility 0s linear 260ms,
+    transform 320ms cubic-bezier(0.32, 0.72, 0, 1);
+}
+.bord3d-laag.aan {
+  opacity: 1;
+  visibility: visible;
+  transition:
+    opacity 320ms cubic-bezier(0.23, 1, 0.32, 1),
+    transform 320ms cubic-bezier(0.32, 0.72, 0, 1);
+}
+@media (prefers-reduced-motion: reduce) {
+  .boven-toetsenbord #app,
+  .bord3d-laag,
+  .bord3d-laag.aan {
+    transition: none;
+  }
+}
+/* Tekst op een plaat van de tafel (Ranglijst, Wachtkamer, Speluitleg, puzzel, de lijstschermen) vervaagt in terwijl de plaat omhoog
+   komt, in plaats van ineens te verschijnen. */
+@media (prefers-reduced-motion: no-preference) {
+  .op-plaat {
+    animation: op-plaat-in 240ms cubic-bezier(0.23, 1, 0.32, 1) 90ms both;
+  }
+  .op-plaat.klaar,
+  .plaatvlak.klaar {
+    animation: op-plaat-klaar 240ms cubic-bezier(0.23, 1, 0.32, 1) 90ms both;
+  }
+}
+@keyframes op-plaat-in {
+  from {
+    opacity: 0;
+  }
+}
+/* Breed scherm (taak 236): een plaat in de kolom naast het bord is op het scherm veel groter dan op een telefoon, dus de tekst erop
+   ook. `zoom` op de kinderen, niet op het vak zelf: dat ligt met pixels precies op de plaat. */
+.breed-tekst > * {
+  zoom: 1.3;
+}
+/* Taak 240: het schuifteken staat op plekken in pixels van het vlak (`schuifteken.ts`); met zoom lag het 1,3 keer te ver naar onder, buiten de plaat. */
+.breed-tekst > .schuifteken {
+  zoom: 1;
+}
+@keyframes op-plaat-klaar {
+  from {
+    opacity: 0;
+  }
+}
+.bord3d-laag canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+
+/* ---------- Rechts naar links (taak 129) ---------- */
+/* Arabisch, Hebreeuws en Urdu: letters die aan elkaar horen, mogen niet uit elkaar en hebben geen hoofdletters. */
+[dir="rtl"] *:not(.naam) {
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+/* Indische schriften en Thai (taak 130): letters en tekens horen aan elkaar en hebben geen hoofdletters;
+   letter-spacing zou de lettergrepen uit elkaar trekken. Japans, Koreaans en Chinees hebben ook geen hoofdletters. */
+:is(:lang(bn), :lang(gu), :lang(hi), :lang(kn), :lang(ml), :lang(mr), :lang(or), :lang(pa), :lang(ta), :lang(te), :lang(th), :lang(ja), :lang(ko), :lang(zh)) *:not(.naam) {
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+
+/* Het winstscherm als 3D-tafel (taak 180): het eindbord blijft staan, de platen zijn voorwerpen in Bevy en de tekst is gewone HTML
+   op die platen (FeestTafel.svelte). De rest van het spelscherm is dan niet te zien. */
+body.feest-tafel main > :not(.feest) {
+  visibility: hidden;
+}
+.feest.tafel {
+  background: none;
+  animation: none;
+}
+/* Taak 284: een titel van twee of drie regels (een lange Spelersnaam) past op de plaat: de letter krimpt (`krimp`), en wat toch te
+   hoog is, valt onderaan weg in plaats van boven en onder (`safe`). */
+.feest.tafel .uitslag {
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: safe center;
+  gap: 4px;
+  color: #f6e3b4;
+  text-align: center;
+  overflow: hidden;
+}
+.feest.tafel .uitslag .titel-groot {
+  padding: 0;
+  font-size: calc(clamp(1.5rem, 7.4vw, 2.4rem) * var(--krimp, 1));
+  color: #f6e3b4;
+  text-shadow: 0 2px 0 rgb(0 0 0 / 0.35);
+}
+.feest.tafel .uitslag .onderschrift {
+  margin: 0;
+  padding: 0;
+  font-size: calc(0.85rem * var(--krimp, 1));
+  line-height: 1.25;
+  color: #f6e3b4;
+}
+.feest.tafel .medaille {
+  position: fixed;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+}
+.feest.tafel .medaille .podium {
+  margin-top: 0;
+  height: 100%;
+  width: 100%;
+}
+.feest .uitslag:not(.vast),
+.feest .medaille:not(.vast) {
+  display: contents;
+}
+.feest.tafel .blad.plaat {
+  position: fixed;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+  justify-content: center;
+  background: none;
+  box-shadow: none;
+  border: 0;
+  border-radius: 0;
+  color: #2a2118;
+  overflow: auto;
+}
+.feest.tafel .blad.plaat::before {
+  display: none;
+}
+
+/* Taak 179: in het online Potje op de 3D-tafel liggen My games, Resign en Done als voorwerpen op het blad. De Chat en de Meldingen
+   blijven knoppen van HTML, als kleine pil in de hoek rechtsboven (daar staat in dit Potje geen kom thee). */
+/* Breed scherm (taak 236): de Chat ligt op zijn plaat; zonder knop van de Meldingen blijft er geen lege pil over. */
+.voet.hoek:not(:has(button)) {
+  display: none;
+}
+.voet.hoek {
+  position: fixed;
+  inset-block-start: calc(10px + env(safe-area-inset-top, 0px));
+  inset-inline-end: 12px;
+  z-index: 3;
+  margin: 0;
+  min-height: 0;
+  padding: 4px 6px;
+  gap: 6px;
+}
+
+/* Taak 189 (uiterlijk 1b): de kleine onderdelen. `.porselein` geeft een stuk dat boven op het scherm ligt (de Chat, een knop van
+   Meldingen) de gouden rand en de ronding van de platen van 1b; de kleuren komen uit `:root`. */
+.porselein {
+  --rond: 12px;
+  --vel: 12px;
+  color: var(--tekst);
+}
+.porselein.knop-licht:active:not(:disabled) {
+  background-color: #17306d;
+}
+.porselein.knop-lijn {
+  box-shadow: inset 0 0 0 1.5px var(--goud);
+}
+.porselein.knop-lijn:active:not(:disabled) {
+  background-color: #efe2bd;
+}
+@media (hover: hover) {
+  .porselein.knop-lijn:hover:not(:disabled) {
+    background-color: #efe2bd;
+  }
+  .porselein.knop-licht:hover:not(:disabled) {
+    background-color: #2a4a9a;
+  }
+}
+
+/* Het teken dat een lijst op de plaat verder schuift (`schuifteken.ts`, taak 233): een gouden ronde knop met een pijltje. */
+.schuifteken {
+  position: absolute;
+  z-index: 3;
+  width: 30px;
+  height: 30px;
+  margin-left: -15px;
+  border-radius: 50%;
+  background: #fffcf3;
+  border: 1.5px solid #c9a95a;
+  box-shadow: 0 2px 6px rgb(31 58 130 / 0.25);
+  /* Taak 240: een tik schuift de lijst verder (`schuifteken.ts`). */
+  cursor: pointer;
+}
+.schuifteken::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 9px;
+  height: 9px;
+  border: solid #1f3a82;
+  border-width: 0 2.5px 2.5px 0;
+  transform: translate(-50%, -70%) rotate(45deg);
+}
+.schuifteken.boven::after {
+  transform: translate(-50%, -30%) rotate(225deg);
+}

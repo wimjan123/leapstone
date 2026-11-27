@@ -1,0 +1,23 @@
+{
+  "_uitleg": "De getallen van /guides/chinese-checkers-by-the-numbers (taak 320). Uitgerekend door crates/halma-core/src/cijfers.rs; de Rust-test `cijfers_json_klopt` en web/src/regels.test.ts vergelijken ze. De velden onder 'gemeten' zijn een meting en geen rekensom (zie docs/plan.md, taak 319).",
+  "sterbord_vakken": 121,
+  "sterbord_stenen_per_speler": 10,
+  "sterbord_stenen_2_spelers": 20,
+  "sterbord_stenen_3_spelers": 30,
+  "sterbord_stenen_4_spelers": 40,
+  "sterbord_stenen_6_spelers": 60,
+  "vierkant_vakken": 256,
+  "vierkant_stenen_per_speler_2_spelers": 19,
+  "vierkant_stenen_2_spelers": 38,
+  "vierkant_stenen_per_speler_4_spelers": 13,
+  "vierkant_stenen_4_spelers": 52,
+  "langste_sprongketen": 36,
+  "grootste_klasse_vakken": 37,
+  "oversteek_zetten": 27,
+  "geen_oversteek_in_zetten": 26,
+  "zoekdiepte_zetten": 13,
+  "gemeten_rekentijd_seconden": 827,
+  "gemeten_kernen": 8,
+  "gemeten_geheugen_gb": 2.65,
+  "gemeten_grootste_laag_miljoen_standen": 28.8
+}

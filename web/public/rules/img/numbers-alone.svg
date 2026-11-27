@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-7.00 -7.93 14.00 15.86" width="308" height="349">
+<defs>
+<radialGradient id="s0" cx="0.36" cy="0.3" r="0.75"><stop offset="0" stop-color="#e49f95"/><stop offset="0.5" stop-color="#c93f2b"/><stop offset="1" stop-color="#6f2318"/></radialGradient>
+<radialGradient id="s1" cx="0.36" cy="0.3" r="0.75"><stop offset="0" stop-color="#93a9dc"/><stop offset="0.5" stop-color="#2753b8"/><stop offset="1" stop-color="#152e65"/></radialGradient>
+<radialGradient id="s2" cx="0.36" cy="0.3" r="0.75"><stop offset="0" stop-color="#8fcfba"/><stop offset="0.5" stop-color="#1f9e74"/><stop offset="1" stop-color="#115740"/></radialGradient>
+<radialGradient id="s3" cx="0.36" cy="0.3" r="0.75"><stop offset="0" stop-color="#eedaaa"/><stop offset="0.5" stop-color="#dcb554"/><stop offset="1" stop-color="#79642e"/></radialGradient>
+<radialGradient id="s4" cx="0.36" cy="0.3" r="0.75"><stop offset="0" stop-color="#d6caf7"/><stop offset="0.5" stop-color="#ad94ee"/><stop offset="1" stop-color="#5f5183"/></radialGradient>
+<radialGradient id="s5" cx="0.36" cy="0.3" r="0.75"><stop offset="0" stop-color="#eff1f3"/><stop offset="0.5" stop-color="#dfe2e7"/><stop offset="1" stop-color="#7b7c7f"/></radialGradient>
+<marker id="pijl" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10z" fill="#eceef1"/></marker>
+</defs>
+<polygon points="0.00,7.71 -6.68,-3.85 6.67,-3.85" fill="#191d23" stroke="#d6deeb" stroke-opacity="0.35" stroke-width="0.14" stroke-linejoin="round"/>
+<polygon points="-6.67,3.85 6.68,3.85 -0.00,-7.71" fill="#191d23" stroke="#d6deeb" stroke-opacity="0.35" stroke-width="0.14" stroke-linejoin="round"/>
+<polygon points="0.00,7.71 -6.68,-3.85 6.67,-3.85" fill="#191d23" stroke="#191d23" stroke-width="0.02" stroke-linejoin="round"/>
+<polygon points="-6.67,3.85 6.68,3.85 -0.00,-7.71" fill="#191d23" stroke="#191d23" stroke-width="0.02" stroke-linejoin="round"/>
+<g fill="#0b0d10" stroke="#d6deeb" stroke-opacity="0.16" stroke-width="0.04">
+<circle cx="6.00" cy="3.46" r="0.17"/>
+<circle cx="5.50" cy="2.60" r="0.17"/>
+<circle cx="5.00" cy="3.46" r="0.17"/>
+<circle cx="5.00" cy="1.73" r="0.17"/>
+<circle cx="4.50" cy="2.60" r="0.17"/>
+<circle cx="4.00" cy="3.46" r="0.17"/>
+<circle cx="4.50" cy="0.87" r="0.17"/>
+<circle cx="4.00" cy="1.73" r="0.17"/>
+<circle cx="3.50" cy="2.60" r="0.17"/>
+<circle cx="3.00" cy="3.46" r="0.17"/>
+<circle cx="6.00" cy="-3.46" r="0.17"/>
+<circle cx="5.50" cy="-2.60" r="0.17"/>
+<circle cx="5.00" cy="-1.73" r="0.17"/>
+<circle cx="4.50" cy="-0.87" r="0.17"/>
+<circle cx="4.00" cy="-0.00" r="0.17"/>
+<circle cx="3.50" cy="0.87" r="0.17"/>
+<circle cx="3.00" cy="1.73" r="0.17"/>
+<circle cx="2.50" cy="2.60" r="0.17"/>
+<circle cx="2.00" cy="3.46" r="0.17"/>
+<circle cx="1.50" cy="4.33" r="0.17"/>
+<circle cx="1.00" cy="5.20" r="0.17"/>
+<circle cx="0.50" cy="6.06" r="0.17"/>
+<circle cx="0.00" cy="6.93" r="0.17"/>
+<circle cx="5.00" cy="-3.46" r="0.17"/>
+<circle cx="4.50" cy="-2.60" r="0.17"/>
+<circle cx="4.00" cy="-1.73" r="0.17"/>
+<circle cx="3.50" cy="-0.87" r="0.17"/>
+<circle cx="3.00" cy="-0.00" r="0.17"/>
+<circle cx="2.50" cy="0.87" r="0.17"/>
+<circle cx="2.00" cy="1.73" r="0.17"/>
+<circle cx="1.50" cy="2.60" r="0.17"/>
+<circle cx="1.00" cy="3.46" r="0.17"/>
+<circle cx="0.50" cy="4.33" r="0.17"/>
+<circle cx="0.00" cy="5.20" r="0.17"/>
+<circle cx="-0.50" cy="6.06" r="0.17"/>
+<circle cx="4.00" cy="-3.46" r="0.17"/>
+<circle cx="3.50" cy="-2.60" r="0.17"/>
+<circle cx="3.00" cy="-1.73" r="0.17"/>
+<circle cx="2.50" cy="-0.87" r="0.17"/>
+<circle cx="2.00" cy="-0.00" r="0.17"/>
+<circle cx="1.50" cy="0.87" r="0.17"/>
+<circle cx="1.00" cy="1.73" r="0.17"/>
+<circle cx="0.50" cy="2.60" r="0.17"/>
+<circle cx="0.00" cy="3.46" r="0.17"/>
+<circle cx="-0.50" cy="4.33" r="0.17"/>
+<circle cx="-1.00" cy="5.20" r="0.17"/>
+<circle cx="3.00" cy="-3.46" r="0.17"/>
+<circle cx="2.50" cy="-2.60" r="0.17"/>
+<circle cx="2.00" cy="-1.73" r="0.17"/>
+<circle cx="1.50" cy="-0.87" r="0.17"/>
+<circle cx="1.00" cy="-0.00" r="0.17"/>
+<circle cx="0.50" cy="0.87" r="0.17"/>
+<circle cx="0.00" cy="1.73" r="0.17"/>
+<circle cx="-0.50" cy="2.60" r="0.17"/>
+<circle cx="-1.00" cy="3.46" r="0.17"/>
+<circle cx="-1.50" cy="4.33" r="0.17"/>
+<circle cx="2.00" cy="-3.46" r="0.17"/>
+<circle cx="1.50" cy="-2.60" r="0.17"/>
+<circle cx="1.00" cy="-1.73" r="0.17"/>
+<circle cx="0.50" cy="-0.87" r="0.17"/>
+<circle cx="-0.00" cy="0.00" r="0.17"/>
+<circle cx="-0.50" cy="0.87" r="0.17"/>
+<circle cx="-1.00" cy="1.73" r="0.17"/>
+<circle cx="-1.50" cy="2.60" r="0.17"/>
+<circle cx="-2.00" cy="3.46" r="0.17"/>
+<circle cx="1.50" cy="-4.33" r="0.17"/>
+<circle cx="1.00" cy="-3.46" r="0.17"/>
+<circle cx="0.50" cy="-2.60" r="0.17"/>
+<circle cx="-0.00" cy="-1.73" r="0.17"/>
+<circle cx="-0.50" cy="-0.87" r="0.17"/>
+<circle cx="-1.00" cy="0.00" r="0.17"/>
+<circle cx="-1.50" cy="0.87" r="0.17"/>
+<circle cx="-2.00" cy="1.73" r="0.17"/>
+<circle cx="-2.50" cy="2.60" r="0.17"/>
+<circle cx="-3.00" cy="3.46" r="0.17"/>
+<circle cx="1.00" cy="-5.20" r="0.17"/>
+<circle cx="0.50" cy="-4.33" r="0.17"/>
+<circle cx="-0.00" cy="-3.46" r="0.17"/>
+<circle cx="-0.50" cy="-2.60" r="0.17"/>
+<circle cx="-1.00" cy="-1.73" r="0.17"/>
+<circle cx="-1.50" cy="-0.87" r="0.17"/>
+<circle cx="-2.00" cy="0.00" r="0.17"/>
+<circle cx="-2.50" cy="0.87" r="0.17"/>
+<circle cx="-3.00" cy="1.73" r="0.17"/>
+<circle cx="-3.50" cy="2.60" r="0.17"/>
+<circle cx="-4.00" cy="3.46" r="0.17"/>
+<circle cx="0.50" cy="-6.06" r="0.17"/>
+<circle cx="-0.00" cy="-5.20" r="0.17"/>
+<circle cx="-0.50" cy="-4.33" r="0.17"/>
+<circle cx="-1.00" cy="-3.46" r="0.17"/>
+<circle cx="-1.50" cy="-2.60" r="0.17"/>
+<circle cx="-2.00" cy="-1.73" r="0.17"/>
+<circle cx="-2.50" cy="-0.87" r="0.17"/>
+<circle cx="-3.00" cy="0.00" r="0.17"/>
+<circle cx="-3.50" cy="0.87" r="0.17"/>
+<circle cx="-4.00" cy="1.73" r="0.17"/>
+<circle cx="-4.50" cy="2.60" r="0.17"/>
+<circle cx="-5.00" cy="3.46" r="0.17"/>
+<circle cx="-0.00" cy="-6.93" r="0.17"/>
+<circle cx="-0.50" cy="-6.06" r="0.17"/>
+<circle cx="-1.00" cy="-5.20" r="0.17"/>
+<circle cx="-1.50" cy="-4.33" r="0.17"/>
+<circle cx="-2.00" cy="-3.46" r="0.17"/>
+<circle cx="-2.50" cy="-2.60" r="0.17"/>
+<circle cx="-3.00" cy="-1.73" r="0.17"/>
+<circle cx="-3.50" cy="-0.87" r="0.17"/>
+<circle cx="-4.00" cy="0.00" r="0.17"/>
+<circle cx="-4.50" cy="0.87" r="0.17"/>
+<circle cx="-5.00" cy="1.73" r="0.17"/>
+<circle cx="-5.50" cy="2.60" r="0.17"/>
+<circle cx="-6.00" cy="3.46" r="0.17"/>
+<circle cx="-3.00" cy="-3.46" r="0.17"/>
+<circle cx="-3.50" cy="-2.60" r="0.17"/>
+<circle cx="-4.00" cy="-1.73" r="0.17"/>
+<circle cx="-4.50" cy="-0.87" r="0.17"/>
+<circle cx="-4.00" cy="-3.46" r="0.17"/>
+<circle cx="-4.50" cy="-2.60" r="0.17"/>
+<circle cx="-5.00" cy="-1.73" r="0.17"/>
+<circle cx="-5.00" cy="-3.46" r="0.17"/>
+<circle cx="-5.50" cy="-2.60" r="0.17"/>
+<circle cx="-6.00" cy="-3.46" r="0.17"/>
+</g>
+<circle cx="1.50" cy="-4.33" r="0.34" fill="#e1958a" fill-opacity="0.16" stroke="#e1958a" stroke-width="0.1" stroke-dasharray="0.2 0.12"/>
+<circle cx="1.00" cy="-5.20" r="0.34" fill="#e1958a" fill-opacity="0.16" stroke="#e1958a" stroke-width="0.1" stroke-dasharray="0.2 0.12"/>
+<circle cx="0.50" cy="-4.33" r="0.34" fill="#e1958a" fill-opacity="0.16" stroke="#e1958a" stroke-width="0.1" stroke-dasharray="0.2 0.12"/>
+<circle cx="0.50" cy="-6.06" r="0.34" fill="#e1958a" fill-opacity="0.16" stroke="#e1958a" stroke-width="0.1" stroke-dasharray="0.2 0.12"/>
+<circle cx="-0.00" cy="-5.20" r="0.34" fill="#e1958a" fill-opacity="0.16" stroke="#e1958a" stroke-width="0.1" stroke-dasharray="0.2 0.12"/>
+<circle cx="-0.50" cy="-4.33" r="0.34" fill="#e1958a" fill-opacity="0.16" stroke="#e1958a" stroke-width="0.1" stroke-dasharray="0.2 0.12"/>
+<circle cx="-0.00" cy="-6.93" r="0.34" fill="#e1958a" fill-opacity="0.16" stroke="#e1958a" stroke-width="0.1" stroke-dasharray="0.2 0.12"/>
+<circle cx="-0.50" cy="-6.06" r="0.34" fill="#e1958a" fill-opacity="0.16" stroke="#e1958a" stroke-width="0.1" stroke-dasharray="0.2 0.12"/>
+<circle cx="-1.00" cy="-5.20" r="0.34" fill="#e1958a" fill-opacity="0.16" stroke="#e1958a" stroke-width="0.1" stroke-dasharray="0.2 0.12"/>
+<circle cx="-1.50" cy="-4.33" r="0.34" fill="#e1958a" fill-opacity="0.16" stroke="#e1958a" stroke-width="0.1" stroke-dasharray="0.2 0.12"/>
+<circle cx="1.50" cy="4.33" r="0.41" fill="url(#s0)" stroke="#000" stroke-opacity="0.45" stroke-width="0.04"/>
+<circle cx="1.00" cy="5.20" r="0.41" fill="url(#s0)" stroke="#000" stroke-opacity="0.45" stroke-width="0.04"/>
+<circle cx="0.50" cy="6.06" r="0.41" fill="url(#s0)" stroke="#000" stroke-opacity="0.45" stroke-width="0.04"/>
+<circle cx="0.00" cy="6.93" r="0.41" fill="url(#s0)" stroke="#000" stroke-opacity="0.45" stroke-width="0.04"/>
+<circle cx="0.50" cy="4.33" r="0.41" fill="url(#s0)" stroke="#000" stroke-opacity="0.45" stroke-width="0.04"/>
+<circle cx="0.00" cy="5.20" r="0.41" fill="url(#s0)" stroke="#000" stroke-opacity="0.45" stroke-width="0.04"/>
+<circle cx="-0.50" cy="6.06" r="0.41" fill="url(#s0)" stroke="#000" stroke-opacity="0.45" stroke-width="0.04"/>
+<circle cx="-0.50" cy="4.33" r="0.41" fill="url(#s0)" stroke="#000" stroke-opacity="0.45" stroke-width="0.04"/>
+<circle cx="-1.00" cy="5.20" r="0.41" fill="url(#s0)" stroke="#000" stroke-opacity="0.45" stroke-width="0.04"/>
+<circle cx="-1.50" cy="4.33" r="0.41" fill="url(#s0)" stroke="#000" stroke-opacity="0.45" stroke-width="0.04"/>
+</svg>

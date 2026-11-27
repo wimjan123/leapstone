@@ -1,0 +1,17 @@
+{
+  "locale": "fi",
+  "appstore": {
+    "naam": "Leapstone: Kiinanšakki",
+    "ondertitel": "Halma netissä ystävien kanssa",
+    "zoekwoorden": "lautapeli,strategia,aivopeli,tähti,hyppy,tulostaulu,pulmapeli,nappulat",
+    "promotietekst": "Kiinanšakki ja Halma punaisella 3D-lakkalaudalla. Pelaa netissä tasosi pelaajia vastaan, kutsu ystäviä tai pelaa offline tietokonetta vastaan. Ilmainen, ei mainoksia.",
+    "beschrijving": "Leapstone on kiinanšakki ja Halma puhelimeesi: rauhallinen 3D-lauta punaista lakkaa ja kultaa. Lähennä kahdella sormella, niin jokaiseen reikään on helppo osua. Siirrä nappulaa yksi askel tai hyppää toisten nappuloiden yli. Se, joka saa ensin kaikki nappulat vastakkaiselle puolelle, voittaa. Ilmainen, ei mainoksia.\n\n• Kierrätä puhelinta pöydän ympärillä tai pelaa offline tietokonetta vastaan (helppo, normaali tai vaikea).\n• Pelaa netissä: nopea peli tasosi pelaajaa vastaan, siirroilla on aikaraja. Jotkin nettivastustajat voivat olla tietokonepelaajia.\n• Ystävien kanssa: lähetä kutsulinkki. He liittyvät peliin sovelluksessa tai selaimessa.\n• Päivän pulma: joka päivä uusi pulma, kaikille sama. Ratkaise se mahdollisimman vähillä siirroilla ja pidä putkesi yllä. Et tarvitse internetiä.\n• Tähtilauta (2, 3, 4 tai 6 pelaajaa) ja neliölauta (2 tai 4 pelaajaa).\n• Nopeassa pelissä on vain pikaviestejä, ystävien kanssa pelattavassa pelissä on chat. Voit ilmoittaa viestin tai estää pelaajan.\n• 3D-lauta punaista lakkaa ja kultaa: lähennä kahdella sormella ja siirrä yhdellä. Ei vihjeitä.\n• Vain pelaajanimi: ei sähköpostiosoitetta eikä salasanaa. Poista tilisi milloin tahansa sovelluksessa.\n\nIlmainen, ei mainoksia, ei maksuja eikä seurantaa.",
+    "whatsNew": "Leapstone on nyt saatavilla omalla kielelläsi."
+  },
+  "play": {
+    "locale": "fi-FI",
+    "titel": "Leapstone: Kiinanšakki",
+    "kort": "Kiinanšakki ja Halma: netissä, ystävien kanssa tai tietokonetta vastaan.",
+    "beschrijving": "Leapstone on kiinanšakki ja Halma puhelimeesi: rauhallinen 3D-lauta punaista lakkaa ja kultaa. Lähennä kahdella sormella, niin jokaiseen reikään on helppo osua. Siirrä nappulaa yksi askel tai hyppää toisten nappuloiden yli. Se, joka saa ensin kaikki nappulat vastakkaiselle puolelle, voittaa. Ilmainen, ei mainoksia.\n\n• Kierrätä puhelinta pöydän ympärillä tai pelaa offline tietokonetta vastaan (helppo, normaali tai vaikea).\n• Pelaa netissä: nopea peli tasosi pelaajaa vastaan, siirroilla on aikaraja. Jotkin nettivastustajat voivat olla tietokonepelaajia.\n• Ystävien kanssa: lähetä kutsulinkki. He liittyvät peliin sovelluksessa tai selaimessa.\n• Päivän pulma: joka päivä uusi pulma, kaikille sama. Ratkaise se mahdollisimman vähillä siirroilla ja pidä putkesi yllä. Et tarvitse internetiä.\n• Tähtilauta (2, 3, 4 tai 6 pelaajaa) ja neliölauta (2 tai 4 pelaajaa).\n• Nopeassa pelissä on vain pikaviestejä, ystävien kanssa pelattavassa pelissä on chat. Voit ilmoittaa viestin tai estää pelaajan.\n• 3D-lauta punaista lakkaa ja kultaa: lähennä kahdella sormella ja siirrä yhdellä. Ei vihjeitä.\n• Vain pelaajanimi: ei sähköpostiosoitetta eikä salasanaa. Poista tilisi milloin tahansa sovelluksessa.\n\nIlmainen, ei mainoksia, ei maksuja eikä seurantaa."
+  }
+}

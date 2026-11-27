@@ -1,0 +1,590 @@
+# Leapstone
+
+> Leapstone is a free app to play Chinese checkers and Halma on a 3D board in red lacquer and gold. Play the computer, or play online with friends through an invite link. No ads, no payments, no tracking. You choose a player name; there is no email address or password.
+
+Leapstone is available on the App Store (iPhone), on Google Play (Android) at https://play.google.com/store/apps/details?id=nl.leapstone.app, and in the browser at https://playleapstone.com/play/. It is made by William Visser. The app and the browser game are in 43 languages; they start in the language of the device, and you can pick another one. The landing page, the Chinese checkers and Halma rules, the Sternhalma page and the guides for strategy and for 2 players exist in the same 43 languages, with the same content (Chinees dammen is the Dutch name of Chinese checkers, Sternhalma the German one). The guides "Halma vs Chinese checkers" and "Chinese checkers for 3 players" exist in English only.
+
+## Facts
+
+- Free, with no ads, no in-app purchases and no tracking. No account: you choose a player name, with no email address or password.
+- Ways to play: against the computer (easy, normal or hard, no internet needed), with friends through an invite link (in the app or in the browser, with a time per move and chat), a quick online game against another player of your level (30 seconds per move; some online opponents may be computer players), and on one phone, passing it around.
+- Leaderboard: players are listed by rating. Winning quick online games raises your rating; games with friends do not count.
+- Puzzle of the day: a new puzzle every day, the same for everyone, to solve in as few moves as you can, with a streak of days in a row. It works without internet.
+- Boards: the star board (Chinese checkers, 2, 3, 4 or 6 players, 10 pieces each) and the 16 by 16 square board (Halma, 2 or 4 players).
+- The board is 3D, in red lacquer and gold, with lacquered pieces. You zoom in with two fingers; the board does not turn. There are no move hints.
+
+## Pages
+
+- [Leapstone](https://playleapstone.com/): what the app is, the ways to play and screenshots.
+- [Play in your browser](https://playleapstone.com/play/): the web version of the game.
+- [Chinese checkers rules](https://playleapstone.com/rules/chinese-checkers): how the pieces start, steps, jumps and chains of jumps, how to win with 2, 3, 4 or 6 players, tips, and short answers to common questions (number of players and marbles, jumping backwards, capturing, where the game comes from, where to play it online with friends).
+- [Halma rules](https://playleapstone.com/rules/halma): the 16 by 16 square board for 2 or 4 players, steps and jumps in eight directions, how to win, tips, and short answers to common questions (players, pieces, who invented Halma, the difference with Chinese checkers, where to play it online).
+- [Sternhalma](https://playleapstone.com/rules/sternhalma): what the name means, how Halma, Sternhalma and Chinese checkers relate, and how they differ.
+- [Chinese checkers strategy](https://playleapstone.com/guides/chinese-checkers-strategy): six tips for the star board with pictures: ladders, keeping pieces together, the middle, filling your goal, and blocking jumps.
+- [Chinese checkers for 2 players](https://playleapstone.com/guides/chinese-checkers-2-players): how a game for two works (setup, who moves first, winning and resigning), how it differs from 3, 4 or 6 players, and where to play it in Leapstone.
+- [Chinese checkers for 3 players](https://playleapstone.com/guides/chinese-checkers-3-players): how a game for three works (setup, the three empty goals, who moves first, winning and resigning), how it differs from a game for 2, and where to play it in Leapstone.
+- [Chinese checkers for 4 players](https://playleapstone.com/guides/chinese-checkers-4-players): how a game for four works (the board split into two pairs of points, the two empty points, who faces who, what changes in tactics, winning and resigning), and where to play it in Leapstone.
+- [Chinese checkers for 6 players](https://playleapstone.com/guides/chinese-checkers-6-players): how the full board works (all six points full, every goal is the start of the player across, the crowded middle, blocking, how long a game takes), and where to play it in Leapstone.
+- [Halma vs Chinese checkers](https://playleapstone.com/guides/halma-vs-chinese-checkers): the square board against the star board, six or eight directions, players and pieces, and what is the same.
+- [Chinese checkers opening moves](https://playleapstone.com/guides/chinese-checkers-opening-moves): two openings with pictures (jump out of the second row and free the tip piece in 2 moves, or gain 13 rows in 4 moves with 4 different pieces), the 14 possible first moves, and mistakes in the first moves.
+- [Play Chinese checkers online with friends](https://playleapstone.com/guides/play-chinese-checkers-online-with-friends): how to start an online game and send the invite link, how many players fit, the move time (15 seconds to 2 minutes, or none), playing with only a player name, and what happens when a friend drops out.
+- [Can you move backwards in Chinese checkers?](https://playleapstone.com/rules/can-you-move-backwards-in-chinese-checkers): yes, a step or a jump works in all six directions; a picture of a backward jump that starts a chain.
+- [Can you jump your own piece in Chinese checkers?](https://playleapstone.com/rules/can-you-jump-your-own-piece-in-chinese-checkers): yes, you may jump over any piece, also your own, if the spot behind it is empty; a picture and what stays the same.
+- [Can you jump over your opponent in Chinese checkers?](https://playleapstone.com/rules/can-you-jump-over-your-opponent-in-chinese-checkers): yes, and nothing is captured: the piece you jump over stays; jumping is never required; a picture of two jumps over blue pieces.
+- [Chinese checkers by the numbers](https://playleapstone.com/guides/chinese-checkers-by-the-numbers): the spots and pieces of the star board and the square board, the longest chain of jumps in one move (36) and the fewest moves for one player alone to cross the board (27), with how each number is counted and in which setup it holds.
+<!-- landing:begin -->
+- [Leapstone (Nederlands)](https://playleapstone.com/nl/): landing page in Dutch, with the links to the App Store of that country and to Google Play.
+- [Leapstone (Deutsch)](https://playleapstone.com/de/): landing page in German, with the links to the App Store of that country and to Google Play.
+- [Leapstone (العربية)](https://playleapstone.com/ar/): landing page in Arabic, with the links to the App Store of that country and to Google Play.
+- [Leapstone (বাংলা)](https://playleapstone.com/bn/): landing page in Bengali, with the links to the App Store of that country and to Google Play.
+- [Leapstone (Català)](https://playleapstone.com/ca/): landing page in Catalan, with the links to the App Store of that country and to Google Play.
+- [Leapstone (Čeština)](https://playleapstone.com/cs/): landing page in Czech, with the links to the App Store of that country and to Google Play.
+- [Leapstone (Dansk)](https://playleapstone.com/da/): landing page in Danish, with the links to the App Store of that country and to Google Play.
+- [Leapstone (Ελληνικά)](https://playleapstone.com/el/): landing page in Greek, with the links to the App Store of that country and to Google Play.
+- [Leapstone (Español)](https://playleapstone.com/es/): landing page in Spanish, with the links to the App Store of that country and to Google Play.
+- [Leapstone (Suomi)](https://playleapstone.com/fi/): landing page in Finnish, with the links to the App Store of that country and to Google Play.
+- [Leapstone (Français)](https://playleapstone.com/fr/): landing page in French, with the links to the App Store of that country and to Google Play.
+- [Leapstone (ગુજરાતી)](https://playleapstone.com/gu/): landing page in Gujarati, with the links to the App Store of that country and to Google Play.
+- [Leapstone (עברית)](https://playleapstone.com/he/): landing page in Hebrew, with the links to the App Store of that country and to Google Play.
+- [Leapstone (हिन्दी)](https://playleapstone.com/hi/): landing page in Hindi, with the links to the App Store of that country and to Google Play.
+- [Leapstone (Hrvatski)](https://playleapstone.com/hr/): landing page in Croatian, with the links to the App Store of that country and to Google Play.
+- [Leapstone (Magyar)](https://playleapstone.com/hu/): landing page in Hungarian, with the links to the App Store of that country and to Google Play.
+- [Leapstone (Bahasa Indonesia)](https://playleapstone.com/id/): landing page in Indonesian, with the links to the App Store of that country and to Google Play.
+- [Leapstone (Italiano)](https://playleapstone.com/it/): landing page in Italian, with the links to the App Store of that country and to Google Play.
+- [Leapstone (日本語)](https://playleapstone.com/ja/): landing page in Japanese, with the links to the App Store of that country and to Google Play.
+- [Leapstone (ಕನ್ನಡ)](https://playleapstone.com/kn/): landing page in Kannada, with the links to the App Store of that country and to Google Play.
+- [Leapstone (한국어)](https://playleapstone.com/ko/): landing page in Korean, with the links to the App Store of that country and to Google Play.
+- [Leapstone (മലയാളം)](https://playleapstone.com/ml/): landing page in Malayalam, with the links to the App Store of that country and to Google Play.
+- [Leapstone (मराठी)](https://playleapstone.com/mr/): landing page in Marathi, with the links to the App Store of that country and to Google Play.
+- [Leapstone (Bahasa Melayu)](https://playleapstone.com/ms/): landing page in Malay, with the links to the App Store of that country and to Google Play.
+- [Leapstone (Norsk)](https://playleapstone.com/no/): landing page in Norwegian, with the links to the App Store of that country and to Google Play.
+- [Leapstone (ଓଡ଼ିଆ)](https://playleapstone.com/or/): landing page in Odia, with the links to the App Store of that country and to Google Play.
+- [Leapstone (ਪੰਜਾਬੀ)](https://playleapstone.com/pa/): landing page in Punjabi, with the links to the App Store of that country and to Google Play.
+- [Leapstone (Polski)](https://playleapstone.com/pl/): landing page in Polish, with the links to the App Store of that country and to Google Play.
+- [Leapstone (Português)](https://playleapstone.com/pt/): landing page in Portuguese, with the links to the App Store of that country and to Google Play.
+- [Leapstone (Română)](https://playleapstone.com/ro/): landing page in Romanian, with the links to the App Store of that country and to Google Play.
+- [Leapstone (Русский)](https://playleapstone.com/ru/): landing page in Russian, with the links to the App Store of that country and to Google Play.
+- [Leapstone (Slovenčina)](https://playleapstone.com/sk/): landing page in Slovak, with the links to the App Store of that country and to Google Play.
+- [Leapstone (Slovenščina)](https://playleapstone.com/sl/): landing page in Slovenian, with the links to the App Store of that country and to Google Play.
+- [Leapstone (Svenska)](https://playleapstone.com/sv/): landing page in Swedish, with the links to the App Store of that country and to Google Play.
+- [Leapstone (தமிழ்)](https://playleapstone.com/ta/): landing page in Tamil, with the links to the App Store of that country and to Google Play.
+- [Leapstone (తెలుగు)](https://playleapstone.com/te/): landing page in Telugu, with the links to the App Store of that country and to Google Play.
+- [Leapstone (ไทย)](https://playleapstone.com/th/): landing page in Thai, with the links to the App Store of that country and to Google Play.
+- [Leapstone (Türkçe)](https://playleapstone.com/tr/): landing page in Turkish, with the links to the App Store of that country and to Google Play.
+- [Leapstone (Українська)](https://playleapstone.com/uk/): landing page in Ukrainian, with the links to the App Store of that country and to Google Play.
+- [Leapstone (اردو)](https://playleapstone.com/ur/): landing page in Urdu, with the links to the App Store of that country and to Google Play.
+- [Leapstone (Tiếng Việt)](https://playleapstone.com/vi/): landing page in Vietnamese, with the links to the App Store of that country and to Google Play.
+- [Leapstone (简体中文)](https://playleapstone.com/zh-hans/): landing page in Simplified Chinese, with the links to the App Store of that country and to Google Play.
+<!-- landing:end -->
+<!-- regels:begin -->
+- [Chinees dammen: spelregels (Nederlands)](https://playleapstone.com/nl/chinees-dammen): the Dutch version of "Chinese checkers rules", with the same content.
+- [Sternhalma-Regeln (Deutsch)](https://playleapstone.com/de/regeln/sternhalma): the German version of "Chinese checkers rules", with the same content.
+- [Zasady trylmy (Polski)](https://playleapstone.com/pl/zasady/trylma): the Polish version of "Chinese checkers rules", with the same content.
+- [Regras das damas chinesas (Português)](https://playleapstone.com/pt/regras/damas-chinesas): the Portuguese version of "Chinese checkers rules", with the same content.
+- [Regulile damelor chinezești (Română)](https://playleapstone.com/ro/reguli/dame-chinezesti): the Romanian version of "Chinese checkers rules", with the same content.
+- [Правила китайских шашек (Русский)](https://playleapstone.com/ru/pravila/kitayskie-shashki): the Russian version of "Chinese checkers rules", with the same content.
+- [Pravidlá čínskej dámy (Slovenčina)](https://playleapstone.com/sk/pravidla/cinska-dama): the Slovak version of "Chinese checkers rules", with the same content.
+- [Pravila kitajskih dam (Slovenščina)](https://playleapstone.com/sl/pravila/kitajske-dame): the Slovenian version of "Chinese checkers rules", with the same content.
+- [Regler för kinaschack (Svenska)](https://playleapstone.com/sv/regler/kinaschack): the Swedish version of "Chinese checkers rules", with the same content.
+- [Çin daması kuralları (Türkçe)](https://playleapstone.com/tr/kurallar/cin-damasi): the Turkish version of "Chinese checkers rules", with the same content.
+- [Правила китайських шашок (Українська)](https://playleapstone.com/uk/pravyla/kytaiski-shashky): the Ukrainian version of "Chinese checkers rules", with the same content.
+- [چائنیز چیکرز کے اصول (اردو)](https://playleapstone.com/ur/qawaid/chinese-checkers): the Urdu version of "Chinese checkers rules", with the same content.
+- [Aturan dam Cina (Bahasa Indonesia)](https://playleapstone.com/id/aturan/dam-cina): the Indonesian version of "Chinese checkers rules", with the same content.
+- [Peraturan dam Cina (Bahasa Melayu)](https://playleapstone.com/ms/peraturan/dam-cina): the Malay version of "Chinese checkers rules", with the same content.
+- [Luật cờ đam Trung Quốc (Tiếng Việt)](https://playleapstone.com/vi/luat-choi/co-nhay): the Vietnamese version of "Chinese checkers rules", with the same content.
+- [চাইনিজ চেকার্সের নিয়ম (বাংলা)](https://playleapstone.com/bn/rules/chinese-checkers): the Bengali version of "Chinese checkers rules", with the same content.
+- [ચાઇનીઝ ચેકર્સના નિયમો (ગુજરાતી)](https://playleapstone.com/gu/rules/chinese-checkers): the Gujarati version of "Chinese checkers rules", with the same content.
+- [चाइनीज़ चेकर्स के नियम (हिन्दी)](https://playleapstone.com/hi/rules/chinese-checkers): the Hindi version of "Chinese checkers rules", with the same content.
+- [ダイヤモンドゲームのルール (日本語)](https://playleapstone.com/ja/rules/chinese-checkers): the Japanese version of "Chinese checkers rules", with the same content.
+- [ಚೈನೀಸ್ ಚೆಕರ್ಸ್ ನಿಯಮಗಳು (ಕನ್ನಡ)](https://playleapstone.com/kn/rules/chinese-checkers): the Kannada version of "Chinese checkers rules", with the same content.
+- [다이아몬드 게임 규칙 (한국어)](https://playleapstone.com/ko/rules/chinese-checkers): the Korean version of "Chinese checkers rules", with the same content.
+- [ചൈനീസ് ചെക്കേഴ്സ് നിയമങ്ങൾ (മലയാളം)](https://playleapstone.com/ml/rules/chinese-checkers): the Malayalam version of "Chinese checkers rules", with the same content.
+- [चायनीज चेकर्सचे नियम (मराठी)](https://playleapstone.com/mr/rules/chinese-checkers): the Marathi version of "Chinese checkers rules", with the same content.
+- [ଚାଇନିଜ୍ ଚେକର୍ସ ନିୟମ (ଓଡ଼ିଆ)](https://playleapstone.com/or/rules/chinese-checkers): the Odia version of "Chinese checkers rules", with the same content.
+- [ਚਾਈਨੀਜ਼ ਚੈਕਰਸ ਦੇ ਨਿਯਮ (ਪੰਜਾਬੀ)](https://playleapstone.com/pa/rules/chinese-checkers): the Punjabi version of "Chinese checkers rules", with the same content.
+- [சைனீஸ் செக்கர்ஸ் விதிகள் (தமிழ்)](https://playleapstone.com/ta/rules/chinese-checkers): the Tamil version of "Chinese checkers rules", with the same content.
+- [చైనీస్ చెకర్స్ నియమాలు (తెలుగు)](https://playleapstone.com/te/rules/chinese-checkers): the Telugu version of "Chinese checkers rules", with the same content.
+- [กติกาหมากฮอสจีน (ไทย)](https://playleapstone.com/th/rules/chinese-checkers): the Thai version of "Chinese checkers rules", with the same content.
+- [跳棋规则 (简体中文)](https://playleapstone.com/zh-hans/rules/chinese-checkers): the Simplified Chinese version of "Chinese checkers rules", with the same content.
+- [قواعد الداما الصينية (العربية)](https://playleapstone.com/ar/qawaid/dama-siniya): the Arabic version of "Chinese checkers rules", with the same content.
+- [Regles de les dames xineses (Català)](https://playleapstone.com/ca/regles/dames-xineses): the Catalan version of "Chinese checkers rules", with the same content.
+- [Reglas de las damas chinas (Español)](https://playleapstone.com/es/reglas/damas-chinas): the Spanish version of "Chinese checkers rules", with the same content.
+- [Pravidla čínské dámy (Čeština)](https://playleapstone.com/cs/pravidla/cinska-dama): the Czech version of "Chinese checkers rules", with the same content.
+- [A csillaghalma szabályai (Magyar)](https://playleapstone.com/hu/szabalyok/csillaghalma): the Hungarian version of "Chinese checkers rules", with the same content.
+- [Regler for kinaskak (Dansk)](https://playleapstone.com/da/regler/kinaskak): the Danish version of "Chinese checkers rules", with the same content.
+- [Regler for kinasjakk (Norsk)](https://playleapstone.com/no/regler/kinasjakk): the Norwegian version of "Chinese checkers rules", with the same content.
+- [Κανόνες κινέζικης ντάμας (Ελληνικά)](https://playleapstone.com/el/kanones/kinezika-ntama): the Greek version of "Chinese checkers rules", with the same content.
+- [Regole della dama cinese (Italiano)](https://playleapstone.com/it/regole/dama-cinese): the Italian version of "Chinese checkers rules", with the same content.
+- [Kiinanšakin säännöt (Suomi)](https://playleapstone.com/fi/saannot/kiinansakki): the Finnish version of "Chinese checkers rules", with the same content.
+- [Pravila kineske dame (Hrvatski)](https://playleapstone.com/hr/pravila/kineska-dama): the Croatian version of "Chinese checkers rules", with the same content.
+- [Règles des dames chinoises (Français)](https://playleapstone.com/fr/regles/dames-chinoises): the French version of "Chinese checkers rules", with the same content.
+- [חוקי דמקה סינית (עברית)](https://playleapstone.com/he/hokim/dameka-sinit): the Hebrew version of "Chinese checkers rules", with the same content.
+- [Halma: spelregels (Nederlands)](https://playleapstone.com/nl/halma-spelregels): the Dutch version of "Halma rules", with the same content.
+- [Halma-Regeln (Deutsch)](https://playleapstone.com/de/regeln/halma): the German version of "Halma rules", with the same content.
+- [Zasady Halmy (Polski)](https://playleapstone.com/pl/zasady/halma): the Polish version of "Halma rules", with the same content.
+- [Regras do Halma (Português)](https://playleapstone.com/pt/regras/halma): the Portuguese version of "Halma rules", with the same content.
+- [Regulile Halma (Română)](https://playleapstone.com/ro/reguli/halma): the Romanian version of "Halma rules", with the same content.
+- [Правила Халмы (Русский)](https://playleapstone.com/ru/pravila/halma): the Russian version of "Halma rules", with the same content.
+- [Pravidlá Halmy (Slovenčina)](https://playleapstone.com/sk/pravidla/halma): the Slovak version of "Halma rules", with the same content.
+- [Pravila Halme (Slovenščina)](https://playleapstone.com/sl/pravila/halma): the Slovenian version of "Halma rules", with the same content.
+- [Regler för Halma (Svenska)](https://playleapstone.com/sv/regler/halma): the Swedish version of "Halma rules", with the same content.
+- [Halma kuralları (Türkçe)](https://playleapstone.com/tr/kurallar/halma): the Turkish version of "Halma rules", with the same content.
+- [Правила Галми (Українська)](https://playleapstone.com/uk/pravyla/halma): the Ukrainian version of "Halma rules", with the same content.
+- [Halma کے اصول (اردو)](https://playleapstone.com/ur/qawaid/halma): the Urdu version of "Halma rules", with the same content.
+- [Aturan Halma (Bahasa Indonesia)](https://playleapstone.com/id/aturan/halma): the Indonesian version of "Halma rules", with the same content.
+- [Peraturan Halma (Bahasa Melayu)](https://playleapstone.com/ms/peraturan/halma): the Malay version of "Halma rules", with the same content.
+- [Luật Halma (Tiếng Việt)](https://playleapstone.com/vi/luat-choi/halma): the Vietnamese version of "Halma rules", with the same content.
+- [Halma-র নিয়ম (বাংলা)](https://playleapstone.com/bn/rules/halma): the Bengali version of "Halma rules", with the same content.
+- [Halma ના નિયમો (ગુજરાતી)](https://playleapstone.com/gu/rules/halma): the Gujarati version of "Halma rules", with the same content.
+- [Halma के नियम (हिन्दी)](https://playleapstone.com/hi/rules/halma): the Hindi version of "Halma rules", with the same content.
+- [ハルマのルール (日本語)](https://playleapstone.com/ja/rules/halma): the Japanese version of "Halma rules", with the same content.
+- [Halma ನಿಯಮಗಳು (ಕನ್ನಡ)](https://playleapstone.com/kn/rules/halma): the Kannada version of "Halma rules", with the same content.
+- [할마 규칙 (한국어)](https://playleapstone.com/ko/rules/halma): the Korean version of "Halma rules", with the same content.
+- [Halma നിയമങ്ങൾ (മലയാളം)](https://playleapstone.com/ml/rules/halma): the Malayalam version of "Halma rules", with the same content.
+- [Halma चे नियम (मराठी)](https://playleapstone.com/mr/rules/halma): the Marathi version of "Halma rules", with the same content.
+- [Halma ନିୟମ (ଓଡ଼ିଆ)](https://playleapstone.com/or/rules/halma): the Odia version of "Halma rules", with the same content.
+- [Halma ਦੇ ਨਿਯਮ (ਪੰਜਾਬੀ)](https://playleapstone.com/pa/rules/halma): the Punjabi version of "Halma rules", with the same content.
+- [Halma விதிகள் (தமிழ்)](https://playleapstone.com/ta/rules/halma): the Tamil version of "Halma rules", with the same content.
+- [Halma నియమాలు (తెలుగు)](https://playleapstone.com/te/rules/halma): the Telugu version of "Halma rules", with the same content.
+- [กติกา Halma (ไทย)](https://playleapstone.com/th/rules/halma): the Thai version of "Halma rules", with the same content.
+- [Halma 规则 (简体中文)](https://playleapstone.com/zh-hans/rules/halma): the Simplified Chinese version of "Halma rules", with the same content.
+- [قواعد هالما (العربية)](https://playleapstone.com/ar/qawaid/halma): the Arabic version of "Halma rules", with the same content.
+- [Regles del Halma (Català)](https://playleapstone.com/ca/regles/halma): the Catalan version of "Halma rules", with the same content.
+- [Reglas del Halma (Español)](https://playleapstone.com/es/reglas/halma): the Spanish version of "Halma rules", with the same content.
+- [Pravidla Halmy (Čeština)](https://playleapstone.com/cs/pravidla/halma): the Czech version of "Halma rules", with the same content.
+- [A Halma szabályai (Magyar)](https://playleapstone.com/hu/szabalyok/halma): the Hungarian version of "Halma rules", with the same content.
+- [Regler for Halma (Dansk)](https://playleapstone.com/da/regler/halma): the Danish version of "Halma rules", with the same content.
+- [Regler for Halma (Norsk)](https://playleapstone.com/no/regler/halma): the Norwegian version of "Halma rules", with the same content.
+- [Κανόνες Halma (Ελληνικά)](https://playleapstone.com/el/kanones/halma): the Greek version of "Halma rules", with the same content.
+- [Regole dell'Halma (Italiano)](https://playleapstone.com/it/regole/halma): the Italian version of "Halma rules", with the same content.
+- [Halman säännöt (Suomi)](https://playleapstone.com/fi/saannot/halma): the Finnish version of "Halma rules", with the same content.
+- [Pravila Halme (Hrvatski)](https://playleapstone.com/hr/pravila/halma): the Croatian version of "Halma rules", with the same content.
+- [Règles du Halma (Français)](https://playleapstone.com/fr/regles/halma): the French version of "Halma rules", with the same content.
+- [חוקי הלמה (עברית)](https://playleapstone.com/he/hokim/halma): the Hebrew version of "Halma rules", with the same content.
+- [Sternhalma: wat is het? (Nederlands)](https://playleapstone.com/nl/sternhalma): the Dutch version of "Sternhalma", with the same content.
+- [Was ist Sternhalma? (Deutsch)](https://playleapstone.com/de/regeln/was-ist-sternhalma): the German version of "Sternhalma", with the same content.
+- [Sternhalma (Polski)](https://playleapstone.com/pl/zasady/sternhalma): the Polish version of "Sternhalma", with the same content.
+- [Sternhalma (Português)](https://playleapstone.com/pt/regras/sternhalma): the Portuguese version of "Sternhalma", with the same content.
+- [Sternhalma (Română)](https://playleapstone.com/ro/reguli/sternhalma): the Romanian version of "Sternhalma", with the same content.
+- [Sternhalma (Русский)](https://playleapstone.com/ru/pravila/sternhalma): the Russian version of "Sternhalma", with the same content.
+- [Sternhalma (Slovenčina)](https://playleapstone.com/sk/pravidla/sternhalma): the Slovak version of "Sternhalma", with the same content.
+- [Sternhalma (Slovenščina)](https://playleapstone.com/sl/pravila/sternhalma): the Slovenian version of "Sternhalma", with the same content.
+- [Sternhalma (Svenska)](https://playleapstone.com/sv/regler/sternhalma): the Swedish version of "Sternhalma", with the same content.
+- [Sternhalma (Türkçe)](https://playleapstone.com/tr/kurallar/sternhalma): the Turkish version of "Sternhalma", with the same content.
+- [Sternhalma (Українська)](https://playleapstone.com/uk/pravyla/sternhalma): the Ukrainian version of "Sternhalma", with the same content.
+- [Sternhalma (اردو)](https://playleapstone.com/ur/qawaid/sternhalma): the Urdu version of "Sternhalma", with the same content.
+- [Sternhalma (Bahasa Indonesia)](https://playleapstone.com/id/aturan/sternhalma): the Indonesian version of "Sternhalma", with the same content.
+- [Sternhalma (Bahasa Melayu)](https://playleapstone.com/ms/peraturan/sternhalma): the Malay version of "Sternhalma", with the same content.
+- [Sternhalma (Tiếng Việt)](https://playleapstone.com/vi/luat-choi/sternhalma): the Vietnamese version of "Sternhalma", with the same content.
+- [Sternhalma (বাংলা)](https://playleapstone.com/bn/rules/sternhalma): the Bengali version of "Sternhalma", with the same content.
+- [Sternhalma (ગુજરાતી)](https://playleapstone.com/gu/rules/sternhalma): the Gujarati version of "Sternhalma", with the same content.
+- [Sternhalma (हिन्दी)](https://playleapstone.com/hi/rules/sternhalma): the Hindi version of "Sternhalma", with the same content.
+- [Sternhalma (日本語)](https://playleapstone.com/ja/rules/sternhalma): the Japanese version of "Sternhalma", with the same content.
+- [Sternhalma (ಕನ್ನಡ)](https://playleapstone.com/kn/rules/sternhalma): the Kannada version of "Sternhalma", with the same content.
+- [Sternhalma (한국어)](https://playleapstone.com/ko/rules/sternhalma): the Korean version of "Sternhalma", with the same content.
+- [Sternhalma (മലയാളം)](https://playleapstone.com/ml/rules/sternhalma): the Malayalam version of "Sternhalma", with the same content.
+- [Sternhalma (मराठी)](https://playleapstone.com/mr/rules/sternhalma): the Marathi version of "Sternhalma", with the same content.
+- [Sternhalma (ଓଡ଼ିଆ)](https://playleapstone.com/or/rules/sternhalma): the Odia version of "Sternhalma", with the same content.
+- [Sternhalma (ਪੰਜਾਬੀ)](https://playleapstone.com/pa/rules/sternhalma): the Punjabi version of "Sternhalma", with the same content.
+- [Sternhalma (தமிழ்)](https://playleapstone.com/ta/rules/sternhalma): the Tamil version of "Sternhalma", with the same content.
+- [Sternhalma (తెలుగు)](https://playleapstone.com/te/rules/sternhalma): the Telugu version of "Sternhalma", with the same content.
+- [Sternhalma (ไทย)](https://playleapstone.com/th/rules/sternhalma): the Thai version of "Sternhalma", with the same content.
+- [Sternhalma (简体中文)](https://playleapstone.com/zh-hans/rules/sternhalma): the Simplified Chinese version of "Sternhalma", with the same content.
+- [Sternhalma (العربية)](https://playleapstone.com/ar/qawaid/ma-hi-sternhalma): the Arabic version of "Sternhalma", with the same content.
+- [Sternhalma (Català)](https://playleapstone.com/ca/regles/que-es-sternhalma): the Catalan version of "Sternhalma", with the same content.
+- [Sternhalma (Español)](https://playleapstone.com/es/reglas/que-es-sternhalma): the Spanish version of "Sternhalma", with the same content.
+- [Co je Sternhalma? (Čeština)](https://playleapstone.com/cs/pravidla/co-je-sternhalma): the Czech version of "Sternhalma", with the same content.
+- [Mi az a Sternhalma? (Magyar)](https://playleapstone.com/hu/szabalyok/mi-az-a-sternhalma): the Hungarian version of "Sternhalma", with the same content.
+- [Sternhalma (Dansk)](https://playleapstone.com/da/regler/hvad-er-sternhalma): the Danish version of "Sternhalma", with the same content.
+- [Sternhalma (Norsk)](https://playleapstone.com/no/regler/hva-er-sternhalma): the Norwegian version of "Sternhalma", with the same content.
+- [Sternhalma (Ελληνικά)](https://playleapstone.com/el/kanones/ti-einai-to-sternhalma): the Greek version of "Sternhalma", with the same content.
+- [Sternhalma (Italiano)](https://playleapstone.com/it/regole/che-cos-e-lo-sternhalma): the Italian version of "Sternhalma", with the same content.
+- [Sternhalma (Suomi)](https://playleapstone.com/fi/saannot/mika-on-sternhalma): the Finnish version of "Sternhalma", with the same content.
+- [Sternhalma (Hrvatski)](https://playleapstone.com/hr/pravila/sto-je-sternhalma): the Croatian version of "Sternhalma", with the same content.
+- [Sternhalma (Français)](https://playleapstone.com/fr/regles/qu-est-ce-que-le-sternhalma): the French version of "Sternhalma", with the same content.
+- [Sternhalma (עברית)](https://playleapstone.com/he/hokim/ma-ze-sternhalma): the Hebrew version of "Sternhalma", with the same content.
+- [Chinees dammen: strategie (Nederlands)](https://playleapstone.com/nl/chinees-dammen-strategie): the Dutch version of "Chinese checkers strategy", with the same content.
+- [Sternhalma-Strategie (Deutsch)](https://playleapstone.com/de/anleitungen/sternhalma-strategie): the German version of "Chinese checkers strategy", with the same content.
+- [Strategia w trylmie (Polski)](https://playleapstone.com/pl/poradniki/trylma-strategia): the Polish version of "Chinese checkers strategy", with the same content.
+- [Estratégia nas damas chinesas (Português)](https://playleapstone.com/pt/guias/damas-chinesas-estrategia): the Portuguese version of "Chinese checkers strategy", with the same content.
+- [Strategia la dame chinezești (Română)](https://playleapstone.com/ro/ghiduri/dame-chinezesti-strategie): the Romanian version of "Chinese checkers strategy", with the same content.
+- [Стратегия в китайских шашках (Русский)](https://playleapstone.com/ru/rukovodstva/kitayskie-shashki-strategiya): the Russian version of "Chinese checkers strategy", with the same content.
+- [Stratégia čínskej dámy (Slovenčina)](https://playleapstone.com/sk/navody/cinska-dama-strategia): the Slovak version of "Chinese checkers strategy", with the same content.
+- [Strategija v kitajskih damah (Slovenščina)](https://playleapstone.com/sl/vodniki/kitajske-dame-strategija): the Slovenian version of "Chinese checkers strategy", with the same content.
+- [Strategi i kinaschack (Svenska)](https://playleapstone.com/sv/guider/kinaschack-strategi): the Swedish version of "Chinese checkers strategy", with the same content.
+- [Çin daması stratejisi (Türkçe)](https://playleapstone.com/tr/rehberler/cin-damasi-strateji): the Turkish version of "Chinese checkers strategy", with the same content.
+- [Стратегія в китайських шашках (Українська)](https://playleapstone.com/uk/posibnyky/kytaiski-shashky-stratehiia): the Ukrainian version of "Chinese checkers strategy", with the same content.
+- [چائنیز چیکرز کی حکمت عملی (اردو)](https://playleapstone.com/ur/rahnuma/chinese-checkers-hikmat-e-amli): the Urdu version of "Chinese checkers strategy", with the same content.
+- [Strategi dam Cina (Bahasa Indonesia)](https://playleapstone.com/id/panduan/dam-cina-strategi): the Indonesian version of "Chinese checkers strategy", with the same content.
+- [Strategi dam Cina (Bahasa Melayu)](https://playleapstone.com/ms/panduan/dam-cina-strategi): the Malay version of "Chinese checkers strategy", with the same content.
+- [Chiến thuật cờ đam Trung Quốc (Tiếng Việt)](https://playleapstone.com/vi/huong-dan/co-nhay-chien-thuat): the Vietnamese version of "Chinese checkers strategy", with the same content.
+- [চাইনিজ চেকার্সের কৌশল (বাংলা)](https://playleapstone.com/bn/guides/chinese-checkers-strategy): the Bengali version of "Chinese checkers strategy", with the same content.
+- [ચાઇનીઝ ચેકર્સની વ્યૂહરચના (ગુજરાતી)](https://playleapstone.com/gu/guides/chinese-checkers-strategy): the Gujarati version of "Chinese checkers strategy", with the same content.
+- [चाइनीज़ चेकर्स की रणनीति (हिन्दी)](https://playleapstone.com/hi/guides/chinese-checkers-strategy): the Hindi version of "Chinese checkers strategy", with the same content.
+- [ダイヤモンドゲームの戦略 (日本語)](https://playleapstone.com/ja/guides/chinese-checkers-strategy): the Japanese version of "Chinese checkers strategy", with the same content.
+- [ಚೈನೀಸ್ ಚೆಕರ್ಸ್ ತಂತ್ರ (ಕನ್ನಡ)](https://playleapstone.com/kn/guides/chinese-checkers-strategy): the Kannada version of "Chinese checkers strategy", with the same content.
+- [다이아몬드 게임 전략 (한국어)](https://playleapstone.com/ko/guides/chinese-checkers-strategy): the Korean version of "Chinese checkers strategy", with the same content.
+- [ചൈനീസ് ചെക്കേഴ്സ് തന്ത്രം (മലയാളം)](https://playleapstone.com/ml/guides/chinese-checkers-strategy): the Malayalam version of "Chinese checkers strategy", with the same content.
+- [चायनीज चेकर्सची रणनीती (मराठी)](https://playleapstone.com/mr/guides/chinese-checkers-strategy): the Marathi version of "Chinese checkers strategy", with the same content.
+- [ଚାଇନିଜ୍ ଚେକର୍ସ କୌଶଳ (ଓଡ଼ିଆ)](https://playleapstone.com/or/guides/chinese-checkers-strategy): the Odia version of "Chinese checkers strategy", with the same content.
+- [ਚਾਈਨੀਜ਼ ਚੈਕਰਸ ਦੀ ਰਣਨੀਤੀ (ਪੰਜਾਬੀ)](https://playleapstone.com/pa/guides/chinese-checkers-strategy): the Punjabi version of "Chinese checkers strategy", with the same content.
+- [சைனீஸ் செக்கர்ஸ் உத்தி (தமிழ்)](https://playleapstone.com/ta/guides/chinese-checkers-strategy): the Tamil version of "Chinese checkers strategy", with the same content.
+- [చైనీస్ చెకర్స్ వ్యూహం (తెలుగు)](https://playleapstone.com/te/guides/chinese-checkers-strategy): the Telugu version of "Chinese checkers strategy", with the same content.
+- [กลยุทธ์หมากฮอสจีน (ไทย)](https://playleapstone.com/th/guides/chinese-checkers-strategy): the Thai version of "Chinese checkers strategy", with the same content.
+- [跳棋策略 (简体中文)](https://playleapstone.com/zh-hans/guides/chinese-checkers-strategy): the Simplified Chinese version of "Chinese checkers strategy", with the same content.
+- [استراتيجية الداما الصينية (العربية)](https://playleapstone.com/ar/adilla/istiratijiyat-dama-siniya): the Arabic version of "Chinese checkers strategy", with the same content.
+- [Estratègia de les dames xineses (Català)](https://playleapstone.com/ca/guies/estrategia-dames-xineses): the Catalan version of "Chinese checkers strategy", with the same content.
+- [Estrategia de las damas chinas (Español)](https://playleapstone.com/es/guias/estrategia-damas-chinas): the Spanish version of "Chinese checkers strategy", with the same content.
+- [Strategie čínské dámy (Čeština)](https://playleapstone.com/cs/navody/cinska-dama-strategie): the Czech version of "Chinese checkers strategy", with the same content.
+- [Csillaghalma-stratégia (Magyar)](https://playleapstone.com/hu/utmutatok/csillaghalma-strategia): the Hungarian version of "Chinese checkers strategy", with the same content.
+- [Strategi i kinaskak (Dansk)](https://playleapstone.com/da/guider/kinaskak-strategi): the Danish version of "Chinese checkers strategy", with the same content.
+- [Strategi i kinasjakk (Norsk)](https://playleapstone.com/no/guider/kinasjakk-strategi): the Norwegian version of "Chinese checkers strategy", with the same content.
+- [Στρατηγική στην κινέζικη ντάμα (Ελληνικά)](https://playleapstone.com/el/odigoi/stratigiki-kinezika-ntama): the Greek version of "Chinese checkers strategy", with the same content.
+- [Strategia della dama cinese (Italiano)](https://playleapstone.com/it/guide/strategia-dama-cinese): the Italian version of "Chinese checkers strategy", with the same content.
+- [Kiinanšakin strategia (Suomi)](https://playleapstone.com/fi/oppaat/kiinansakki-strategia): the Finnish version of "Chinese checkers strategy", with the same content.
+- [Strategija kineske dame (Hrvatski)](https://playleapstone.com/hr/vodici/kineska-dama-strategija): the Croatian version of "Chinese checkers strategy", with the same content.
+- [Stratégie aux dames chinoises (Français)](https://playleapstone.com/fr/guides/strategie-dames-chinoises): the French version of "Chinese checkers strategy", with the same content.
+- [אסטרטגיה בדמקה סינית (עברית)](https://playleapstone.com/he/madrichim/dameka-sinit-estrategia): the Hebrew version of "Chinese checkers strategy", with the same content.
+- [Chinees dammen met twee spelers (Nederlands)](https://playleapstone.com/nl/chinees-dammen-twee-spelers): the Dutch version of "Chinese checkers for 2 players", with the same content.
+- [Sternhalma zu zweit (Deutsch)](https://playleapstone.com/de/anleitungen/sternhalma-zu-zweit): the German version of "Chinese checkers for 2 players", with the same content.
+- [Trylma dla 2 graczy (Polski)](https://playleapstone.com/pl/poradniki/trylma-dla-dwoch-graczy): the Polish version of "Chinese checkers for 2 players", with the same content.
+- [Damas chinesas para 2 jogadores (Português)](https://playleapstone.com/pt/guias/damas-chinesas-para-2-jogadores): the Portuguese version of "Chinese checkers for 2 players", with the same content.
+- [Dame chinezești pentru 2 jucători (Română)](https://playleapstone.com/ro/ghiduri/dame-chinezesti-in-doi): the Romanian version of "Chinese checkers for 2 players", with the same content.
+- [Китайские шашки вдвоём (Русский)](https://playleapstone.com/ru/rukovodstva/kitayskie-shashki-vdvoem): the Russian version of "Chinese checkers for 2 players", with the same content.
+- [Čínska dáma pre 2 hráčov (Slovenčina)](https://playleapstone.com/sk/navody/cinska-dama-pre-dvoch): the Slovak version of "Chinese checkers for 2 players", with the same content.
+- [Kitajske dame za 2 igralca (Slovenščina)](https://playleapstone.com/sl/vodniki/kitajske-dame-za-dva): the Slovenian version of "Chinese checkers for 2 players", with the same content.
+- [Kinaschack för 2 spelare (Svenska)](https://playleapstone.com/sv/guider/kinaschack-for-tva): the Swedish version of "Chinese checkers for 2 players", with the same content.
+- [2 oyunculu Çin daması (Türkçe)](https://playleapstone.com/tr/rehberler/cin-damasi-iki-kisilik): the Turkish version of "Chinese checkers for 2 players", with the same content.
+- [Китайські шашки вдвох (Українська)](https://playleapstone.com/uk/posibnyky/kytaiski-shashky-vdvokh): the Ukrainian version of "Chinese checkers for 2 players", with the same content.
+- [2 کھلاڑیوں کی چائنیز چیکرز (اردو)](https://playleapstone.com/ur/rahnuma/chinese-checkers-do-khilariyon-ke-liye): the Urdu version of "Chinese checkers for 2 players", with the same content.
+- [Dam Cina untuk 2 pemain (Bahasa Indonesia)](https://playleapstone.com/id/panduan/dam-cina-2-pemain): the Indonesian version of "Chinese checkers for 2 players", with the same content.
+- [Dam Cina untuk 2 pemain (Bahasa Melayu)](https://playleapstone.com/ms/panduan/dam-cina-2-pemain): the Malay version of "Chinese checkers for 2 players", with the same content.
+- [Cờ đam Trung Quốc cho 2 người chơi (Tiếng Việt)](https://playleapstone.com/vi/huong-dan/co-nhay-2-nguoi): the Vietnamese version of "Chinese checkers for 2 players", with the same content.
+- [2 জনের চাইনিজ চেকার্স (বাংলা)](https://playleapstone.com/bn/guides/chinese-checkers-2-players): the Bengali version of "Chinese checkers for 2 players", with the same content.
+- [2 ખેલાડીઓ માટે ચાઇનીઝ ચેકર્સ (ગુજરાતી)](https://playleapstone.com/gu/guides/chinese-checkers-2-players): the Gujarati version of "Chinese checkers for 2 players", with the same content.
+- [2 खिलाड़ियों का चाइनीज़ चेकर्स (हिन्दी)](https://playleapstone.com/hi/guides/chinese-checkers-2-players): the Hindi version of "Chinese checkers for 2 players", with the same content.
+- [2人で遊ぶダイヤモンドゲーム (日本語)](https://playleapstone.com/ja/guides/chinese-checkers-2-players): the Japanese version of "Chinese checkers for 2 players", with the same content.
+- [2 ಆಟಗಾರರ ಚೈನೀಸ್ ಚೆಕರ್ಸ್ (ಕನ್ನಡ)](https://playleapstone.com/kn/guides/chinese-checkers-2-players): the Kannada version of "Chinese checkers for 2 players", with the same content.
+- [2인용 다이아몬드 게임 (한국어)](https://playleapstone.com/ko/guides/chinese-checkers-2-players): the Korean version of "Chinese checkers for 2 players", with the same content.
+- [2 കളിക്കാർക്കുള്ള ചൈനീസ് ചെക്കേഴ്സ് (മലയാളം)](https://playleapstone.com/ml/guides/chinese-checkers-2-players): the Malayalam version of "Chinese checkers for 2 players", with the same content.
+- [2 खेळाडूंचे चायनीज चेकर्स (मराठी)](https://playleapstone.com/mr/guides/chinese-checkers-2-players): the Marathi version of "Chinese checkers for 2 players", with the same content.
+- [2 ଜଣ ଖେଳାଳିଙ୍କ ଚାଇନିଜ୍ ଚେକର୍ସ (ଓଡ଼ିଆ)](https://playleapstone.com/or/guides/chinese-checkers-2-players): the Odia version of "Chinese checkers for 2 players", with the same content.
+- [2 ਖਿਡਾਰੀਆਂ ਦੀ ਚਾਈਨੀਜ਼ ਚੈਕਰਸ (ਪੰਜਾਬੀ)](https://playleapstone.com/pa/guides/chinese-checkers-2-players): the Punjabi version of "Chinese checkers for 2 players", with the same content.
+- [2 வீரர்களுக்கான சைனீஸ் செக்கர்ஸ் (தமிழ்)](https://playleapstone.com/ta/guides/chinese-checkers-2-players): the Tamil version of "Chinese checkers for 2 players", with the same content.
+- [2 ఆటగాళ్ల చైనీస్ చెకర్స్ (తెలుగు)](https://playleapstone.com/te/guides/chinese-checkers-2-players): the Telugu version of "Chinese checkers for 2 players", with the same content.
+- [หมากฮอสจีนสำหรับ 2 คน (ไทย)](https://playleapstone.com/th/guides/chinese-checkers-2-players): the Thai version of "Chinese checkers for 2 players", with the same content.
+- [2 人跳棋 (简体中文)](https://playleapstone.com/zh-hans/guides/chinese-checkers-2-players): the Simplified Chinese version of "Chinese checkers for 2 players", with the same content.
+- [الداما الصينية للاعبَين (العربية)](https://playleapstone.com/ar/adilla/dama-siniya-lilaibayn): the Arabic version of "Chinese checkers for 2 players", with the same content.
+- [Dames xineses per a 2 jugadors (Català)](https://playleapstone.com/ca/guies/dames-xineses-2-jugadors): the Catalan version of "Chinese checkers for 2 players", with the same content.
+- [Damas chinas para 2 jugadores (Español)](https://playleapstone.com/es/guias/damas-chinas-2-jugadores): the Spanish version of "Chinese checkers for 2 players", with the same content.
+- [Čínská dáma pro 2 hráče (Čeština)](https://playleapstone.com/cs/navody/cinska-dama-pro-dva-hrace): the Czech version of "Chinese checkers for 2 players", with the same content.
+- [Csillaghalma 2 játékosnak (Magyar)](https://playleapstone.com/hu/utmutatok/csillaghalma-2-jatekosnak): the Hungarian version of "Chinese checkers for 2 players", with the same content.
+- [Kinaskak for 2 spillere (Dansk)](https://playleapstone.com/da/guider/kinaskak-for-to-spillere): the Danish version of "Chinese checkers for 2 players", with the same content.
+- [Kinasjakk for 2 spillere (Norsk)](https://playleapstone.com/no/guider/kinasjakk-for-to-spillere): the Norwegian version of "Chinese checkers for 2 players", with the same content.
+- [Κινέζικη ντάμα για 2 παίκτες (Ελληνικά)](https://playleapstone.com/el/odigoi/kinezika-ntama-gia-dyo-paiktes): the Greek version of "Chinese checkers for 2 players", with the same content.
+- [Dama cinese per 2 giocatori (Italiano)](https://playleapstone.com/it/guide/dama-cinese-in-due): the Italian version of "Chinese checkers for 2 players", with the same content.
+- [Kiinanšakki kahdelle pelaajalle (Suomi)](https://playleapstone.com/fi/oppaat/kiinansakki-kahdelle): the Finnish version of "Chinese checkers for 2 players", with the same content.
+- [Kineska dama za 2 igrača (Hrvatski)](https://playleapstone.com/hr/vodici/kineska-dama-za-2-igraca): the Croatian version of "Chinese checkers for 2 players", with the same content.
+- [Dames chinoises à 2 joueurs (Français)](https://playleapstone.com/fr/guides/dames-chinoises-a-deux): the French version of "Chinese checkers for 2 players", with the same content.
+- [דמקה סינית ל־2 שחקנים (עברית)](https://playleapstone.com/he/madrichim/dameka-sinit-leshnayim): the Hebrew version of "Chinese checkers for 2 players", with the same content.
+- [Halma of Chinees dammen (Nederlands)](https://playleapstone.com/nl/halma-of-chinees-dammen): the Dutch version of "Halma vs Chinese checkers", with the same content.
+- [Halma oder Chinese Checkers (Deutsch)](https://playleapstone.com/de/anleitungen/halma-oder-chinese-checkers): the German version of "Halma vs Chinese checkers", with the same content.
+- [Halma czy trylma (Polski)](https://playleapstone.com/pl/poradniki/halma-czy-trylma): the Polish version of "Halma vs Chinese checkers", with the same content.
+- [Halma ou damas chinesas (Português)](https://playleapstone.com/pt/guias/halma-ou-damas-chinesas): the Portuguese version of "Halma vs Chinese checkers", with the same content.
+- [Halma sau dame chinezești (Română)](https://playleapstone.com/ro/ghiduri/halma-sau-dame-chinezesti): the Romanian version of "Halma vs Chinese checkers", with the same content.
+- [Халма или китайские шашки (Русский)](https://playleapstone.com/ru/rukovodstva/halma-ili-kitayskie-shashki): the Russian version of "Halma vs Chinese checkers", with the same content.
+- [Halma, alebo čínska dáma (Slovenčina)](https://playleapstone.com/sk/navody/halma-alebo-cinska-dama): the Slovak version of "Halma vs Chinese checkers", with the same content.
+- [Halma ali kitajske dame (Slovenščina)](https://playleapstone.com/sl/vodniki/halma-ali-kitajske-dame): the Slovenian version of "Halma vs Chinese checkers", with the same content.
+- [Halma eller kinaschack (Svenska)](https://playleapstone.com/sv/guider/halma-eller-kinaschack): the Swedish version of "Halma vs Chinese checkers", with the same content.
+- [Halma ve Çin daması (Türkçe)](https://playleapstone.com/tr/rehberler/halma-mi-cin-damasi-mi): the Turkish version of "Halma vs Chinese checkers", with the same content.
+- [Галма чи китайські шашки (Українська)](https://playleapstone.com/uk/posibnyky/halma-chy-kytaiski-shashky): the Ukrainian version of "Halma vs Chinese checkers", with the same content.
+- [Halma اور چائنیز چیکرز (اردو)](https://playleapstone.com/ur/rahnuma/halma-ya-chinese-checkers): the Urdu version of "Halma vs Chinese checkers", with the same content.
+- [Halma atau dam Cina (Bahasa Indonesia)](https://playleapstone.com/id/panduan/halma-atau-dam-cina): the Indonesian version of "Halma vs Chinese checkers", with the same content.
+- [Halma atau dam Cina (Bahasa Melayu)](https://playleapstone.com/ms/panduan/halma-atau-dam-cina): the Malay version of "Halma vs Chinese checkers", with the same content.
+- [Halma hay cờ đam Trung Quốc (Tiếng Việt)](https://playleapstone.com/vi/huong-dan/halma-hay-co-nhay): the Vietnamese version of "Halma vs Chinese checkers", with the same content.
+- [Halma বনাম চাইনিজ চেকার্স (বাংলা)](https://playleapstone.com/bn/guides/halma-vs-chinese-checkers): the Bengali version of "Halma vs Chinese checkers", with the same content.
+- [Halma વિરુદ્ધ ચાઇનીઝ ચેકર્સ (ગુજરાતી)](https://playleapstone.com/gu/guides/halma-vs-chinese-checkers): the Gujarati version of "Halma vs Chinese checkers", with the same content.
+- [Halma बनाम चाइनीज़ चेकर्स (हिन्दी)](https://playleapstone.com/hi/guides/halma-vs-chinese-checkers): the Hindi version of "Halma vs Chinese checkers", with the same content.
+- [ハルマとダイヤモンドゲームの違い (日本語)](https://playleapstone.com/ja/guides/halma-vs-chinese-checkers): the Japanese version of "Halma vs Chinese checkers", with the same content.
+- [Halma ಮತ್ತು ಚೈನೀಸ್ ಚೆಕರ್ಸ್ (ಕನ್ನಡ)](https://playleapstone.com/kn/guides/halma-vs-chinese-checkers): the Kannada version of "Halma vs Chinese checkers", with the same content.
+- [할마와 다이아몬드 게임의 차이 (한국어)](https://playleapstone.com/ko/guides/halma-vs-chinese-checkers): the Korean version of "Halma vs Chinese checkers", with the same content.
+- [Halma, ചൈനീസ് ചെക്കേഴ്സ് (മലയാളം)](https://playleapstone.com/ml/guides/halma-vs-chinese-checkers): the Malayalam version of "Halma vs Chinese checkers", with the same content.
+- [Halma आणि चायनीज चेकर्स (मराठी)](https://playleapstone.com/mr/guides/halma-vs-chinese-checkers): the Marathi version of "Halma vs Chinese checkers", with the same content.
+- [Halma ଓ ଚାଇନିଜ୍ ଚେକର୍ସ (ଓଡ଼ିଆ)](https://playleapstone.com/or/guides/halma-vs-chinese-checkers): the Odia version of "Halma vs Chinese checkers", with the same content.
+- [Halma ਅਤੇ ਚਾਈਨੀਜ਼ ਚੈਕਰਸ (ਪੰਜਾਬੀ)](https://playleapstone.com/pa/guides/halma-vs-chinese-checkers): the Punjabi version of "Halma vs Chinese checkers", with the same content.
+- [Halma மற்றும் சைனீஸ் செக்கர்ஸ் (தமிழ்)](https://playleapstone.com/ta/guides/halma-vs-chinese-checkers): the Tamil version of "Halma vs Chinese checkers", with the same content.
+- [Halma మరియు చైనీస్ చెకర్స్ (తెలుగు)](https://playleapstone.com/te/guides/halma-vs-chinese-checkers): the Telugu version of "Halma vs Chinese checkers", with the same content.
+- [Halma กับหมากฮอสจีน (ไทย)](https://playleapstone.com/th/guides/halma-vs-chinese-checkers): the Thai version of "Halma vs Chinese checkers", with the same content.
+- [Halma 和跳棋的区别 (简体中文)](https://playleapstone.com/zh-hans/guides/halma-vs-chinese-checkers): the Simplified Chinese version of "Halma vs Chinese checkers", with the same content.
+- [هالما أم الداما الصينية (العربية)](https://playleapstone.com/ar/adilla/halma-am-dama-siniya): the Arabic version of "Halma vs Chinese checkers", with the same content.
+- [Halma o dames xineses (Català)](https://playleapstone.com/ca/guies/halma-o-dames-xineses): the Catalan version of "Halma vs Chinese checkers", with the same content.
+- [Halma o damas chinas (Español)](https://playleapstone.com/es/guias/halma-o-damas-chinas): the Spanish version of "Halma vs Chinese checkers", with the same content.
+- [Halma, nebo čínská dáma (Čeština)](https://playleapstone.com/cs/navody/halma-nebo-cinska-dama): the Czech version of "Halma vs Chinese checkers", with the same content.
+- [Halma vagy csillaghalma (Magyar)](https://playleapstone.com/hu/utmutatok/halma-vagy-csillaghalma): the Hungarian version of "Halma vs Chinese checkers", with the same content.
+- [Halma eller kinaskak (Dansk)](https://playleapstone.com/da/guider/halma-eller-kinaskak): the Danish version of "Halma vs Chinese checkers", with the same content.
+- [Halma eller kinasjakk (Norsk)](https://playleapstone.com/no/guider/halma-eller-kinasjakk): the Norwegian version of "Halma vs Chinese checkers", with the same content.
+- [Halma ή κινέζικη ντάμα (Ελληνικά)](https://playleapstone.com/el/odigoi/halma-i-kinezika-ntama): the Greek version of "Halma vs Chinese checkers", with the same content.
+- [Halma o dama cinese (Italiano)](https://playleapstone.com/it/guide/halma-o-dama-cinese): the Italian version of "Halma vs Chinese checkers", with the same content.
+- [Halma vai kiinanšakki (Suomi)](https://playleapstone.com/fi/oppaat/halma-vai-kiinansakki): the Finnish version of "Halma vs Chinese checkers", with the same content.
+- [Halma ili kineska dama (Hrvatski)](https://playleapstone.com/hr/vodici/halma-ili-kineska-dama): the Croatian version of "Halma vs Chinese checkers", with the same content.
+- [Halma ou dames chinoises (Français)](https://playleapstone.com/fr/guides/halma-ou-dames-chinoises): the French version of "Halma vs Chinese checkers", with the same content.
+- [הלמה או דמקה סינית (עברית)](https://playleapstone.com/he/madrichim/halma-o-dameka-sinit): the Hebrew version of "Halma vs Chinese checkers", with the same content.
+- [Chinees dammen met drie spelers (Nederlands)](https://playleapstone.com/nl/chinees-dammen-drie-spelers): the Dutch version of "Chinese checkers for 3 players", with the same content.
+- [Sternhalma zu dritt (Deutsch)](https://playleapstone.com/de/anleitungen/sternhalma-zu-dritt): the German version of "Chinese checkers for 3 players", with the same content.
+- [Trylma dla 3 graczy (Polski)](https://playleapstone.com/pl/poradniki/trylma-dla-trzech-graczy): the Polish version of "Chinese checkers for 3 players", with the same content.
+- [Damas chinesas para 3 jogadores (Português)](https://playleapstone.com/pt/guias/damas-chinesas-para-3-jogadores): the Portuguese version of "Chinese checkers for 3 players", with the same content.
+- [Dame chinezești pentru 3 jucători (Română)](https://playleapstone.com/ro/ghiduri/dame-chinezesti-in-trei): the Romanian version of "Chinese checkers for 3 players", with the same content.
+- [Китайские шашки втроём (Русский)](https://playleapstone.com/ru/rukovodstva/kitayskie-shashki-vtroem): the Russian version of "Chinese checkers for 3 players", with the same content.
+- [Čínska dáma pre 3 hráčov (Slovenčina)](https://playleapstone.com/sk/navody/cinska-dama-pre-troch): the Slovak version of "Chinese checkers for 3 players", with the same content.
+- [Kitajske dame za 3 igralce (Slovenščina)](https://playleapstone.com/sl/vodniki/kitajske-dame-za-tri): the Slovenian version of "Chinese checkers for 3 players", with the same content.
+- [Kinaschack för 3 spelare (Svenska)](https://playleapstone.com/sv/guider/kinaschack-for-tre): the Swedish version of "Chinese checkers for 3 players", with the same content.
+- [3 oyunculu Çin daması (Türkçe)](https://playleapstone.com/tr/rehberler/cin-damasi-uc-kisilik): the Turkish version of "Chinese checkers for 3 players", with the same content.
+- [Китайські шашки втрьох (Українська)](https://playleapstone.com/uk/posibnyky/kytaiski-shashky-vtrokh): the Ukrainian version of "Chinese checkers for 3 players", with the same content.
+- [3 کھلاڑیوں کی چائنیز چیکرز (اردو)](https://playleapstone.com/ur/rahnuma/chinese-checkers-teen-khilariyon-ke-liye): the Urdu version of "Chinese checkers for 3 players", with the same content.
+- [Dam Cina untuk 3 pemain (Bahasa Indonesia)](https://playleapstone.com/id/panduan/dam-cina-3-pemain): the Indonesian version of "Chinese checkers for 3 players", with the same content.
+- [Dam Cina untuk 3 pemain (Bahasa Melayu)](https://playleapstone.com/ms/panduan/dam-cina-3-pemain): the Malay version of "Chinese checkers for 3 players", with the same content.
+- [Cờ đam Trung Quốc cho 3 người chơi (Tiếng Việt)](https://playleapstone.com/vi/huong-dan/co-nhay-3-nguoi): the Vietnamese version of "Chinese checkers for 3 players", with the same content.
+- [3 জনের চাইনিজ চেকার্স (বাংলা)](https://playleapstone.com/bn/guides/chinese-checkers-3-players): the Bengali version of "Chinese checkers for 3 players", with the same content.
+- [3 ખેલાડીઓ માટે ચાઇનીઝ ચેકર્સ (ગુજરાતી)](https://playleapstone.com/gu/guides/chinese-checkers-3-players): the Gujarati version of "Chinese checkers for 3 players", with the same content.
+- [3 खिलाड़ियों का चाइनीज़ चेकर्स (हिन्दी)](https://playleapstone.com/hi/guides/chinese-checkers-3-players): the Hindi version of "Chinese checkers for 3 players", with the same content.
+- [3人で遊ぶダイヤモンドゲーム (日本語)](https://playleapstone.com/ja/guides/chinese-checkers-3-players): the Japanese version of "Chinese checkers for 3 players", with the same content.
+- [3 ಆಟಗಾರರ ಚೈನೀಸ್ ಚೆಕರ್ಸ್ (ಕನ್ನಡ)](https://playleapstone.com/kn/guides/chinese-checkers-3-players): the Kannada version of "Chinese checkers for 3 players", with the same content.
+- [3인용 다이아몬드 게임 (한국어)](https://playleapstone.com/ko/guides/chinese-checkers-3-players): the Korean version of "Chinese checkers for 3 players", with the same content.
+- [3 കളിക്കാർക്കുള്ള ചൈനീസ് ചെക്കേഴ്സ് (മലയാളം)](https://playleapstone.com/ml/guides/chinese-checkers-3-players): the Malayalam version of "Chinese checkers for 3 players", with the same content.
+- [3 खेळाडूंचे चायनीज चेकर्स (मराठी)](https://playleapstone.com/mr/guides/chinese-checkers-3-players): the Marathi version of "Chinese checkers for 3 players", with the same content.
+- [3 ଜଣ ଖେଳାଳିଙ୍କ ଚାଇନିଜ୍ ଚେକର୍ସ (ଓଡ଼ିଆ)](https://playleapstone.com/or/guides/chinese-checkers-3-players): the Odia version of "Chinese checkers for 3 players", with the same content.
+- [3 ਖਿਡਾਰੀਆਂ ਦੀ ਚਾਈਨੀਜ਼ ਚੈਕਰਸ (ਪੰਜਾਬੀ)](https://playleapstone.com/pa/guides/chinese-checkers-3-players): the Punjabi version of "Chinese checkers for 3 players", with the same content.
+- [3 வீரர்களுக்கான சைனீஸ் செக்கர்ஸ் (தமிழ்)](https://playleapstone.com/ta/guides/chinese-checkers-3-players): the Tamil version of "Chinese checkers for 3 players", with the same content.
+- [3 ఆటగాళ్ల చైనీస్ చెకర్స్ (తెలుగు)](https://playleapstone.com/te/guides/chinese-checkers-3-players): the Telugu version of "Chinese checkers for 3 players", with the same content.
+- [หมากฮอสจีนสำหรับ 3 คน (ไทย)](https://playleapstone.com/th/guides/chinese-checkers-3-players): the Thai version of "Chinese checkers for 3 players", with the same content.
+- [3 人跳棋 (简体中文)](https://playleapstone.com/zh-hans/guides/chinese-checkers-3-players): the Simplified Chinese version of "Chinese checkers for 3 players", with the same content.
+- [الداما الصينية لثلاثة لاعبين (العربية)](https://playleapstone.com/ar/adilla/dama-siniya-lithalathat-laibin): the Arabic version of "Chinese checkers for 3 players", with the same content.
+- [Dames xineses per a 3 jugadors (Català)](https://playleapstone.com/ca/guies/dames-xineses-3-jugadors): the Catalan version of "Chinese checkers for 3 players", with the same content.
+- [Damas chinas para 3 jugadores (Español)](https://playleapstone.com/es/guias/damas-chinas-3-jugadores): the Spanish version of "Chinese checkers for 3 players", with the same content.
+- [Čínská dáma pro 3 hráče (Čeština)](https://playleapstone.com/cs/navody/cinska-dama-pro-tri-hrace): the Czech version of "Chinese checkers for 3 players", with the same content.
+- [Csillaghalma 3 játékosnak (Magyar)](https://playleapstone.com/hu/utmutatok/csillaghalma-3-jatekosnak): the Hungarian version of "Chinese checkers for 3 players", with the same content.
+- [Kinaskak for 3 spillere (Dansk)](https://playleapstone.com/da/guider/kinaskak-for-tre-spillere): the Danish version of "Chinese checkers for 3 players", with the same content.
+- [Kinasjakk for 3 spillere (Norsk)](https://playleapstone.com/no/guider/kinasjakk-for-tre-spillere): the Norwegian version of "Chinese checkers for 3 players", with the same content.
+- [Κινέζικη ντάμα για 3 παίκτες (Ελληνικά)](https://playleapstone.com/el/odigoi/kinezika-ntama-gia-treis-paiktes): the Greek version of "Chinese checkers for 3 players", with the same content.
+- [Dama cinese per 3 giocatori (Italiano)](https://playleapstone.com/it/guide/dama-cinese-in-tre): the Italian version of "Chinese checkers for 3 players", with the same content.
+- [Kiinanšakki kolmelle pelaajalle (Suomi)](https://playleapstone.com/fi/oppaat/kiinansakki-kolmelle): the Finnish version of "Chinese checkers for 3 players", with the same content.
+- [Kineska dama za 3 igrača (Hrvatski)](https://playleapstone.com/hr/vodici/kineska-dama-za-3-igraca): the Croatian version of "Chinese checkers for 3 players", with the same content.
+- [Dames chinoises à 3 joueurs (Français)](https://playleapstone.com/fr/guides/dames-chinoises-a-trois): the French version of "Chinese checkers for 3 players", with the same content.
+- [דמקה סינית ל־3 שחקנים (עברית)](https://playleapstone.com/he/madrichim/dameka-sinit-lishlosha): the Hebrew version of "Chinese checkers for 3 players", with the same content.
+- [Chinees dammen met 4 spelers (Nederlands)](https://playleapstone.com/nl/chinees-dammen-vier-spelers): the Dutch version of "Chinese checkers for 4 players", with the same content.
+- [Sternhalma mit 4 Spielern (Deutsch)](https://playleapstone.com/de/anleitungen/sternhalma-zu-viert): the German version of "Chinese checkers for 4 players", with the same content.
+- [Trylma dla 4 graczy (Polski)](https://playleapstone.com/pl/poradniki/trylma-dla-czterech-graczy): the Polish version of "Chinese checkers for 4 players", with the same content.
+- [Damas chinesas para 4 jogadores (Português)](https://playleapstone.com/pt/guias/damas-chinesas-para-4-jogadores): the Portuguese version of "Chinese checkers for 4 players", with the same content.
+- [Dame chinezești pentru 4 jucători (Română)](https://playleapstone.com/ro/ghiduri/dame-chinezesti-in-patru): the Romanian version of "Chinese checkers for 4 players", with the same content.
+- [Китайские шашки вчетвером (Русский)](https://playleapstone.com/ru/rukovodstva/kitayskie-shashki-vchetverom): the Russian version of "Chinese checkers for 4 players", with the same content.
+- [Čínska dáma pre 4 hráčov (Slovenčina)](https://playleapstone.com/sk/navody/cinska-dama-pre-styroch): the Slovak version of "Chinese checkers for 4 players", with the same content.
+- [Kitajske dame za 4 igralce (Slovenščina)](https://playleapstone.com/sl/vodniki/kitajske-dame-za-stiri): the Slovenian version of "Chinese checkers for 4 players", with the same content.
+- [Kinaschack för 4 spelare (Svenska)](https://playleapstone.com/sv/guider/kinaschack-for-fyra): the Swedish version of "Chinese checkers for 4 players", with the same content.
+- [4 oyunculu Çin daması (Türkçe)](https://playleapstone.com/tr/rehberler/cin-damasi-dort-kisilik): the Turkish version of "Chinese checkers for 4 players", with the same content.
+- [Китайські шашки для 4 гравців (Українська)](https://playleapstone.com/uk/posibnyky/kytaiski-shashky-vchetverokh): the Ukrainian version of "Chinese checkers for 4 players", with the same content.
+- [4 کھلاڑیوں کی چائنیز چیکرز (اردو)](https://playleapstone.com/ur/rahnuma/chinese-checkers-chaar-khilariyon-ke-liye): the Urdu version of "Chinese checkers for 4 players", with the same content.
+- [Dam Cina untuk 4 pemain (Bahasa Indonesia)](https://playleapstone.com/id/panduan/dam-cina-4-pemain): the Indonesian version of "Chinese checkers for 4 players", with the same content.
+- [Dam Cina untuk 4 pemain (Bahasa Melayu)](https://playleapstone.com/ms/panduan/dam-cina-4-pemain): the Malay version of "Chinese checkers for 4 players", with the same content.
+- [Cờ đam Trung Quốc cho 4 người chơi (Tiếng Việt)](https://playleapstone.com/vi/huong-dan/co-nhay-4-nguoi): the Vietnamese version of "Chinese checkers for 4 players", with the same content.
+- [4 জনের চাইনিজ চেকার্স (বাংলা)](https://playleapstone.com/bn/guides/chinese-checkers-4-players): the Bengali version of "Chinese checkers for 4 players", with the same content.
+- [4 ખેલાડીઓ માટે ચાઇનીઝ ચેકર્સ (ગુજરાતી)](https://playleapstone.com/gu/guides/chinese-checkers-4-players): the Gujarati version of "Chinese checkers for 4 players", with the same content.
+- [4 खिलाड़ियों का चाइनीज़ चेकर्स (हिन्दी)](https://playleapstone.com/hi/guides/chinese-checkers-4-players): the Hindi version of "Chinese checkers for 4 players", with the same content.
+- [4人で遊ぶダイヤモンドゲーム (日本語)](https://playleapstone.com/ja/guides/chinese-checkers-4-players): the Japanese version of "Chinese checkers for 4 players", with the same content.
+- [4 ಆಟಗಾರರ ಚೈನೀಸ್ ಚೆಕರ್ಸ್ (ಕನ್ನಡ)](https://playleapstone.com/kn/guides/chinese-checkers-4-players): the Kannada version of "Chinese checkers for 4 players", with the same content.
+- [4인용 다이아몬드 게임 (한국어)](https://playleapstone.com/ko/guides/chinese-checkers-4-players): the Korean version of "Chinese checkers for 4 players", with the same content.
+- [4 കളിക്കാർക്കുള്ള ചൈനീസ് ചെക്കേഴ്സ് (മലയാളം)](https://playleapstone.com/ml/guides/chinese-checkers-4-players): the Malayalam version of "Chinese checkers for 4 players", with the same content.
+- [4 खेळाडूंचे चायनीज चेकर्स (मराठी)](https://playleapstone.com/mr/guides/chinese-checkers-4-players): the Marathi version of "Chinese checkers for 4 players", with the same content.
+- [4 ଜଣ ଖେଳାଳିଙ୍କ ଚାଇନିଜ୍ ଚେକର୍ସ (ଓଡ଼ିଆ)](https://playleapstone.com/or/guides/chinese-checkers-4-players): the Odia version of "Chinese checkers for 4 players", with the same content.
+- [4 ਖਿਡਾਰੀਆਂ ਦੀ ਚਾਈਨੀਜ਼ ਚੈਕਰਸ (ਪੰਜਾਬੀ)](https://playleapstone.com/pa/guides/chinese-checkers-4-players): the Punjabi version of "Chinese checkers for 4 players", with the same content.
+- [4 வீரர்களுக்கான சைனீஸ் செக்கர்ஸ் (தமிழ்)](https://playleapstone.com/ta/guides/chinese-checkers-4-players): the Tamil version of "Chinese checkers for 4 players", with the same content.
+- [4 ఆటగాళ్ల చైనీస్ చెకర్స్ (తెలుగు)](https://playleapstone.com/te/guides/chinese-checkers-4-players): the Telugu version of "Chinese checkers for 4 players", with the same content.
+- [หมากฮอสจีนสำหรับ 4 คน (ไทย)](https://playleapstone.com/th/guides/chinese-checkers-4-players): the Thai version of "Chinese checkers for 4 players", with the same content.
+- [4 人跳棋 (简体中文)](https://playleapstone.com/zh-hans/guides/chinese-checkers-4-players): the Simplified Chinese version of "Chinese checkers for 4 players", with the same content.
+- [الداما الصينية لـ4 لاعبين (العربية)](https://playleapstone.com/ar/adilla/dama-siniya-li-4-laibin): the Arabic version of "Chinese checkers for 4 players", with the same content.
+- [Dames xineses per a 4 jugadors (Català)](https://playleapstone.com/ca/guies/dames-xineses-4-jugadors): the Catalan version of "Chinese checkers for 4 players", with the same content.
+- [Damas chinas para 4 jugadores (Español)](https://playleapstone.com/es/guias/damas-chinas-4-jugadores): the Spanish version of "Chinese checkers for 4 players", with the same content.
+- [Čínská dáma pro 4 hráče (Čeština)](https://playleapstone.com/cs/navody/cinska-dama-pro-4-hrace): the Czech version of "Chinese checkers for 4 players", with the same content.
+- [Csillaghalma 4 játékosnak (Magyar)](https://playleapstone.com/hu/utmutatok/csillaghalma-4-jatekosnak): the Hungarian version of "Chinese checkers for 4 players", with the same content.
+- [Kinaskak for 4 spillere (Dansk)](https://playleapstone.com/da/guider/kinaskak-for-4-spillere): the Danish version of "Chinese checkers for 4 players", with the same content.
+- [Kinasjakk for 4 spillere (Norsk)](https://playleapstone.com/no/guider/kinasjakk-for-fire-spillere): the Norwegian version of "Chinese checkers for 4 players", with the same content.
+- [Κινέζικη ντάμα για 4 παίκτες (Ελληνικά)](https://playleapstone.com/el/odigoi/kinezika-ntama-gia-tesseris-paiktes): the Greek version of "Chinese checkers for 4 players", with the same content.
+- [Dama cinese per 4 giocatori (Italiano)](https://playleapstone.com/it/guide/dama-cinese-in-quattro): the Italian version of "Chinese checkers for 4 players", with the same content.
+- [Kiinanšakki 4 pelaajalle (Suomi)](https://playleapstone.com/fi/oppaat/kiinansakki-neljalle): the Finnish version of "Chinese checkers for 4 players", with the same content.
+- [Kineska dama za 4 igrača (Hrvatski)](https://playleapstone.com/hr/vodici/kineska-dama-za-4-igraca): the Croatian version of "Chinese checkers for 4 players", with the same content.
+- [Dames chinoises à 4 joueurs (Français)](https://playleapstone.com/fr/guides/dames-chinoises-a-quatre): the French version of "Chinese checkers for 4 players", with the same content.
+- [דמקה סינית ל־4 שחקנים (עברית)](https://playleapstone.com/he/madrichim/dameka-sinit-le-arbaa): the Hebrew version of "Chinese checkers for 4 players", with the same content.
+- [Chinees dammen met zes spelers (Nederlands)](https://playleapstone.com/nl/chinees-dammen-zes-spelers): the Dutch version of "Chinese checkers for 6 players", with the same content.
+- [Sternhalma zu sechst (Deutsch)](https://playleapstone.com/de/anleitungen/sternhalma-zu-sechst): the German version of "Chinese checkers for 6 players", with the same content.
+- [Trylma dla 6 graczy (Polski)](https://playleapstone.com/pl/poradniki/trylma-dla-szesciu-graczy): the Polish version of "Chinese checkers for 6 players", with the same content.
+- [Damas chinesas para 6 jogadores (Português)](https://playleapstone.com/pt/guias/damas-chinesas-para-6-jogadores): the Portuguese version of "Chinese checkers for 6 players", with the same content.
+- [Dame chinezești pentru 6 jucători (Română)](https://playleapstone.com/ro/ghiduri/dame-chinezesti-in-sase): the Romanian version of "Chinese checkers for 6 players", with the same content.
+- [Китайские шашки на 6 игроков (Русский)](https://playleapstone.com/ru/rukovodstva/kitayskie-shashki-vshestero): the Russian version of "Chinese checkers for 6 players", with the same content.
+- [Čínska dáma pre 6 hráčov (Slovenčina)](https://playleapstone.com/sk/navody/cinska-dama-pre-sestich): the Slovak version of "Chinese checkers for 6 players", with the same content.
+- [Kitajske dame za 6 igralcev (Slovenščina)](https://playleapstone.com/sl/vodniki/kitajske-dame-za-sest): the Slovenian version of "Chinese checkers for 6 players", with the same content.
+- [Kinaschack för 6 spelare (Svenska)](https://playleapstone.com/sv/guider/kinaschack-for-sex): the Swedish version of "Chinese checkers for 6 players", with the same content.
+- [6 oyunculu Çin daması (Türkçe)](https://playleapstone.com/tr/rehberler/cin-damasi-alti-kisilik): the Turkish version of "Chinese checkers for 6 players", with the same content.
+- [Китайські шашки на 6 гравців (Українська)](https://playleapstone.com/uk/posibnyky/kytaiski-shashky-vshestero): the Ukrainian version of "Chinese checkers for 6 players", with the same content.
+- [6 کھلاڑیوں کی چائنیز چیکرز (اردو)](https://playleapstone.com/ur/rahnuma/chinese-checkers-chhe-khilariyon-ke-liye): the Urdu version of "Chinese checkers for 6 players", with the same content.
+- [Dam Cina untuk 6 pemain (Bahasa Indonesia)](https://playleapstone.com/id/panduan/dam-cina-6-pemain): the Indonesian version of "Chinese checkers for 6 players", with the same content.
+- [Dam Cina untuk 6 pemain (Bahasa Melayu)](https://playleapstone.com/ms/panduan/dam-cina-6-pemain): the Malay version of "Chinese checkers for 6 players", with the same content.
+- [Cờ đam Trung Quốc cho 6 người (Tiếng Việt)](https://playleapstone.com/vi/huong-dan/co-nhay-6-nguoi): the Vietnamese version of "Chinese checkers for 6 players", with the same content.
+- [6 জনের চাইনিজ চেকার্স (বাংলা)](https://playleapstone.com/bn/guides/chinese-checkers-6-players): the Bengali version of "Chinese checkers for 6 players", with the same content.
+- [6 ખેલાડીઓ માટે ચાઇનીઝ ચેકર્સ (ગુજરાતી)](https://playleapstone.com/gu/guides/chinese-checkers-6-players): the Gujarati version of "Chinese checkers for 6 players", with the same content.
+- [6 खिलाड़ियों का चाइनीज़ चेकर्स (हिन्दी)](https://playleapstone.com/hi/guides/chinese-checkers-6-players): the Hindi version of "Chinese checkers for 6 players", with the same content.
+- [6人で遊ぶダイヤモンドゲーム (日本語)](https://playleapstone.com/ja/guides/chinese-checkers-6-players): the Japanese version of "Chinese checkers for 6 players", with the same content.
+- [6 ಆಟಗಾರರ ಚೈನೀಸ್ ಚೆಕರ್ಸ್ (ಕನ್ನಡ)](https://playleapstone.com/kn/guides/chinese-checkers-6-players): the Kannada version of "Chinese checkers for 6 players", with the same content.
+- [6인용 다이아몬드 게임 (한국어)](https://playleapstone.com/ko/guides/chinese-checkers-6-players): the Korean version of "Chinese checkers for 6 players", with the same content.
+- [6 കളിക്കാർക്കുള്ള ചൈനീസ് ചെക്കേഴ്സ് (മലയാളം)](https://playleapstone.com/ml/guides/chinese-checkers-6-players): the Malayalam version of "Chinese checkers for 6 players", with the same content.
+- [6 खेळाडूंचे चायनीज चेकर्स (मराठी)](https://playleapstone.com/mr/guides/chinese-checkers-6-players): the Marathi version of "Chinese checkers for 6 players", with the same content.
+- [6 ଜଣ ଖେଳାଳିଙ୍କ ଚାଇନିଜ୍ ଚେକର୍ସ (ଓଡ଼ିଆ)](https://playleapstone.com/or/guides/chinese-checkers-6-players): the Odia version of "Chinese checkers for 6 players", with the same content.
+- [6 ਖਿਡਾਰੀਆਂ ਦੀ ਚਾਈਨੀਜ਼ ਚੈਕਰਸ (ਪੰਜਾਬੀ)](https://playleapstone.com/pa/guides/chinese-checkers-6-players): the Punjabi version of "Chinese checkers for 6 players", with the same content.
+- [6 வீரர்களுக்கான சைனீஸ் செக்கர்ஸ் (தமிழ்)](https://playleapstone.com/ta/guides/chinese-checkers-6-players): the Tamil version of "Chinese checkers for 6 players", with the same content.
+- [6 ఆటగాళ్ల చైనీస్ చెకర్స్ (తెలుగు)](https://playleapstone.com/te/guides/chinese-checkers-6-players): the Telugu version of "Chinese checkers for 6 players", with the same content.
+- [หมากฮอสจีนสำหรับ 6 คน (ไทย)](https://playleapstone.com/th/guides/chinese-checkers-6-players): the Thai version of "Chinese checkers for 6 players", with the same content.
+- [6 人跳棋 (简体中文)](https://playleapstone.com/zh-hans/guides/chinese-checkers-6-players): the Simplified Chinese version of "Chinese checkers for 6 players", with the same content.
+- [الداما الصينية لـ 6 لاعبين (العربية)](https://playleapstone.com/ar/adilla/dama-siniya-lisitta-laibin): the Arabic version of "Chinese checkers for 6 players", with the same content.
+- [Dames xineses per a 6 jugadors (Català)](https://playleapstone.com/ca/guies/dames-xineses-6-jugadors): the Catalan version of "Chinese checkers for 6 players", with the same content.
+- [Damas chinas para 6 jugadores (Español)](https://playleapstone.com/es/guias/damas-chinas-6-jugadores): the Spanish version of "Chinese checkers for 6 players", with the same content.
+- [Čínská dáma pro 6 hráčů (Čeština)](https://playleapstone.com/cs/navody/cinska-dama-pro-sest-hracu): the Czech version of "Chinese checkers for 6 players", with the same content.
+- [Csillaghalma 6 játékosnak (Magyar)](https://playleapstone.com/hu/utmutatok/csillaghalma-6-jatekosnak): the Hungarian version of "Chinese checkers for 6 players", with the same content.
+- [Kinaskak for 6 spillere (Dansk)](https://playleapstone.com/da/guider/kinaskak-for-seks-spillere): the Danish version of "Chinese checkers for 6 players", with the same content.
+- [Kinasjakk for 6 spillere (Norsk)](https://playleapstone.com/no/guider/kinasjakk-for-seks-spillere): the Norwegian version of "Chinese checkers for 6 players", with the same content.
+- [Κινέζικη ντάμα για 6 παίκτες (Ελληνικά)](https://playleapstone.com/el/odigoi/kinezika-ntama-gia-eksi-paiktes): the Greek version of "Chinese checkers for 6 players", with the same content.
+- [Dama cinese per 6 giocatori (Italiano)](https://playleapstone.com/it/guide/dama-cinese-in-sei): the Italian version of "Chinese checkers for 6 players", with the same content.
+- [Kiinanšakki kuudelle pelaajalle (Suomi)](https://playleapstone.com/fi/oppaat/kiinansakki-kuudelle): the Finnish version of "Chinese checkers for 6 players", with the same content.
+- [Kineska dama za 6 igrača (Hrvatski)](https://playleapstone.com/hr/vodici/kineska-dama-za-6-igraca): the Croatian version of "Chinese checkers for 6 players", with the same content.
+- [Dames chinoises à 6 joueurs (Français)](https://playleapstone.com/fr/guides/dames-chinoises-a-six): the French version of "Chinese checkers for 6 players", with the same content.
+- [דמקה סינית ל־6 שחקנים (עברית)](https://playleapstone.com/he/madrichim/dameka-sinit-leshisha): the Hebrew version of "Chinese checkers for 6 players", with the same content.
+- [Chinees dammen: openingszetten (Nederlands)](https://playleapstone.com/nl/chinees-dammen-openingszetten): the Dutch version of "Chinese checkers opening moves", with the same content.
+- [Sternhalma-Eröffnungszüge (Deutsch)](https://playleapstone.com/de/anleitungen/sternhalma-eroeffnungszuege): the German version of "Chinese checkers opening moves", with the same content.
+- [Otwarcia w trylmie (Polski)](https://playleapstone.com/pl/poradniki/trylma-otwarcia): the Polish version of "Chinese checkers opening moves", with the same content.
+- [Aberturas nas damas chinesas (Português)](https://playleapstone.com/pt/guias/damas-chinesas-aberturas): the Portuguese version of "Chinese checkers opening moves", with the same content.
+- [Deschideri la dame chinezești (Română)](https://playleapstone.com/ro/ghiduri/dame-chinezesti-deschideri): the Romanian version of "Chinese checkers opening moves", with the same content.
+- [Дебюты в китайских шашках (Русский)](https://playleapstone.com/ru/rukovodstva/kitayskie-shashki-debyut): the Russian version of "Chinese checkers opening moves", with the same content.
+- [Čínska dáma: úvodné ťahy (Slovenčina)](https://playleapstone.com/sk/navody/cinska-dama-otvorenie): the Slovak version of "Chinese checkers opening moves", with the same content.
+- [Kitajske dame: otvoritvene poteze (Slovenščina)](https://playleapstone.com/sl/vodniki/kitajske-dame-otvoritev): the Slovenian version of "Chinese checkers opening moves", with the same content.
+- [Öppningsdrag i kinaschack (Svenska)](https://playleapstone.com/sv/guider/kinaschack-oppningar): the Swedish version of "Chinese checkers opening moves", with the same content.
+- [Çin daması açılış hamleleri (Türkçe)](https://playleapstone.com/tr/rehberler/cin-damasi-acilis-hamleleri): the Turkish version of "Chinese checkers opening moves", with the same content.
+- [Перші ходи в китайських шашках (Українська)](https://playleapstone.com/uk/posibnyky/kytaiski-shashky-debiut): the Ukrainian version of "Chinese checkers opening moves", with the same content.
+- [چائنیز چیکرز کی ابتدائی چالیں (اردو)](https://playleapstone.com/ur/rahnuma/chinese-checkers-ibtidai-chalein): the Urdu version of "Chinese checkers opening moves", with the same content.
+- [Langkah pembuka dam Cina (Bahasa Indonesia)](https://playleapstone.com/id/panduan/dam-cina-langkah-pembuka): the Indonesian version of "Chinese checkers opening moves", with the same content.
+- [Langkah pembukaan dam Cina (Bahasa Melayu)](https://playleapstone.com/ms/panduan/dam-cina-langkah-pembukaan): the Malay version of "Chinese checkers opening moves", with the same content.
+- [Nước đi mở đầu cờ đam Trung Quốc (Tiếng Việt)](https://playleapstone.com/vi/huong-dan/co-nhay-nuoc-mo-dau): the Vietnamese version of "Chinese checkers opening moves", with the same content.
+- [চাইনিজ চেকার্সের ওপেনিং (বাংলা)](https://playleapstone.com/bn/guides/chinese-checkers-opening-moves): the Bengali version of "Chinese checkers opening moves", with the same content.
+- [ચાઇનીઝ ચેકર્સ ઓપનિંગ (ગુજરાતી)](https://playleapstone.com/gu/guides/chinese-checkers-opening-moves): the Gujarati version of "Chinese checkers opening moves", with the same content.
+- [चाइनीज़ चेकर्स की शुरुआती चालें (हिन्दी)](https://playleapstone.com/hi/guides/chinese-checkers-opening-moves): the Hindi version of "Chinese checkers opening moves", with the same content.
+- [ダイヤモンドゲームの序盤の手 (日本語)](https://playleapstone.com/ja/guides/chinese-checkers-opening-moves): the Japanese version of "Chinese checkers opening moves", with the same content.
+- [ಚೈನೀಸ್ ಚೆಕರ್ಸ್ ಆರಂಭಿಕ ನಡೆಗಳು (ಕನ್ನಡ)](https://playleapstone.com/kn/guides/chinese-checkers-opening-moves): the Kannada version of "Chinese checkers opening moves", with the same content.
+- [다이아몬드 게임 첫 수 (한국어)](https://playleapstone.com/ko/guides/chinese-checkers-opening-moves): the Korean version of "Chinese checkers opening moves", with the same content.
+- [ചൈനീസ് ചെക്കേഴ്സ് ആദ്യ നീക്കങ്ങൾ (മലയാളം)](https://playleapstone.com/ml/guides/chinese-checkers-opening-moves): the Malayalam version of "Chinese checkers opening moves", with the same content.
+- [चायनीज चेकर्सच्या पहिल्या चाली (मराठी)](https://playleapstone.com/mr/guides/chinese-checkers-opening-moves): the Marathi version of "Chinese checkers opening moves", with the same content.
+- [ଚାଇନିଜ୍ ଚେକର୍ସ ଆରମ୍ଭିକ ଚାଲି (ଓଡ଼ିଆ)](https://playleapstone.com/or/guides/chinese-checkers-opening-moves): the Odia version of "Chinese checkers opening moves", with the same content.
+- [ਚਾਈਨੀਜ਼ ਚੈਕਰਸ ਦੀਆਂ ਸ਼ੁਰੂਆਤੀ ਚਾਲਾਂ (ਪੰਜਾਬੀ)](https://playleapstone.com/pa/guides/chinese-checkers-opening-moves): the Punjabi version of "Chinese checkers opening moves", with the same content.
+- [சைனீஸ் செக்கர்ஸ் தொடக்க நகர்வுகள் (தமிழ்)](https://playleapstone.com/ta/guides/chinese-checkers-opening-moves): the Tamil version of "Chinese checkers opening moves", with the same content.
+- [చైనీస్ చెకర్స్ ప్రారంభ ఎత్తులు (తెలుగు)](https://playleapstone.com/te/guides/chinese-checkers-opening-moves): the Telugu version of "Chinese checkers opening moves", with the same content.
+- [ตาเปิดเกมหมากฮอสจีน (ไทย)](https://playleapstone.com/th/guides/chinese-checkers-opening-moves): the Thai version of "Chinese checkers opening moves", with the same content.
+- [跳棋开局走法 (简体中文)](https://playleapstone.com/zh-hans/guides/chinese-checkers-opening-moves): the Simplified Chinese version of "Chinese checkers opening moves", with the same content.
+- [نقلات افتتاح الداما الصينية (العربية)](https://playleapstone.com/ar/adilla/dama-siniya-harakat-iftitahiya): the Arabic version of "Chinese checkers opening moves", with the same content.
+- [Obertures de les dames xineses (Català)](https://playleapstone.com/ca/guies/obertures-dames-xineses): the Catalan version of "Chinese checkers opening moves", with the same content.
+- [Aperturas de las damas chinas (Español)](https://playleapstone.com/es/guias/aperturas-damas-chinas): the Spanish version of "Chinese checkers opening moves", with the same content.
+- [Zahájení čínské dámy (Čeština)](https://playleapstone.com/cs/navody/cinska-dama-zahajeni): the Czech version of "Chinese checkers opening moves", with the same content.
+- [Csillaghalma megnyitások (Magyar)](https://playleapstone.com/hu/utmutatok/csillaghalma-megnyitas): the Hungarian version of "Chinese checkers opening moves", with the same content.
+- [Åbningstræk i kinaskak (Dansk)](https://playleapstone.com/da/guider/kinaskak-abningstraek): the Danish version of "Chinese checkers opening moves", with the same content.
+- [Åpningstrekk i kinasjakk (Norsk)](https://playleapstone.com/no/guider/kinasjakk-apningstrekk): the Norwegian version of "Chinese checkers opening moves", with the same content.
+- [Ανοίγματα στην κινέζικη ντάμα (Ελληνικά)](https://playleapstone.com/el/odigoi/kinezika-ntama-anoigmata): the Greek version of "Chinese checkers opening moves", with the same content.
+- [Aperture nella dama cinese (Italiano)](https://playleapstone.com/it/guide/dama-cinese-aperture): the Italian version of "Chinese checkers opening moves", with the same content.
+- [Kiinanšakin avaukset (Suomi)](https://playleapstone.com/fi/oppaat/kiinansakki-avaukset): the Finnish version of "Chinese checkers opening moves", with the same content.
+- [Otvaranja u kineskoj dami (Hrvatski)](https://playleapstone.com/hr/vodici/kineska-dama-otvaranja): the Croatian version of "Chinese checkers opening moves", with the same content.
+- [Ouvertures aux dames chinoises (Français)](https://playleapstone.com/fr/guides/dames-chinoises-ouvertures): the French version of "Chinese checkers opening moves", with the same content.
+- [פתיחות בדמקה סינית (עברית)](https://playleapstone.com/he/madrichim/dameka-sinit-ptichot): the Hebrew version of "Chinese checkers opening moves", with the same content.
+- [Chinees dammen online met vrienden (Nederlands)](https://playleapstone.com/nl/chinees-dammen-online-met-vrienden): the Dutch version of "Chinese checkers online with friends", with the same content.
+- [Sternhalma online mit Freunden (Deutsch)](https://playleapstone.com/de/anleitungen/sternhalma-online-mit-freunden): the German version of "Chinese checkers online with friends", with the same content.
+- [Trylma online ze znajomymi (Polski)](https://playleapstone.com/pl/poradniki/trylma-online-z-przyjaciolmi): the Polish version of "Chinese checkers online with friends", with the same content.
+- [Damas chinesas online com amigos (Português)](https://playleapstone.com/pt/guias/damas-chinesas-online-com-amigos): the Portuguese version of "Chinese checkers online with friends", with the same content.
+- [Dame chinezești online cu prietenii (Română)](https://playleapstone.com/ro/ghiduri/dame-chinezesti-online-cu-prietenii): the Romanian version of "Chinese checkers online with friends", with the same content.
+- [Китайские шашки онлайн с друзьями (Русский)](https://playleapstone.com/ru/rukovodstva/kitayskie-shashki-onlayn-s-druzyami): the Russian version of "Chinese checkers online with friends", with the same content.
+- [Čínska dáma online s priateľmi (Slovenčina)](https://playleapstone.com/sk/navody/cinska-dama-online-s-priatelmi): the Slovak version of "Chinese checkers online with friends", with the same content.
+- [Kitajske dame na spletu s prijatelji (Slovenščina)](https://playleapstone.com/sl/vodniki/kitajske-dame-na-spletu-s-prijatelji): the Slovenian version of "Chinese checkers online with friends", with the same content.
+- [Kinaschack online med vänner (Svenska)](https://playleapstone.com/sv/guider/kinaschack-online-med-vanner): the Swedish version of "Chinese checkers online with friends", with the same content.
+- [Arkadaşlarla çevrimiçi Çin daması (Türkçe)](https://playleapstone.com/tr/rehberler/cin-damasi-arkadaslarla-online): the Turkish version of "Chinese checkers online with friends", with the same content.
+- [Китайські шашки онлайн з друзями (Українська)](https://playleapstone.com/uk/posibnyky/kytaiski-shashky-onlain-z-druzziamy): the Ukrainian version of "Chinese checkers online with friends", with the same content.
+- [دوستوں کے ساتھ آن لائن چائنیز چیکرز (اردو)](https://playleapstone.com/ur/rahnuma/chinese-checkers-dosto-ke-sath-online): the Urdu version of "Chinese checkers online with friends", with the same content.
+- [Dam Cina online bersama teman (Bahasa Indonesia)](https://playleapstone.com/id/panduan/dam-cina-online-dengan-teman): the Indonesian version of "Chinese checkers online with friends", with the same content.
+- [Dam Cina dalam talian dengan rakan (Bahasa Melayu)](https://playleapstone.com/ms/panduan/dam-cina-dalam-talian-dengan-rakan): the Malay version of "Chinese checkers online with friends", with the same content.
+- [Cờ đam Trung Quốc online với bạn bè (Tiếng Việt)](https://playleapstone.com/vi/huong-dan/co-nhay-online-voi-ban-be): the Vietnamese version of "Chinese checkers online with friends", with the same content.
+- [বন্ধুদের সাথে অনলাইনে চাইনিজ চেকার্স (বাংলা)](https://playleapstone.com/bn/guides/play-chinese-checkers-online-with-friends): the Bengali version of "Chinese checkers online with friends", with the same content.
+- [મિત્રો સાથે ઓનલાઇન ચાઇનીઝ ચેકર્સ (ગુજરાતી)](https://playleapstone.com/gu/guides/play-chinese-checkers-online-with-friends): the Gujarati version of "Chinese checkers online with friends", with the same content.
+- [दोस्तों के साथ ऑनलाइन चाइनीज़ चेकर्स (हिन्दी)](https://playleapstone.com/hi/guides/play-chinese-checkers-online-with-friends): the Hindi version of "Chinese checkers online with friends", with the same content.
+- [友達とオンラインで遊ぶダイヤモンドゲーム (日本語)](https://playleapstone.com/ja/guides/play-chinese-checkers-online-with-friends): the Japanese version of "Chinese checkers online with friends", with the same content.
+- [ಸ್ನೇಹಿತರೊಂದಿಗೆ ಆನ್‌ಲೈನ್ ಚೈನೀಸ್ ಚೆಕರ್ಸ್ (ಕನ್ನಡ)](https://playleapstone.com/kn/guides/play-chinese-checkers-online-with-friends): the Kannada version of "Chinese checkers online with friends", with the same content.
+- [친구와 온라인으로 하는 다이아몬드 게임 (한국어)](https://playleapstone.com/ko/guides/play-chinese-checkers-online-with-friends): the Korean version of "Chinese checkers online with friends", with the same content.
+- [സുഹൃത്തുക്കളോടൊപ്പം ഓൺലൈൻ ചൈനീസ് ചെക്കേഴ്സ് (മലയാളം)](https://playleapstone.com/ml/guides/play-chinese-checkers-online-with-friends): the Malayalam version of "Chinese checkers online with friends", with the same content.
+- [मित्रांसोबत ऑनलाइन चायनीज चेकर्स (मराठी)](https://playleapstone.com/mr/guides/play-chinese-checkers-online-with-friends): the Marathi version of "Chinese checkers online with friends", with the same content.
+- [ସାଙ୍ଗମାନଙ୍କ ସହ ଅନଲାଇନ୍ ଚାଇନିଜ୍ ଚେକର୍ସ (ଓଡ଼ିଆ)](https://playleapstone.com/or/guides/play-chinese-checkers-online-with-friends): the Odia version of "Chinese checkers online with friends", with the same content.
+- [ਦੋਸਤਾਂ ਨਾਲ ਆਨਲਾਈਨ ਚਾਈਨੀਜ਼ ਚੈਕਰਸ (ਪੰਜਾਬੀ)](https://playleapstone.com/pa/guides/play-chinese-checkers-online-with-friends): the Punjabi version of "Chinese checkers online with friends", with the same content.
+- [நண்பர்களுடன் ஆன்லைன் சைனீஸ் செக்கர்ஸ் (தமிழ்)](https://playleapstone.com/ta/guides/play-chinese-checkers-online-with-friends): the Tamil version of "Chinese checkers online with friends", with the same content.
+- [స్నేహితులతో ఆన్‌లైన్ చైనీస్ చెకర్స్ (తెలుగు)](https://playleapstone.com/te/guides/play-chinese-checkers-online-with-friends): the Telugu version of "Chinese checkers online with friends", with the same content.
+- [หมากฮอสจีนออนไลน์กับเพื่อน (ไทย)](https://playleapstone.com/th/guides/play-chinese-checkers-online-with-friends): the Thai version of "Chinese checkers online with friends", with the same content.
+- [与好友在线玩跳棋 (简体中文)](https://playleapstone.com/zh-hans/guides/play-chinese-checkers-online-with-friends): the Simplified Chinese version of "Chinese checkers online with friends", with the same content.
+- [الداما الصينية عبر الإنترنت مع الأصدقاء (العربية)](https://playleapstone.com/ar/adilla/dama-siniya-online-ma-al-asdiqa): the Arabic version of "Chinese checkers online with friends", with the same content.
+- [Dames xineses en línia amb amics (Català)](https://playleapstone.com/ca/guies/dames-xineses-en-linia-amb-amics): the Catalan version of "Chinese checkers online with friends", with the same content.
+- [Damas chinas en línea con amigos (Español)](https://playleapstone.com/es/guias/damas-chinas-online-con-amigos): the Spanish version of "Chinese checkers online with friends", with the same content.
+- [Čínská dáma online s přáteli (Čeština)](https://playleapstone.com/cs/navody/cinska-dama-online-s-prateli): the Czech version of "Chinese checkers online with friends", with the same content.
+- [Csillaghalma online barátokkal (Magyar)](https://playleapstone.com/hu/utmutatok/csillaghalma-online-baratokkal): the Hungarian version of "Chinese checkers online with friends", with the same content.
+- [Kinaskak online med venner (Dansk)](https://playleapstone.com/da/guider/kinaskak-online-med-venner): the Danish version of "Chinese checkers online with friends", with the same content.
+- [Kinasjakk på nett med venner (Norsk)](https://playleapstone.com/no/guider/kinasjakk-online-med-venner): the Norwegian version of "Chinese checkers online with friends", with the same content.
+- [Κινέζικη ντάμα online με φίλους (Ελληνικά)](https://playleapstone.com/el/odigoi/kinezika-ntama-online-me-filous): the Greek version of "Chinese checkers online with friends", with the same content.
+- [Dama cinese online con gli amici (Italiano)](https://playleapstone.com/it/guide/dama-cinese-online-con-gli-amici): the Italian version of "Chinese checkers online with friends", with the same content.
+- [Kiinanšakki verkossa kavereiden kanssa (Suomi)](https://playleapstone.com/fi/oppaat/kiinansakki-verkossa-kavereiden-kanssa): the Finnish version of "Chinese checkers online with friends", with the same content.
+- [Kineska dama online s prijateljima (Hrvatski)](https://playleapstone.com/hr/vodici/kineska-dama-online-s-prijateljima): the Croatian version of "Chinese checkers online with friends", with the same content.
+- [Dames chinoises en ligne avec des amis (Français)](https://playleapstone.com/fr/guides/dames-chinoises-en-ligne-avec-des-amis): the French version of "Chinese checkers online with friends", with the same content.
+- [דמקה סינית אונליין עם חברים (עברית)](https://playleapstone.com/he/madrichim/dameka-sinit-online-im-haverim): the Hebrew version of "Chinese checkers online with friends", with the same content.
+- [Chinees dammen in cijfers (Nederlands)](https://playleapstone.com/nl/chinees-dammen-in-cijfers): the Dutch version of "By the numbers", with the same content.
+- [Sternhalma in Zahlen (Deutsch)](https://playleapstone.com/de/anleitungen/sternhalma-in-zahlen): the German version of "By the numbers", with the same content.
+- [Trylma w liczbach (Polski)](https://playleapstone.com/pl/poradniki/trylma-w-liczbach): the Polish version of "By the numbers", with the same content.
+- [As damas chinesas em números (Português)](https://playleapstone.com/pt/guias/damas-chinesas-em-numeros): the Portuguese version of "By the numbers", with the same content.
+- [Dame chinezești în cifre (Română)](https://playleapstone.com/ro/ghiduri/dame-chinezesti-in-cifre): the Romanian version of "By the numbers", with the same content.
+- [Китайские шашки в цифрах (Русский)](https://playleapstone.com/ru/rukovodstva/kitayskie-shashki-v-tsifrakh): the Russian version of "By the numbers", with the same content.
+- [Čínska dáma v číslach (Slovenčina)](https://playleapstone.com/sk/navody/cinska-dama-v-cislach): the Slovak version of "By the numbers", with the same content.
+- [Kitajske dame v številkah (Slovenščina)](https://playleapstone.com/sl/vodniki/kitajske-dame-v-stevilkah): the Slovenian version of "By the numbers", with the same content.
+- [Kinaschack i siffror (Svenska)](https://playleapstone.com/sv/guider/kinaschack-i-siffror): the Swedish version of "By the numbers", with the same content.
+- [Rakamlarla Çin daması (Türkçe)](https://playleapstone.com/tr/rehberler/cin-damasi-rakamlarla): the Turkish version of "By the numbers", with the same content.
+- [Китайські шашки в цифрах (Українська)](https://playleapstone.com/uk/posibnyky/kytaiski-shashky-u-tsyfrakh): the Ukrainian version of "By the numbers", with the same content.
+- [چائنیز چیکرز اعداد و شمار میں (اردو)](https://playleapstone.com/ur/rahnuma/chinese-checkers-adad-o-shumar): the Urdu version of "By the numbers", with the same content.
+- [Dam Cina dalam angka (Bahasa Indonesia)](https://playleapstone.com/id/panduan/dam-cina-dalam-angka): the Indonesian version of "By the numbers", with the same content.
+- [Dam Cina dalam nombor (Bahasa Melayu)](https://playleapstone.com/ms/panduan/dam-cina-dalam-nombor): the Malay version of "By the numbers", with the same content.
+- [Cờ đam Trung Quốc qua những con số (Tiếng Việt)](https://playleapstone.com/vi/huong-dan/co-nhay-qua-nhung-con-so): the Vietnamese version of "By the numbers", with the same content.
+- [সংখ্যায় চাইনিজ চেকার্স (বাংলা)](https://playleapstone.com/bn/guides/chinese-checkers-by-the-numbers): the Bengali version of "By the numbers", with the same content.
+- [આંકડામાં ચાઇનીઝ ચેકર્સ (ગુજરાતી)](https://playleapstone.com/gu/guides/chinese-checkers-by-the-numbers): the Gujarati version of "By the numbers", with the same content.
+- [आँकड़ों में चाइनीज़ चेकर्स (हिन्दी)](https://playleapstone.com/hi/guides/chinese-checkers-by-the-numbers): the Hindi version of "By the numbers", with the same content.
+- [数字で見るダイヤモンドゲーム (日本語)](https://playleapstone.com/ja/guides/chinese-checkers-by-the-numbers): the Japanese version of "By the numbers", with the same content.
+- [ಸಂಖ್ಯೆಗಳಲ್ಲಿ ಚೈನೀಸ್ ಚೆಕರ್ಸ್ (ಕನ್ನಡ)](https://playleapstone.com/kn/guides/chinese-checkers-by-the-numbers): the Kannada version of "By the numbers", with the same content.
+- [숫자로 보는 다이아몬드 게임 (한국어)](https://playleapstone.com/ko/guides/chinese-checkers-by-the-numbers): the Korean version of "By the numbers", with the same content.
+- [സംഖ്യകളിൽ ചൈനീസ് ചെക്കേഴ്സ് (മലയാളം)](https://playleapstone.com/ml/guides/chinese-checkers-by-the-numbers): the Malayalam version of "By the numbers", with the same content.
+- [आकड्यांत चायनीज चेकर्स (मराठी)](https://playleapstone.com/mr/guides/chinese-checkers-by-the-numbers): the Marathi version of "By the numbers", with the same content.
+- [ସଂଖ୍ୟାରେ ଚାଇନିଜ୍ ଚେକର୍ସ (ଓଡ଼ିଆ)](https://playleapstone.com/or/guides/chinese-checkers-by-the-numbers): the Odia version of "By the numbers", with the same content.
+- [ਅੰਕੜਿਆਂ ਵਿੱਚ ਚਾਈਨੀਜ਼ ਚੈਕਰਸ (ਪੰਜਾਬੀ)](https://playleapstone.com/pa/guides/chinese-checkers-by-the-numbers): the Punjabi version of "By the numbers", with the same content.
+- [எண்களில் சைனீஸ் செக்கர்ஸ் (தமிழ்)](https://playleapstone.com/ta/guides/chinese-checkers-by-the-numbers): the Tamil version of "By the numbers", with the same content.
+- [సంఖ్యల్లో చైనీస్ చెకర్స్ (తెలుగు)](https://playleapstone.com/te/guides/chinese-checkers-by-the-numbers): the Telugu version of "By the numbers", with the same content.
+- [หมากฮอสจีนในตัวเลข (ไทย)](https://playleapstone.com/th/guides/chinese-checkers-by-the-numbers): the Thai version of "By the numbers", with the same content.
+- [数字里的跳棋 (简体中文)](https://playleapstone.com/zh-hans/guides/chinese-checkers-by-the-numbers): the Simplified Chinese version of "By the numbers", with the same content.
+- [الداما الصينية بالأرقام (العربية)](https://playleapstone.com/ar/adilla/dama-siniya-bil-arqam): the Arabic version of "By the numbers", with the same content.
+- [Les dames xineses en xifres (Català)](https://playleapstone.com/ca/guies/dames-xineses-en-xifres): the Catalan version of "By the numbers", with the same content.
+- [Las damas chinas en cifras (Español)](https://playleapstone.com/es/guias/damas-chinas-en-cifras): the Spanish version of "By the numbers", with the same content.
+- [Čínská dáma v číslech (Čeština)](https://playleapstone.com/cs/navody/cinska-dama-v-cislech): the Czech version of "By the numbers", with the same content.
+- [Csillaghalma számokban (Magyar)](https://playleapstone.com/hu/utmutatok/csillaghalma-szamokban): the Hungarian version of "By the numbers", with the same content.
+- [Kinaskak i tal (Dansk)](https://playleapstone.com/da/guider/kinaskak-i-tal): the Danish version of "By the numbers", with the same content.
+- [Kinasjakk i tall (Norsk)](https://playleapstone.com/no/guider/kinasjakk-i-tall): the Norwegian version of "By the numbers", with the same content.
+- [Η κινέζικη ντάμα σε αριθμούς (Ελληνικά)](https://playleapstone.com/el/odigoi/kinezika-ntama-se-arithmous): the Greek version of "By the numbers", with the same content.
+- [La dama cinese in numeri (Italiano)](https://playleapstone.com/it/guide/dama-cinese-in-numeri): the Italian version of "By the numbers", with the same content.
+- [Kiinanšakki numeroina (Suomi)](https://playleapstone.com/fi/oppaat/kiinansakki-numeroina): the Finnish version of "By the numbers", with the same content.
+- [Kineska dama u brojkama (Hrvatski)](https://playleapstone.com/hr/vodici/kineska-dama-u-brojkama): the Croatian version of "By the numbers", with the same content.
+- [Les dames chinoises en chiffres (Français)](https://playleapstone.com/fr/guides/dames-chinoises-en-chiffres): the French version of "By the numbers", with the same content.
+- [דמקה סינית במספרים (עברית)](https://playleapstone.com/he/madrichim/dameka-sinit-bemisparim): the Hebrew version of "By the numbers", with the same content.
+<!-- regels:end -->
+- [Privacy policy](https://playleapstone.com/privacy): what Leapstone stores, where, for how long, and how to delete your account.
+- [Terms of use](https://playleapstone.com/terms): the rules for player names and chat.
+
+## Contact
+
+info@thewillonline.nl

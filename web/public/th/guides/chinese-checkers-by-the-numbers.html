@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="theme-color" content="#0b0d10" />
+  <title>หมากฮอสจีน (Chinese checkers) ในตัวเลข | Leapstone</title>
+  <meta name="description" content="กระดานรูปดาวมี 121 ช่อง ตาเดียวกระโดดได้มากสุด 36 ครั้ง และผู้เล่นคนเดียวต้องใช้ 27 ตาจึงข้ามกระดานได้ ดูว่าแต่ละตัวเลขคำนวณอย่างไร" />
+  <link rel="icon" href="/icon-192.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="canonical" href="https://playleapstone.com/th/guides/chinese-checkers-by-the-numbers" />
+  <link rel="alternate" hreflang="en" href="https://playleapstone.com/guides/chinese-checkers-by-the-numbers" />
+  <link rel="alternate" hreflang="nl" href="https://playleapstone.com/nl/chinees-dammen-in-cijfers" />
+  <link rel="alternate" hreflang="de" href="https://playleapstone.com/de/anleitungen/sternhalma-in-zahlen" />
+  <link rel="alternate" hreflang="pl" href="https://playleapstone.com/pl/poradniki/trylma-w-liczbach" />
+  <link rel="alternate" hreflang="pt" href="https://playleapstone.com/pt/guias/damas-chinesas-em-numeros" />
+  <link rel="alternate" hreflang="ro" href="https://playleapstone.com/ro/ghiduri/dame-chinezesti-in-cifre" />
+  <link rel="alternate" hreflang="ru" href="https://playleapstone.com/ru/rukovodstva/kitayskie-shashki-v-tsifrakh" />
+  <link rel="alternate" hreflang="sk" href="https://playleapstone.com/sk/navody/cinska-dama-v-cislach" />
+  <link rel="alternate" hreflang="sl" href="https://playleapstone.com/sl/vodniki/kitajske-dame-v-stevilkah" />
+  <link rel="alternate" hreflang="sv" href="https://playleapstone.com/sv/guider/kinaschack-i-siffror" />
+  <link rel="alternate" hreflang="tr" href="https://playleapstone.com/tr/rehberler/cin-damasi-rakamlarla" />
+  <link rel="alternate" hreflang="uk" href="https://playleapstone.com/uk/posibnyky/kytaiski-shashky-u-tsyfrakh" />
+  <link rel="alternate" hreflang="ur" href="https://playleapstone.com/ur/rahnuma/chinese-checkers-adad-o-shumar" />
+  <link rel="alternate" hreflang="id" href="https://playleapstone.com/id/panduan/dam-cina-dalam-angka" />
+  <link rel="alternate" hreflang="ms" href="https://playleapstone.com/ms/panduan/dam-cina-dalam-nombor" />
+  <link rel="alternate" hreflang="vi" href="https://playleapstone.com/vi/huong-dan/co-nhay-qua-nhung-con-so" />
+  <link rel="alternate" hreflang="bn" href="https://playleapstone.com/bn/guides/chinese-checkers-by-the-numbers" />
+  <link rel="alternate" hreflang="gu" href="https://playleapstone.com/gu/guides/chinese-checkers-by-the-numbers" />
+  <link rel="alternate" hreflang="hi" href="https://playleapstone.com/hi/guides/chinese-checkers-by-the-numbers" />
+  <link rel="alternate" hreflang="ja" href="https://playleapstone.com/ja/guides/chinese-checkers-by-the-numbers" />
+  <link rel="alternate" hreflang="kn" href="https://playleapstone.com/kn/guides/chinese-checkers-by-the-numbers" />
+  <link rel="alternate" hreflang="ko" href="https://playleapstone.com/ko/guides/chinese-checkers-by-the-numbers" />
+  <link rel="alternate" hreflang="ml" href="https://playleapstone.com/ml/guides/chinese-checkers-by-the-numbers" />
+  <link rel="alternate" hreflang="mr" href="https://playleapstone.com/mr/guides/chinese-checkers-by-the-numbers" />
+  <link rel="alternate" hreflang="or" href="https://playleapstone.com/or/guides/chinese-checkers-by-the-numbers" />
+  <link rel="alternate" hreflang="pa" href="https://playleapstone.com/pa/guides/chinese-checkers-by-the-numbers" />
+  <link rel="alternate" hreflang="ta" href="https://playleapstone.com/ta/guides/chinese-checkers-by-the-numbers" />
+  <link rel="alternate" hreflang="te" href="https://playleapstone.com/te/guides/chinese-checkers-by-the-numbers" />
+  <link rel="alternate" hreflang="th" href="https://playleapstone.com/th/guides/chinese-checkers-by-the-numbers" />
+  <link rel="alternate" hreflang="zh-hans" href="https://playleapstone.com/zh-hans/guides/chinese-checkers-by-the-numbers" />
+  <link rel="alternate" hreflang="ar" href="https://playleapstone.com/ar/adilla/dama-siniya-bil-arqam" />
+  <link rel="alternate" hreflang="ca" href="https://playleapstone.com/ca/guies/dames-xineses-en-xifres" />
+  <link rel="alternate" hreflang="es" href="https://playleapstone.com/es/guias/damas-chinas-en-cifras" />
+  <link rel="alternate" hreflang="cs" href="https://playleapstone.com/cs/navody/cinska-dama-v-cislech" />
+  <link rel="alternate" hreflang="hu" href="https://playleapstone.com/hu/utmutatok/csillaghalma-szamokban" />
+  <link rel="alternate" hreflang="da" href="https://playleapstone.com/da/guider/kinaskak-i-tal" />
+  <link rel="alternate" hreflang="no" href="https://playleapstone.com/no/guider/kinasjakk-i-tall" />
+  <link rel="alternate" hreflang="el" href="https://playleapstone.com/el/odigoi/kinezika-ntama-se-arithmous" />
+  <link rel="alternate" hreflang="it" href="https://playleapstone.com/it/guide/dama-cinese-in-numeri" />
+  <link rel="alternate" hreflang="fi" href="https://playleapstone.com/fi/oppaat/kiinansakki-numeroina" />
+  <link rel="alternate" hreflang="hr" href="https://playleapstone.com/hr/vodici/kineska-dama-u-brojkama" />
+  <link rel="alternate" hreflang="fr" href="https://playleapstone.com/fr/guides/dames-chinoises-en-chiffres" />
+  <link rel="alternate" hreflang="he" href="https://playleapstone.com/he/madrichim/dameka-sinit-bemisparim" />
+  <link rel="alternate" hreflang="x-default" href="https://playleapstone.com/guides/chinese-checkers-by-the-numbers" />
+  <meta name="apple-itunes-app" content="app-id=6831230722" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Leapstone" />
+  <meta property="og:locale" content="th_TH" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:locale:alternate" content="nl_NL" />
+  <meta property="og:locale:alternate" content="de_DE" />
+  <meta property="og:locale:alternate" content="pl_PL" />
+  <meta property="og:locale:alternate" content="pt_BR" />
+  <meta property="og:locale:alternate" content="ro_RO" />
+  <meta property="og:locale:alternate" content="ru_RU" />
+  <meta property="og:locale:alternate" content="sk_SK" />
+  <meta property="og:locale:alternate" content="sl_SI" />
+  <meta property="og:locale:alternate" content="sv_SE" />
+  <meta property="og:locale:alternate" content="tr_TR" />
+  <meta property="og:locale:alternate" content="uk_UA" />
+  <meta property="og:locale:alternate" content="ur_PK" />
+  <meta property="og:locale:alternate" content="id_ID" />
+  <meta property="og:locale:alternate" content="ms_MY" />
+  <meta property="og:locale:alternate" content="vi_VN" />
+  <meta property="og:locale:alternate" content="bn_IN" />
+  <meta property="og:locale:alternate" content="gu_IN" />
+  <meta property="og:locale:alternate" content="hi_IN" />
+  <meta property="og:locale:alternate" content="ja_JP" />
+  <meta property="og:locale:alternate" content="kn_IN" />
+  <meta property="og:locale:alternate" content="ko_KR" />
+  <meta property="og:locale:alternate" content="ml_IN" />
+  <meta property="og:locale:alternate" content="mr_IN" />
+  <meta property="og:locale:alternate" content="or_IN" />
+  <meta property="og:locale:alternate" content="pa_IN" />
+  <meta property="og:locale:alternate" content="ta_IN" />
+  <meta property="og:locale:alternate" content="te_IN" />
+  <meta property="og:locale:alternate" content="zh_CN" />
+  <meta property="og:locale:alternate" content="ar_AR" />
+  <meta property="og:locale:alternate" content="ca_ES" />
+  <meta property="og:locale:alternate" content="es_ES" />
+  <meta property="og:locale:alternate" content="cs_CZ" />
+  <meta property="og:locale:alternate" content="hu_HU" />
+  <meta property="og:locale:alternate" content="da_DK" />
+  <meta property="og:locale:alternate" content="nb_NO" />
+  <meta property="og:locale:alternate" content="el_GR" />
+  <meta property="og:locale:alternate" content="it_IT" />
+  <meta property="og:locale:alternate" content="fi_FI" />
+  <meta property="og:locale:alternate" content="hr_HR" />
+  <meta property="og:locale:alternate" content="fr_FR" />
+  <meta property="og:locale:alternate" content="he_IL" />
+  <meta property="og:url" content="https://playleapstone.com/th/guides/chinese-checkers-by-the-numbers" />
+  <meta property="og:title" content="หมากฮอสจีน (Chinese checkers) ในตัวเลข | Leapstone" />
+  <meta property="og:description" content="กระดานรูปดาวมี 121 ช่อง ตาเดียวกระโดดได้มากสุด 36 ครั้ง และผู้เล่นคนเดียวต้องใช้ 27 ตาจึงข้ามกระดานได้ ดูว่าแต่ละตัวเลขคำนวณอย่างไร" />
+  <meta property="og:image" content="https://playleapstone.com/uitnodiging.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="กระดานรูปดาวสำหรับหมากฮอสจีน พร้อมตัวหมากสีแดงและสีน้ำเงิน" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="หมากฮอสจีน (Chinese checkers) ในตัวเลข | Leapstone" />
+  <meta name="twitter:description" content="กระดานรูปดาวมี 121 ช่อง ตาเดียวกระโดดได้มากสุด 36 ครั้ง และผู้เล่นคนเดียวต้องใช้ 27 ตาจึงข้ามกระดานได้ ดูว่าแต่ละตัวเลขคำนวณอย่างไร" />
+  <meta name="twitter:image" content="https://playleapstone.com/uitnodiging.png" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "หมากฮอสจีนในตัวเลข",
+    "description": "กระดานรูปดาวมี 121 ช่อง ตาเดียวกระโดดได้มากสุด 36 ครั้ง และผู้เล่นคนเดียวต้องใช้ 27 ตาจึงข้ามกระดานได้ ดูว่าแต่ละตัวเลขคำนวณอย่างไร",
+    "url": "https://playleapstone.com/th/guides/chinese-checkers-by-the-numbers",
+    "mainEntityOfPage": "https://playleapstone.com/th/guides/chinese-checkers-by-the-numbers",
+    "inLanguage": "th",
+    "dateModified": "2026-11-19",
+    "image": "https://playleapstone.com/uitnodiging.png",
+    "author": {
+      "@type": "Person",
+      "name": "William Visser"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Leapstone",
+      "url": "https://playleapstone.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://playleapstone.com/icon-512.png"
+      }
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Leapstone",
+        "item": "https://playleapstone.com/th/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "หมากฮอสจีนในตัวเลข",
+        "item": "https://playleapstone.com/th/guides/chinese-checkers-by-the-numbers"
+      }
+    ]
+  }
+  </script>
+  <!-- Gemaakt door web/scripts/make-regels.mjs uit web/regels/talen/th/chinese-checkers-by-the-numbers.mjs. Niet met de hand wijzigen. -->
+  <style>
+    @font-face {
+      font-family: "Archivo";
+      src: url("/fonts/archivo.woff2") format("woff2");
+      font-weight: 200 600;
+      font-stretch: 100% 125%;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: "Martian Mono";
+      src: url("/fonts/martian-mono.woff2") format("woff2");
+      font-weight: 300 500;
+      font-stretch: 87.5% 100%;
+      font-display: swap;
+    }
+    :root {
+      --grond: #0b0d10;
+      --vlak: #12151a;
+      --lijn: rgb(214 222 235 / 0.1);
+      --lijn-sterk: rgb(214 222 235 / 0.2);
+      --tekst: #e9ecf0;
+      --zacht: #a0a7b2;
+      --stil: #737b87;
+      --licht: #eceef1;
+      --licht-inkt: #0b0d10;
+      --letter: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+      --mono: "Martian Mono", ui-monospace, "SF Mono", Menlo, monospace;
+      color-scheme: dark;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    :lang(ja) { word-break: auto-phrase; }
+    /* Indische schriften en Thais: geen spatiëring of hoofdletters in koppen (spatiëring breekt de lettervormen). */
+    :is(:lang(bn), :lang(gu), :lang(hi), :lang(kn), :lang(ml), :lang(mr), :lang(or), :lang(pa), :lang(ta), :lang(te), :lang(th)) h2 { letter-spacing: 0; text-transform: none; font-size: 0.95rem; }
+    body {
+      margin: 0;
+      min-height: 100dvh;
+      background:
+        radial-gradient(120% 60% at 50% 0%, rgb(150 170 200 / 0.11), transparent 70%),
+        var(--grond);
+      color: var(--tekst);
+      font: 400 1rem/1.55 var(--letter);
+      -webkit-font-smoothing: antialiased;
+      padding: max(32px, env(safe-area-inset-top)) max(20px, env(safe-area-inset-right)) max(56px, env(safe-area-inset-bottom)) max(20px, env(safe-area-inset-left));
+    }
+    main { max-width: 40rem; margin: 0 auto; }
+    a { color: var(--tekst); text-decoration-color: var(--stil); text-underline-offset: 3px; }
+    a:hover { text-decoration-color: var(--tekst); }
+    a:focus-visible { outline: 2px solid var(--licht); outline-offset: 3px; border-radius: 3px; }
+
+    header { display: flex; flex-direction: column; align-items: center; text-align: center; padding: 8px 0 12px; }
+    .merk {
+      margin: 0;
+      font-size: 0.95rem;
+      font-weight: 300;
+      font-stretch: 125%;
+      letter-spacing: 0.42em;
+      padding-left: 0.42em;
+      text-transform: uppercase;
+      line-height: 1;
+    }
+    .merk a { text-decoration: none; }
+    h1 { margin: 36px 0 0; max-width: 22ch; font-size: clamp(1.6rem, 6.4vw, 2.5rem); font-weight: 300; line-height: 1.15; letter-spacing: -0.005em; text-wrap: balance; }
+    .taal { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px; margin: 0 0 18px; font: 400 0.72rem/1 var(--mono); letter-spacing: 0.08em; }
+    .taal a { display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; color: var(--zacht); text-decoration: none; border-radius: 3px; }
+    .taal a[aria-current] { color: var(--tekst); box-shadow: inset 0 0 0 1px var(--lijn-sterk); }
+    .intro { margin: 16px 0 0; max-width: 44ch; color: var(--zacht); font-size: 1.08rem; text-wrap: pretty; }
+    .knoppen { display: flex; flex-direction: column; align-items: center; gap: 14px; margin-top: 28px; width: 100%; }
+    .speel {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 100%; max-width: 20rem; min-height: 56px; padding: 0 22px; border-radius: 3px;
+      background: var(--licht);
+      color: var(--licht-inkt); font-weight: 500; text-decoration: none;
+      box-shadow: inset 0 -1px 0 rgb(0 0 0 / 0.14), 0 1px 0 rgb(0 0 0 / 0.5), 0 8px 24px -10px rgb(0 0 0 / 0.7);
+    }
+    .speel:hover { background: #fff; }
+    .winkel { display: block; line-height: 0; border-radius: 7px; }
+    .winkel img { display: block; height: 52px; width: auto; }
+    .winkel.play img { height: 78px; }
+    @media (min-width: 34rem) { .knoppen { flex-direction: row; justify-content: center; } .knoppen .speel { width: auto; } }
+
+    h2 {
+      margin: 56px 0 4px;
+      font-size: 0.78rem;
+      font-weight: 400;
+      font-stretch: 125%;
+      letter-spacing: 0.32em;
+      text-transform: uppercase;
+      color: var(--zacht);
+    }
+    /* Vragen met een kort antwoord (taak GEO): de vraag als kleine kop, het antwoord eronder. */
+    h3 { margin: 28px 0 0; font-size: 1rem; font-weight: 500; line-height: 1.35; text-wrap: balance; }
+    h3 + p { margin-top: 6px; }
+    p { margin: 12px 0 0; max-width: 62ch; text-wrap: pretty; }
+    ul, ol { margin: 12px 0 0; padding: 0 0 0 1.2em; color: var(--zacht); }
+    li { margin: 6px 0; }
+    li::marker { color: var(--stil); }
+    strong { font-weight: 450; }
+
+    /* Plaatjes van het bord: SVG uit halma-core (npm run regels), met een bijschrift. */
+    figure { margin: 20px 0 0; }
+    figure img { display: block; width: 100%; height: auto; margin: 0 auto; }
+    figcaption { margin-top: 8px; color: var(--stil); font-size: 0.88rem; text-align: center; text-wrap: balance; }
+    .enkel img { max-width: var(--max, 20rem); }
+    .raster { display: grid; grid-template-columns: 1fr 1fr; gap: 20px 14px; margin-top: 20px; }
+    .raster figure { margin: 0; }
+    @media (min-width: 34rem) { .raster { grid-template-columns: repeat(4, 1fr); } .raster-twee { grid-template-columns: repeat(2, 1fr); } }
+
+    .tips { margin: 12px 0 0; padding: 0; border-top: 1px solid var(--lijn-sterk); list-style: none; }
+    .tips li { margin: 0; padding: 14px 0; border-bottom: 1px solid var(--lijn); color: var(--zacht); }
+    .tips strong { display: block; color: var(--tekst); }
+
+    .onderaan { display: flex; justify-content: center; margin-top: 48px; }
+
+    footer { margin-top: 72px; padding-top: 20px; border-top: 1px solid var(--lijn-sterk); color: var(--stil); font: 300 0.72rem/1.6 var(--mono); }
+    footer nav { display: flex; flex-wrap: wrap; gap: 6px 20px; margin-bottom: 8px; }
+    footer a { color: var(--zacht); }
+    footer p { margin: 0; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <nav class="taal" aria-label="ภาษา"><a href="/guides/chinese-checkers-by-the-numbers" hreflang="en" lang="en" title="English">EN</a><a href="/nl/chinees-dammen-in-cijfers" hreflang="nl" lang="nl" title="Nederlands">NL</a><a href="/de/anleitungen/sternhalma-in-zahlen" hreflang="de" lang="de" title="Deutsch">DE</a><a href="/pl/poradniki/trylma-w-liczbach" hreflang="pl" lang="pl" title="Polski">PL</a><a href="/pt/guias/damas-chinesas-em-numeros" hreflang="pt" lang="pt" title="Português">PT</a><a href="/ro/ghiduri/dame-chinezesti-in-cifre" hreflang="ro" lang="ro" title="Română">RO</a><a href="/ru/rukovodstva/kitayskie-shashki-v-tsifrakh" hreflang="ru" lang="ru" title="Русский">RU</a><a href="/sk/navody/cinska-dama-v-cislach" hreflang="sk" lang="sk" title="Slovenčina">SK</a><a href="/sl/vodniki/kitajske-dame-v-stevilkah" hreflang="sl" lang="sl" title="Slovenščina">SL</a><a href="/sv/guider/kinaschack-i-siffror" hreflang="sv" lang="sv" title="Svenska">SV</a><a href="/tr/rehberler/cin-damasi-rakamlarla" hreflang="tr" lang="tr" title="Türkçe">TR</a><a href="/uk/posibnyky/kytaiski-shashky-u-tsyfrakh" hreflang="uk" lang="uk" title="Українська">UK</a><a href="/ur/rahnuma/chinese-checkers-adad-o-shumar" hreflang="ur" lang="ur" title="اردو">UR</a><a href="/id/panduan/dam-cina-dalam-angka" hreflang="id" lang="id" title="Bahasa Indonesia">ID</a><a href="/ms/panduan/dam-cina-dalam-nombor" hreflang="ms" lang="ms" title="Bahasa Melayu">MS</a><a href="/vi/huong-dan/co-nhay-qua-nhung-con-so" hreflang="vi" lang="vi" title="Tiếng Việt">VI</a><a href="/bn/guides/chinese-checkers-by-the-numbers" hreflang="bn" lang="bn" title="বাংলা">BN</a><a href="/gu/guides/chinese-checkers-by-the-numbers" hreflang="gu" lang="gu" title="ગુજરાતી">GU</a><a href="/hi/guides/chinese-checkers-by-the-numbers" hreflang="hi" lang="hi" title="हिन्दी">HI</a><a href="/ja/guides/chinese-checkers-by-the-numbers" hreflang="ja" lang="ja" title="日本語">JA</a><a href="/kn/guides/chinese-checkers-by-the-numbers" hreflang="kn" lang="kn" title="ಕನ್ನಡ">KN</a><a href="/ko/guides/chinese-checkers-by-the-numbers" hreflang="ko" lang="ko" title="한국어">KO</a><a href="/ml/guides/chinese-checkers-by-the-numbers" hreflang="ml" lang="ml" title="മലയാളം">ML</a><a href="/mr/guides/chinese-checkers-by-the-numbers" hreflang="mr" lang="mr" title="मराठी">MR</a><a href="/or/guides/chinese-checkers-by-the-numbers" hreflang="or" lang="or" title="ଓଡ଼ିଆ">OR</a><a href="/pa/guides/chinese-checkers-by-the-numbers" hreflang="pa" lang="pa" title="ਪੰਜਾਬੀ">PA</a><a href="/ta/guides/chinese-checkers-by-the-numbers" hreflang="ta" lang="ta" title="தமிழ்">TA</a><a href="/te/guides/chinese-checkers-by-the-numbers" hreflang="te" lang="te" title="తెలుగు">TE</a><a href="/th/guides/chinese-checkers-by-the-numbers" hreflang="th" lang="th" title="ไทย" aria-current="page">TH</a><a href="/zh-hans/guides/chinese-checkers-by-the-numbers" hreflang="zh-hans" lang="zh-hans" title="简体中文">ZH-HANS</a><a href="/ar/adilla/dama-siniya-bil-arqam" hreflang="ar" lang="ar" title="العربية">AR</a><a href="/ca/guies/dames-xineses-en-xifres" hreflang="ca" lang="ca" title="Català">CA</a><a href="/es/guias/damas-chinas-en-cifras" hreflang="es" lang="es" title="Español">ES</a><a href="/cs/navody/cinska-dama-v-cislech" hreflang="cs" lang="cs" title="Čeština">CS</a><a href="/hu/utmutatok/csillaghalma-szamokban" hreflang="hu" lang="hu" title="Magyar">HU</a><a href="/da/guider/kinaskak-i-tal" hreflang="da" lang="da" title="Dansk">DA</a><a href="/no/guider/kinasjakk-i-tall" hreflang="no" lang="no" title="Norsk">NO</a><a href="/el/odigoi/kinezika-ntama-se-arithmous" hreflang="el" lang="el" title="Ελληνικά">EL</a><a href="/it/guide/dama-cinese-in-numeri" hreflang="it" lang="it" title="Italiano">IT</a><a href="/fi/oppaat/kiinansakki-numeroina" hreflang="fi" lang="fi" title="Suomi">FI</a><a href="/hr/vodici/kineska-dama-u-brojkama" hreflang="hr" lang="hr" title="Hrvatski">HR</a><a href="/fr/guides/dames-chinoises-en-chiffres" hreflang="fr" lang="fr" title="Français">FR</a><a href="/he/madrichim/dameka-sinit-bemisparim" hreflang="he" lang="he" title="עברית">HE</a></nav>
+      <p class="merk" dir="ltr"><a href="/th/">Leapstone</a></p>
+      <h1>หมากฮอสจีนในตัวเลข</h1>
+      <p class="intro">กระดานรูปดาวของหมากฮอสจีนมี <span data-feit="sterbord_vakken">121</span> ช่อง และผู้เล่นแต่ละคนเริ่มด้วยตัวหมาก <span data-feit="sterbord_stenen_per_speler">10</span> ตัว ใน Leapstone ตาเดียวไม่มีทางกระโดดได้มากกว่า <span data-feit="langste_sprongketen">36</span> ครั้ง ผู้เล่นคนเดียวบนกระดาน โดยไม่มีคู่แข่ง ต้องใช้ <span data-feit="oversteek_zetten">27</span> ตาจึงข้ามกระดานได้ ด้านล่างคุณจะเห็นว่าแต่ละตัวเลขนับอย่างไร และมันบอกอะไรและไม่บอกอะไรเกี่ยวกับเกมจริง</p>
+      <div class="knoppen"><a class="winkel" href="https://apps.apple.com/th/app/id6831230722"><img src="/badges/app-store-badge-th.svg" width="156" height="52" alt="ดาวน์โหลดจาก App Store" /></a>
+        <a class="winkel play" href="https://play.google.com/store/apps/details?id=nl.leapstone.app"><img src="/badges/google-play-badge-th.png" width="202" height="78" alt="ดาวน์โหลดที่ Google Play" /></a><a class="speel" href="/play/">เล่นเลย</a></div>
+    </header>
+
+    <section aria-labelledby="vakken">
+      <h2 id="vakken">ช่องและตัวหมาก</h2>
+      <p>นับบนกระดานทั้งสองแบบของ Leapstone ในตำแหน่งเริ่มต้นของเกม</p>
+<figure class="enkel" style="--max: 20rem"><img src="/rules/img/setup-6.svg" width="308" height="349" alt="กระดานรูปดาวที่ทั้งหกแฉกเต็ม: ตัวหมากสิบตัวในแต่ละสีจากหกสี รอบตรงกลางที่ว่างอยู่" decoding="async" /><figcaption>กระดานรูปดาวตอนเริ่มเกมสำหรับผู้เล่นหกคน</figcaption></figure>
+      <ul class="tips">
+        <li><strong>กระดานรูปดาวมี <span data-feit="sterbord_vakken">121</span> ช่อง</strong> ผู้เล่นแต่ละคนเริ่มด้วยตัวหมาก <span data-feit="sterbord_stenen_per_speler">10</span> ตัว ดังนั้นเกมสองคนมีตัวหมากบนกระดาน <span data-feit="sterbord_stenen_2_spelers">20</span> ตัว เกมสามคนมี <span data-feit="sterbord_stenen_3_spelers">30</span> ตัว สี่คนมี <span data-feit="sterbord_stenen_4_spelers">40</span> ตัว และหกคนมี <span data-feit="sterbord_stenen_6_spelers">60</span> ตัว</li>
+        <li><strong>กระดาน Halma แบบสี่เหลี่ยมจัตุรัสมี <span data-feit="vierkant_vakken">256</span> ช่อง</strong> ในเกมสองคน ผู้เล่นแต่ละคนเริ่มด้วยตัวหมาก <span data-feit="vierkant_stenen_per_speler_2_spelers">19</span> ตัว รวม <span data-feit="vierkant_stenen_2_spelers">38</span> ตัว ในเกมสี่คน แต่ละคนเริ่มด้วยตัวหมาก <span data-feit="vierkant_stenen_per_speler_4_spelers">13</span> ตัว รวม <span data-feit="vierkant_stenen_4_spelers">52</span> ตัว</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="keten">
+      <h2 id="keten">การกระโดดต่อเนื่องที่ยาวที่สุด: <span data-feit="langste_sprongketen">36</span> ครั้ง</h2>
+      <p>บนกระดานรูปดาว ตัวหมากตัวเดียว<strong>กระโดดได้ <span data-feit="langste_sprongketen">36</span> ครั้งในตาเดียว</strong> และตามกติกาของ Leapstone ไม่มีตาไหนกระโดดได้มากกว่านี้ เพื่อให้ได้จำนวนนี้ ตัวหมากอื่นถูกวางอย่างอิสระ: หนึ่งตัวบนทุกช่องที่ตัวหมากกระโดดข้าม</p>
+<figure class="enkel" style="--max: 22rem"><img src="/rules/img/numbers-longest-chain.svg" width="308" height="349" alt="กระดานรูปดาวที่มีตัวหมากสีแดงหนึ่งตัวและตัวหมากสีน้ำเงินจำนวนมาก ลูกศรสีขาวแสดงตัวหมากสีแดงกระโดดข้ามตัวหมากสีน้ำเงินทีละตัว ไปตามเส้นทางยาวที่คดเคี้ยว" loading="lazy" decoding="async" /><figcaption>การกระโดดต่อเนื่องที่ยาวที่สุด: ตัวหมากสีแดงกระโดดข้ามตัวหมากสีน้ำเงินทุกตัว ทีละตัว</figcaption></figure>
+      <p><strong>วิธีนับ</strong> การกระโดดจะลงห่างออกไปสองช่องเสมอ เป็นเส้นตรง ตัวหมากที่กระโดดต่อไปเรื่อย ๆ จึงไปถึงได้แค่บางช่อง: กระดานแบ่งเป็นสี่กลุ่มแบบนี้ และกลุ่มที่ใหญ่ที่สุดมี <span data-feit="grootste_klasse_vakken">37</span> ช่อง ใน Leapstone ตัวหมากลงช่องเดิมซ้ำสองครั้งในตาเดียวไม่ได้ และลงช่องที่มันออกตัวก็ไม่ได้ การกระโดดต่อเนื่องจึงลงแต่ละช่องอื่นในกลุ่มของมันได้มากที่สุดครั้งเดียว โปรแกรมค้นในกลุ่มนี้และพบเส้นทางที่ผ่านครบทั้ง <span data-feit="grootste_klasse_vakken">37</span> ช่อง ดังนั้นไม่มีการกระโดดต่อเนื่องไหนยาวกว่านี้ได้: <span data-feit="langste_sprongketen">36</span> ครั้ง จากนั้นการทดสอบจะเล่นตานี้ด้วยกติกาของ Leapstone</p>
+      <p><strong>ไม่ใช่เกมจริง</strong> การกระโดดต่อเนื่องนี้ต้องใช้ตัวหมากอื่น <span data-feit="langste_sprongketen">36</span> ตัว แต่ละตัวต้องอยู่ตรงช่องที่ถูกต้องพอดี เกมสองหรือสามคนมีตัวหมากแค่ <span data-feit="sterbord_stenen_2_spelers">20</span> หรือ <span data-feit="sterbord_stenen_3_spelers">30</span> ตัว ซึ่งน้อยเกินไป เกมสี่หรือหกคนมี <span data-feit="sterbord_stenen_4_spelers">40</span> หรือ <span data-feit="sterbord_stenen_6_spelers">60</span> ตัว ซึ่งพอ แต่ในเกมจริงไม่มีใครวางตัวหมากอย่างอิสระ จึงอย่าคาดว่าจะเห็นการกระโดดต่อเนื่องนี้ที่โต๊ะ มันแสดงว่ากระดานยอมให้ทำอะไรได้ ไม่ใช่สิ่งที่เกิดขึ้นตอนเล่น</p>
+    </section>
+
+    <section aria-labelledby="oversteek">
+      <h2 id="oversteek">การข้ามกระดานที่สั้นที่สุด: <span data-feit="oversteek_zetten">27</span> ตา</h2>
+      <p>ผู้เล่นคนเดียวบนกระดานรูปดาว โดยไม่มีคู่แข่ง ต้องใช้ <strong><span data-feit="oversteek_zetten">27</span> ตา</strong> เพื่อพาตัวหมากทั้ง <span data-feit="sterbord_stenen_per_speler">10</span> ตัวจากแฉกหนึ่งไปยังแฉกตรงข้าม และทำให้น้อยกว่านี้ไม่ได้ การกระโดดต่อเนื่องทั้งชุดนับเป็นหนึ่งตา</p>
+<figure class="enkel" style="--max: 20rem"><img src="/rules/img/numbers-alone.svg" width="308" height="349" alt="กระดานรูปดาวที่มีแค่ตัวหมากสีแดงสิบตัว อยู่ในแฉกล่าง แฉกบนซึ่งเป็นที่ที่ต้องไปมีขอบเป็นเส้นประ" loading="lazy" decoding="async" /><figcaption>ผู้เล่นคนเดียว: ตัวหมากสิบตัวในแฉกล่าง และแฉกบนคือเป้าหมาย</figcaption></figure>
+      <p><strong>วิธีนับ</strong> การทดสอบเล่นการข้ามกระดาน <span data-feit="oversteek_zetten">27</span> ตาด้วยกติกาของ Leapstone โดยไม่มีตัวหมากอื่นบนกระดาน เพื่อแสดงว่า <span data-feit="geen_oversteek_in_zetten">26</span> ตาหรือน้อยกว่าทำไม่ได้ การค้นหาใช้วิธีของ G. I. Bell (<em>Integers</em> 9, 2009) ทุกตาเล่นย้อนกลับได้ และการหมุนกระดานครึ่งรอบจะสลับจุดเริ่มกับเป้าหมาย ดังนั้นถ้ามีการข้ามกระดานใน <span data-feit="geen_oversteek_in_zetten">26</span> ตาหรือน้อยกว่า ก็จะมีตำแหน่งหนึ่งกลางทางที่ห่างจากจุดเริ่มไม่เกิน <span data-feit="zoekdiepte_zetten">13</span> ตา และตำแหน่งเดียวกันที่หมุนไปครึ่งรอบก็เช่นกัน การค้นหาไล่ดูทุกตำแหน่งที่ห่างจากจุดเริ่มไม่เกิน <span data-feit="zoekdiepte_zetten">13</span> ตา นับตำแหน่งกับภาพสะท้อนในกระจกของมันเป็นครั้งเดียว ตัดตำแหน่งที่พิสูจน์ได้ว่าไปได้ไกลไม่พอทันเวลาออก และไม่พบคู่แบบนั้นเลย การค้นหาใช้เวลา <span data-feit="gemeten_rekentijd_seconden">827</span> วินาทีบนเครื่องที่มี <span data-feit="gemeten_kernen">8</span> คอร์ และขั้นที่ใหญ่ที่สุดเก็บ <span data-feit="gemeten_grootste_laag_miljoen_standen">28.8</span> ล้านตำแหน่งไว้ในหน่วยความจำ <span data-feit="gemeten_geheugen_gb">2.65</span> GB ตัวเลขนี้คำนวณใหม่สำหรับกระดานของ Leapstone เอง</p>
+      <p><strong>ไม่ใช่ขั้นต่ำของเกมจริง</strong> ในเกมจริง ตัวหมากของผู้เล่นคนอื่นก็อยู่บนกระดานด้วย และตัวหมากของคุณกระโดดข้ามพวกมันได้ ดังนั้น <span data-feit="oversteek_zetten">27</span> ไม่ใช่จำนวนตาน้อยที่สุดที่เกมจริงจะใช้ได้: มันพิสูจน์แล้วเฉพาะกับผู้เล่นคนเดียวเท่านั้น</p>
+    </section>
+
+    <section aria-labelledby="spelen">
+      <h2 id="spelen">ลองเล่นดู</h2>
+      <p><a href="/play/">เล่น Leapstone ในเบราว์เซอร์</a> กับคอมพิวเตอร์ หรือโหลดแอปด้วยปุ่มด้านบนของหน้านี้ อ่านกติกาได้ที่ <a href="/th/rules/chinese-checkers">กติกาหมากฮอสจีน</a> หรือ <a href="/th/rules/halma">กติกา Halma</a> ส่วนวิธีใช้การกระโดดต่อเนื่องในเกม อ่านได้ใน <a href="/th/guides/chinese-checkers-strategy">เคล็ดลับกลยุทธ์</a></p>
+    </section>
+
+    <div class="onderaan"><a class="speel" href="/play/">เล่นเลย</a></div>
+
+    <footer>
+      <nav aria-label="ไซต์"><a href="/th/">Leapstone</a><a href="/play/">เล่นในเบราว์เซอร์</a><a href="/th/rules/chinese-checkers">กติกาหมากฮอสจีน</a><a href="/th/rules/halma">กติกา Halma</a><a href="/th/rules/sternhalma">Sternhalma</a><a href="/th/guides/chinese-checkers-strategy">กลยุทธ์หมากฮอสจีน</a><a href="/th/guides/chinese-checkers-2-players">หมากฮอสจีนสำหรับ 2 คน</a><a href="/th/guides/halma-vs-chinese-checkers">Halma กับหมากฮอสจีน</a><a href="/th/guides/chinese-checkers-3-players">หมากฮอสจีนสำหรับ 3 คน</a><a href="/th/guides/chinese-checkers-4-players">หมากฮอสจีนสำหรับ 4 คน</a><a href="/th/guides/chinese-checkers-6-players">หมากฮอสจีนสำหรับ 6 คน</a><a href="/th/guides/chinese-checkers-opening-moves">ตาเปิดเกมหมากฮอสจีน</a><a href="/th/guides/play-chinese-checkers-online-with-friends">หมากฮอสจีนออนไลน์กับเพื่อน</a><a href="/th/guides/chinese-checkers-by-the-numbers">หมากฮอสจีนในตัวเลข</a><a href="/privacy">นโยบายความเป็นส่วนตัว (ภาษาอังกฤษ)</a><a href="/terms">ข้อกำหนดการใช้งาน (ภาษาอังกฤษ)</a></nav>
+      <p dir="ltr">Leapstone &copy; 2026 William Visser</p>
+    </footer>
+  </main>
+</body>
+</html>

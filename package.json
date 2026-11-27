@@ -1,0 +1,28 @@
+{
+  "name": "leapstone",
+  "private": true,
+  "version": "1.2.4",
+  "license": "AGPL-3.0-only",
+  "description": "Leapstone: Chinese checkers and Halma app (Tauri 2, Svelte, Bevy 3D WASM, Cloudflare Worker).",
+  "homepage": "https://playleapstone.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wimjan123/leapstone.git"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "app:android:dev": "node scripts/android.mjs dev",
+    "app:android:build": "node scripts/android.mjs build",
+    "app:android:telefoon": "node scripts/android.mjs telefoon",
+    "app:android:winkel": "node scripts/android.mjs winkel",
+    "tauri": "node scripts/android.mjs tauri",
+    "worker:dev": "cd crates/leapstone-worker && wrangler dev",
+    "worker:deploy": "scripts/uitrol-controle.sh && cd crates/leapstone-worker && wrangler deploy"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.11.0",
+    "wrangler": "^4.158.0"
+  }
+}
