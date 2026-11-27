@@ -14,7 +14,7 @@ crate-type = ["cdylib"]
 [dependencies]
 halma-core = { path = "../halma-core" }
 # Rekenwerk voor camera en tikken; zelfde versie als in Bevy, zodat de wasm hem één keer bevat.
-glam = "0.33"
+glam = "0.34"
 
 # Bevy alleen met de feature `app` (voor WebAssembly): de tests in Rust rekenen zonder Bevy
 # en bouwen dus snel. Bevy moet onder [dependencies] staan, anders vinden zijn derive-macro's hem niet.
